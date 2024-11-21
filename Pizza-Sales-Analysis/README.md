@@ -39,7 +39,7 @@ The pizza chain lacks a clear understanding of its sales trends and customer pre
 
 ---
 
-## Technologies Used <a id="technologies-used"></a> 💻
+## 💻Technologies Used <a id="technologies-used"></a> 
 - **Microsoft Excel 365:**
   - 🧮 Formulas (`SUMIFS`, `AVERAGEIFS`, `COUNTIFS`)
   - 📊 PivotTables
@@ -49,21 +49,22 @@ The pizza chain lacks a clear understanding of its sales trends and customer pre
 
 ---
 
-## Folder Structure <a id="folder-structure"></a> 📂
+## 📂Folder Structure <a id="folder-structure"></a> 
 Here’s how the project is organized:
+
 
 
 
 ---
 
-## How to Use the Project 📝
+## 📝How to Use the Project <a id="how-to-use-the-project"></a> 
 1. 📂 Open the dataset file located in `data/pizza_sales.csv` to explore the raw data.
 2. 📊 Navigate to `dashboard/Pizza_Sales_Dashboard.xlsx` to interact with the final dashboard.
 3. 🖼 Refer to the `images/` folder for screenshots of key steps in the process.
 
 ---
 
-## Data Collection 📊
+## Data Collection <a id="data-collection"></a> 📊
 The dataset contains detailed information about pizza orders. Below are the column names and their descriptions:
 
 | **Column Name**         | **Description**                                    |
@@ -83,7 +84,7 @@ The dataset contains detailed information about pizza orders. Below are the colu
 
 ---
 
-## Data Preparation 🧹
+## 🧹Data Preparation <a id="data-preparation"></a> 
 The following steps were performed to clean the dataset:
 1. 🗑 **Remove Duplicates:** Identified and removed duplicate entries using Excel's "Remove Duplicates" feature.
 2. 🧮 **Handle Missing Values:** Filled missing revenue values with the average revenue for the respective pizza type.
@@ -91,7 +92,7 @@ The following steps were performed to clean the dataset:
 
 ---
 
-## Dashboard Overview 📈
+## 📈Dashboard Overview <a id="dashboard-overview"></a> 
 The final dashboard includes:
 - 📊 **Bar Chart:** Shows revenue contribution by pizza type.
 - 📈 **Line Chart:** Displays monthly sales trends.
@@ -103,20 +104,20 @@ Here’s a preview of the dashboard:
 
 ---
 
-## Key Findings 🔑
+## 🔑Key Findings <a id="key-findings"></a> 
 1. 🍕 **Pepperoni Pizza** contributes 35% of total revenue, making it the top-selling item.
 2. 📅 Sales peak on **weekends**, especially on Saturdays.
 3. 🎄 **December** is the highest-performing month, indicating strong seasonal demand.
 
 ---
 
-## Limitations ⚠️
+## ⚠️Limitations <a id="limitations"></a> 
 - 📆 Dataset only covers one year, limiting long-term trend analysis.
 - 🙍‍♀️ Customer demographic data is unavailable, preventing deeper segmentation.
 
 ---
 
-## Future Improvements 🚀
+##  🚀Future Improvements <a id="future-improvements"></a>
 - 👥 Incorporate demographic data for enhanced insights.
 - 📆 Use a larger dataset covering multiple years for better trend analysis.
-- 🖥
+- 🖥 Create an advanced dashboard using Power BI for better visualization.
