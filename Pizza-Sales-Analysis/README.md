@@ -17,14 +17,14 @@
 
 ---
 
-📋## Project Overview <a id="project-overview"></a> 
+## 📋Project Overview <a id="project-overview"></a> 
 This project analyzes pizza sales data to uncover insights into customer preferences, top-selling items, and seasonal trends. Using Microsoft Excel, the project demonstrates skills in data cleaning, analysis, and dashboard creation.
 
 The goal is to provide actionable insights for improving inventory management and marketing strategies.
 
 ---
 
-❓## Problem Statement <a id="problem-statement"></a> 
+## ❓Problem Statement <a id="problem-statement"></a> 
 The pizza chain lacks a clear understanding of its sales trends and customer preferences, leading to inefficiencies in inventory management and missed marketing opportunities. This project addresses the following:
 - 🍕 Identifying top-performing pizza types.
 - 📅 Analyzing seasonal and daily sales patterns.
@@ -32,7 +32,7 @@ The pizza chain lacks a clear understanding of its sales trends and customer pre
 
 ---
 
-🛠## Methodology <a id="methodology"></a> 
+## 🛠Methodology <a id="methodology"></a> 
 1. 📥 **Data Import and Cleaning:** Ensured data quality for analysis.
 2. 📊 **Data Analysis:** Used Excel formulas and PivotTables for insights.
 3. 📈 **Dashboard Creation:** Built an interactive dashboard to visualize key metrics.
