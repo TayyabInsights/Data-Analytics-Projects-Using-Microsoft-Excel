@@ -3,7 +3,9 @@
 This project analyzes pizza sales data using Microsoft Excel to uncover insights and trends in a pizza restaurant's business performance.
 
 ---
-
+## Visualizations
+![Pizza-Sales-dashboard](https://github.com/TayyabInsights/Data-Analytics-Projects-Using-Microsoft-Excel/blob/main/Pizza-Sales/Pizza-Sales-dashboard.png)
+---
 ## **Project Overview**
 This analysis aims to optimize sales strategies and increase revenue for a pizza restaurant by examining sales data. The project utilizes Microsoft Excel to process and visualize data from [insert data source or time period].
 
