@@ -1,4 +1,4 @@
-# 🍕 Pizza Sales Analysis: Excel Dashboard for Data Analytics Project
+# 🍕 Pizza Sales Analysis: Excel Dashboard A Data Analytics Project
 
 ## 📑 Table of Contents
 1. [📋 Project Overview](#project-overview)
