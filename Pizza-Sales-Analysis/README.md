@@ -17,14 +17,14 @@
 
 ---
 
-📋## Project Overview
+## Project Overview 📋
 This project analyzes pizza sales data to uncover insights into customer preferences, top-selling items, and seasonal trends. Using Microsoft Excel, the project demonstrates skills in data cleaning, analysis, and dashboard creation.
 
 The goal is to provide actionable insights for improving inventory management and marketing strategies.
 
 ---
 
-❓## Problem Statement
+## Problem Statement ❓
 The pizza chain lacks a clear understanding of its sales trends and customer preferences, leading to inefficiencies in inventory management and missed marketing opportunities. This project addresses the following:
 - 🍕 Identifying top-performing pizza types.
 - 📅 Analyzing seasonal and daily sales patterns.
@@ -32,14 +32,14 @@ The pizza chain lacks a clear understanding of its sales trends and customer pre
 
 ---
 
-🛠## Methodology
+## Methodology 🛠
 1. 📥 **Data Import and Cleaning:** Ensured data quality for analysis.
 2. 📊 **Data Analysis:** Used Excel formulas and PivotTables for insights.
 3. 📈 **Dashboard Creation:** Built an interactive dashboard to visualize key metrics.
 
 ---
 
-## 💻 Technologies Used
+## Technologies Used 💻
 - **Microsoft Excel 365:**
   - 🧮 Formulas (`SUMIFS`, `AVERAGEIFS`, `COUNTIFS`)
   - 📊 PivotTables
@@ -49,20 +49,21 @@ The pizza chain lacks a clear understanding of its sales trends and customer pre
 
 ---
 
-## 📂 Folder Structure
+## Folder Structure 📂
 Here’s how the project is organized:
+
 
 
 ---
 
-## 📝 How to Use the Project
+## How to Use the Project 📝
 1. 📂 Open the dataset file located in `data/pizza_sales.csv` to explore the raw data.
 2. 📊 Navigate to `dashboard/Pizza_Sales_Dashboard.xlsx` to interact with the final dashboard.
 3. 🖼 Refer to the `images/` folder for screenshots of key steps in the process.
 
 ---
 
-## 📊 Data Collection
+## Data Collection 📊
 The dataset contains detailed information about pizza orders. Below are the column names and their descriptions:
 
 | **Column Name**         | **Description**                                    |
@@ -82,7 +83,7 @@ The dataset contains detailed information about pizza orders. Below are the colu
 
 ---
 
-## 🧹 Data Preparation
+## Data Preparation 🧹
 The following steps were performed to clean the dataset:
 1. 🗑 **Remove Duplicates:** Identified and removed duplicate entries using Excel's "Remove Duplicates" feature.
 2. 🧮 **Handle Missing Values:** Filled missing revenue values with the average revenue for the respective pizza type.
@@ -90,7 +91,7 @@ The following steps were performed to clean the dataset:
 
 ---
 
-## 📈 Dashboard Overview
+## Dashboard Overview 📈
 The final dashboard includes:
 - 📊 **Bar Chart:** Shows revenue contribution by pizza type.
 - 📈 **Line Chart:** Displays monthly sales trends.
@@ -102,20 +103,20 @@ Here’s a preview of the dashboard:
 
 ---
 
-## 🔑 Key Findings
+## Key Findings 🔑
 1. 🍕 **Pepperoni Pizza** contributes 35% of total revenue, making it the top-selling item.
 2. 📅 Sales peak on **weekends**, especially on Saturdays.
 3. 🎄 **December** is the highest-performing month, indicating strong seasonal demand.
 
 ---
 
-## ⚠️ Limitations
+## Limitations ⚠️
 - 📆 Dataset only covers one year, limiting long-term trend analysis.
 - 🙍‍♀️ Customer demographic data is unavailable, preventing deeper segmentation.
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements 🚀
 - 👥 Incorporate demographic data for enhanced insights.
 - 📆 Use a larger dataset covering multiple years for better trend analysis.
-- 🖥 Create an advanced dashboard using Power
+- 🖥
