@@ -1,4 +1,4 @@
-# 🍕 Pizza Sales Analysis: 
+# 🍕 Pizza Sales Analysis
 #    How to Create an Excel Dashboard for Effective Data Analytics
 
 ## 📑 Table of Contents
