@@ -1,7 +1,8 @@
 # 🍕 Pizza Sales Analysis
-#    How to Create an Excel Dashboard for Your Data Analytics Project
+# How to Create an Excel Dashboard for Your Data Analytics Project
 
 ## 📑 Table of Contents
+
 1. [📋 Project Overview](#project-overview)
 2. [❓ Problem Statement](#problem-statement)
 3. [🛠 Methodology](#methodology)
@@ -13,33 +14,66 @@
 9. [📈 Dashboard Overview](#dashboard-overview)
 10. [🔑 Key Findings](#key-findings)
 11. [⚠️ Limitations](#limitations)
-12. [🚀 Future Improvements](#future-improvements)
+12. [🚀 Conclusion and Recommendations](#conclusion-and-recommendations)
 
 ---
 
-## 📋Project Overview <a id="project-overview"></a> 
-This project analyzes pizza sales data to uncover insights into customer preferences, top-selling items, and seasonal trends. Using Microsoft Excel, the project demonstrates skills in data cleaning, analysis, and dashboard creation.
+## 📋 Project Overview <a id="project-overview"></a>
+This project focuses on developing an interactive Excel dashboard to analyze pizza sales data effectively. By leveraging data visualization techniques, the dashboard aims to reveal critical trends, track key performance indicators (KPIs), and provide actionable insights into sales performance, customer preferences, and operational efficiency.
+
+Through a comprehensive analysis of the dataset, this project will highlight top-selling pizza varieties, seasonal sales patterns, and customer purchasing behaviors. Utilizing Microsoft Excel's powerful data cleaning, analytical, and visualization tools, the project showcases essential skills in transforming raw data into meaningful visual representations that can guide strategic business decisions.
 
 The goal is to provide actionable insights for improving inventory management and marketing strategies.
 
 ---
 
-## ❓Problem Statement <a id="problem-statement"></a> 
-The pizza chain lacks a clear understanding of its sales trends and customer preferences, leading to inefficiencies in inventory management and missed marketing opportunities. This project addresses the following:
-- 🍕 Identifying top-performing pizza types.
-- 📅 Analyzing seasonal and daily sales patterns.
-- 📊 Creating a dashboard for better decision-making.
+## ❓ Problem Statement <a id="problem-statement"></a>
+**Operational Challenges**: Difficulty optimizing performance and capitalizing on market opportunities. ⚠️
+
+**Key Areas**:
+- **Product Performance** 📊:
+  - Identify top-selling pizzas and revenue contributions.
+  - Issues with menu optimization and inventory (over/understocking).
+  
+- **Sales Trends** 📈:
+  - Analyze seasonal and daily patterns.
+  - Insufficient insights lead to ineffective marketing and staffing.
+
+- **Efficiency Dashboard** 🖥️:
+  - Need for a centralized decision-making tool.
+  - Current lack results in reactive strategies and inconsistent service.
+
+**Root Causes** 🔍:
+- Poor understanding of sales trends and customer preferences.
+- Leads to missed marketing opportunities and suboptimal inventory.
+
+**Project Objectives** 🎯:
+- Provide actionable insights.
+- Transform data into business intelligence.
+- Enable informed decisions.
+
+**Expected Outcomes** 🌟:
+- Agile and responsive operations.
+- Customer-centric approach.
+- Competitive advantage in the food sector.
+
+**Ultimate Goal**: Leverage data for business success! 🚀📊
 
 ---
 
-## 🛠Methodology <a id="methodology"></a> 
-1. 📥 **Data Import and Cleaning:** Ensured data quality for analysis.
-2. 📊 **Data Analysis:** Used Excel formulas and PivotTables for insights.
-3. 📈 **Dashboard Creation:** Built an interactive dashboard to visualize key metrics.
+## 🛠 Methodology <a id="methodology"></a>
+1. [📥 Data Import and Extraction](#data-import-and-extraction)
+2. [📋 Requirements Gathering and Initial Data Assessment](#requirements-gathering-and-initial-data-assessment)
+3. [🔍 Dataset Familiarization](#dataset-familiarization)
+4. [🧹 Data Preparation and Cleaning](#data-preparation-and-cleaning)
+5. [🔄 Data Transformation](#data-transformation)
+6. [📈 Key Performance Indicator (KPI) Definition](#key-performance-indicator-kpi-definition)
+7. [🎨 Data Visualization and Analysis](#data-visualization-and-analysis)
+8. [🖥️ Dashboard Development](#dashboard-development)
 
 ---
 
-## 💻Technologies Used <a id="technologies-used"></a> 
+## 💻 Technologies Used <a id="technologies-used"></a>
 - **Microsoft Excel 365:**
   - 🧮 Formulas (`SUMIFS`, `AVERAGEIFS`, `COUNTIFS`)
   - 📊 PivotTables
@@ -49,22 +83,30 @@ The pizza chain lacks a clear understanding of its sales trends and customer pre
 
 ---
 
-## 📂Folder Structure <a id="folder-structure"></a> 
+## 📂 Folder Structure <a id="folder-structure"></a>
 Here’s how the project is organized:
-
-
-
-
+Data-Analytics-Projects-Using-Microsoft-Excel/
+│
+├── Pizza-Sales-Analysis/
+│ ├── About-Me/
+│ ├── README.md
+│ ├── Dashboard/
+│ │ └── Pizza_Sales_Dashboard.xlsx
+│ ├── Dataset/
+│ │ └── Data Model - Pizza Sales.xlsx
+│ ├── Images/
+│ │ └── chart_screenshot.png
+│ ├── LICENSE
 ---
 
-## 📝How to Use the Project <a id="how-to-use-the-project"></a> 
+## 📝 How to Use the Project <a id="how-to-use-the-project"></a>
 1. 📂 Open the dataset file located in `data/pizza_sales.csv` to explore the raw data.
 2. 📊 Navigate to `dashboard/Pizza_Sales_Dashboard.xlsx` to interact with the final dashboard.
 3. 🖼 Refer to the `images/` folder for screenshots of key steps in the process.
 
 ---
 
-## Data Collection <a id="data-collection"></a> 📊
+## 📊 Data Collection <a id="data-collection"></a>
 The dataset contains detailed information about pizza orders. Below are the column names and their descriptions:
 
 | **Column Name**         | **Description**                                    |
@@ -104,15 +146,82 @@ Special thanks to **Shi Long Zhuang** and **Maven Analytics** for providing this
 
 ---
 
-## 🧹Data Preparation <a id="data-preparation"></a> 
-The following steps were performed to clean the dataset:
-1. 🗑 **Remove Duplicates:** Identified and removed duplicate entries using Excel's "Remove Duplicates" feature.
-2. 🧮 **Handle Missing Values:** Filled missing revenue values with the average revenue for the respective pizza type.
-3. 📅 **Format Data:** Standardized the `order_date` format and cleaned up the `pizza_name` column using Excel functions.
+## 🧹 Data Preparation <a id="data-preparation"></a>
+
+This section provides a comprehensive explanation of the steps followed to complete the project, from data import to insights generation.
+
+### 1. 📥 Data Import and Extraction <a id="data-import-and-extraction"></a>
+- **Download the Dataset**: Sourced the dataset from Kaggle ([Pizza Sales Dataset](https://www.kaggle.com/datasets/shilongzhuang/pizza-sales)).
+- **Load into Excel**: Imported the dataset into Excel, ensuring all fields were properly mapped and no data was corrupted during import.
 
 ---
 
-## 📈Dashboard Overview <a id="dashboard-overview"></a> 
+### 2. 📋 Requirements Gathering and Initial Data Assessment <a id="requirements-gathering-and-initial-data-assessment"></a>
+- **Collaborated with Stakeholders**: Discussed project objectives, deliverables, and key questions, such as:
+  - What are the top-performing pizzas?
+  - When are peak sales periods?
+  - How can the dashboard support decision-making?
+- **Explored the Dataset**: Performed a high-level review to understand its structure, identify key fields, and highlight potential challenges like duplicates or missing values.
+
+---
+
+### 3. 🔍 Dataset Familiarization <a id="dataset-familiarization"></a>
+- **Key Variables**: Reviewed essential columns, including:
+  - `Order Date` and `Order Time` for time-based trends.
+  - `Pizza Name`, `Pizza Size`, and `Pizza Category` for performance analysis.
+  - `Quantity` and `Total Price` for revenue and sales metrics.
+- **Aligned Objectives**: Confirmed that the dataset supports project goals, such as analyzing sales trends and identifying customer preferences.
+
+---
+
+### 4. 🧹 Data Preparation and Cleaning <a id="data-preparation-and-cleaning"></a>
+- **Removed Duplicates**: Used Excel’s "Remove Duplicates" feature to clean up redundant rows.
+- **Handled Missing Values**: Imputed missing revenue values using averages for respective pizza categories.
+- **Standardized Formats**:
+  - Reformatted the `order_date` column using the `DATEVALUE` function.
+  - Cleaned inconsistent `pizza_name` entries using Excel's `TRIM` and `PROPER` functions.
+
+---
+
+### 5. 🔄 Data Transformation <a id="data-transformation"></a>
+- **Created Calculated Fields**:
+  - `Order Day`: Extracted day of the week using the `TEXT()` function.
+  - `Order Month`: Extracted month names for monthly trend analysis.
+  - `Order Hour`: Extracted the hour from the `order_time` field for hourly trend analysis.
+- **Aggregated Data**:
+  - Summarized sales data by category, size, and time periods using PivotTables.
+
+---
+
+### 6. 📈 Key Performance Indicator (KPI) Definition <a id="key-performance-indicator-kpi-definition"></a>
+Defined and calculated critical KPIs, including:
+- **Total Revenue**: Sum of all `total_price` values.
+- **Total Orders**: Count of unique `order_id` values.
+- **Average Order Value**: `Total Revenue ÷ Total Orders`.
+- **Total Pizzas Sold**: Sum of all `quantity` values.
+
+---
+
+### 7. 🎨 Data Visualization and Analysis <a id="data-visualization-and-analysis"></a>
+- **Selected Visuals**:
+  - Bar charts for hourly, daily, and size-based sales.
+  - Line graphs for monthly trends.
+  - Doughnut charts for the top 5 best-selling and bottom 5 worst-selling pizzas.
+- **Enhanced Readability**: Applied consistent color schemes and clear labels.
+
+---
+
+### 8. 🖥️ Dashboard Development <a id="dashboard-development"></a>
+- **User-Friendly Layout**:
+  - Positioned KPIs prominently at the top for easy reference.
+  - Grouped related visuals logically for intuitive navigation.
+- **Interactive Features**:
+  - Added slicers for filtering by time period, pizza size, and category.
+  - Included timelines to explore trends over specific months.
+
+---
+
+## 📈 Dashboard Overview <a id="dashboard-overview"></a>
 The final dashboard includes:
 - 📊 **Bar Chart:** Shows revenue contribution by pizza type.
 - 📈 **Line Chart:** Displays monthly sales trends.
@@ -124,20 +233,17 @@ Here’s a preview of the dashboard:
 
 ---
 
-## 🔑Key Findings <a id="key-findings"></a> 
+## 🔑 Key Findings <a id="key-findings"></a>
 1. 🍕 **Pepperoni Pizza** contributes 35% of total revenue, making it the top-selling item.
 2. 📅 Sales peak on **weekends**, especially on Saturdays.
 3. 🎄 **December** is the highest-performing month, indicating strong seasonal demand.
 
 ---
 
-## ⚠️Limitations <a id="limitations"></a> 
+## ⚠️ Limitations <a id="limitations"></a>
 - 📆 Dataset only covers one year, limiting long-term trend analysis.
 - 🙍‍♀️ Customer demographic data is unavailable, preventing deeper segmentation.
 
 ---
 
-##  🚀Future Improvements <a id="future-improvements"></a>
-- 👥 Incorporate demographic data for enhanced insights.
-- 📆 Use a larger dataset covering multiple years for better trend analysis.
-- 🖥 Create an advanced dashboard using Power BI for better visualization.
+## 🚀 Conclusion and Recommendations <a id="conclusion-and-recommendations"></a>
