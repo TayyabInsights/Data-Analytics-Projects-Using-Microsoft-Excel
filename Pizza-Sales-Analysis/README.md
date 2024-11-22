@@ -247,3 +247,12 @@ Here’s a preview of the dashboard:
 ---
 
 ## 🚀 Conclusion and Recommendations <a id="conclusion-and-recommendations"></a>
+Focus on promoting best-selling pizzas, such as Pepperoni, during peak periods.
+Optimize inventory and staffing for weekends and December sales surges.
+Develop targeted marketing campaigns based on seasonal trends.
+
+---
+
+## 🤝 Contributing and Feedback
+- Have suggestions or improvements? Feel free to open an issue or submit a pull request.
+- If you found this project useful, please ⭐ star the repository!
