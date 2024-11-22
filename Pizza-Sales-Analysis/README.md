@@ -84,6 +84,26 @@ The dataset contains detailed information about pizza orders. Below are the colu
 
 ---
 
+## Dataset Acknowledgment
+
+This project uses the **Pizza Restaurant Sales** dataset, which was sourced from Kaggle:  
+[Pizza Restaurant Sales on Kaggle](https://www.kaggle.com/datasets/shilongzhuang/pizza-sales)
+
+### Dataset Licensing
+The dataset is governed by the following terms:
+- License: **Other (specified in description)**  
+- The dataset was uploaded to Kaggle by **Shi Long Zhuang** and originates from the **Maven Analytics Data Playground**.
+
+### Usage
+- This dataset is used strictly for **educational purposes** as part of this project.
+- Please refer to the original Kaggle dataset page and Maven Analytics for specific license details and usage restrictions:
+  - [Kaggle Dataset](https://www.kaggle.com/datasets/shilongzhuang/pizza-sales)
+  - [Maven Analytics - Pizza Challenge](https://www.mavenanalytics.io/blog/maven-pizza-challenge)
+
+Special thanks to **Shi Long Zhuang** and **Maven Analytics** for providing this valuable resource.
+
+---
+
 ## 🧹Data Preparation <a id="data-preparation"></a> 
 The following steps were performed to clean the dataset:
 1. 🗑 **Remove Duplicates:** Identified and removed duplicate entries using Excel's "Remove Duplicates" feature.
