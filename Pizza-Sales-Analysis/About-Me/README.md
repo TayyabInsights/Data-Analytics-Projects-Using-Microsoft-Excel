@@ -1,5 +1,7 @@
 # About Me 👋
 
+![Tayyab's Profile Picture](https://avatars.githubusercontent.com/u/189150452?s=400&u=a7b3be08487e1369a2984bd4a85299c64b89e42a&v=4)
+
 Hi, I’m **Tayyab**!  
 
 With a strong background as a **Marketing Specialist** in both B2B and B2C business environments, I’ve developed a profound passion for **data analytics**. Over the years, I’ve honed my ability to leverage data-driven strategies that solve challenges and drive successful outcomes.
@@ -20,14 +22,6 @@ I am proficient in the following tools and technologies:
 
 ---
 
-## My Mission 🎯
-Through my projects, tutorials, and collaborations, I aim to:
-- 🌟 Empower professionals and students to elevate their **data analytics** skills.
-- 🎓 Make data tools and techniques accessible, no matter your skill level.
-- 🚀 Enable organizations and individuals to harness the power of data for smarter decision-making.
-
----
-
 ## 🌐 Let's Connect
 
 I’d love to hear from you! Connect with me on the following platforms:
@@ -43,4 +37,4 @@ I’d love to hear from you! Connect with me on the following platforms:
 
 ---
 
-Feel free to explore my projects, share feedback, or collaborate on exciting new ideas. Together, we can make data work for you! 💡
+Feel free to explore my projects, share feedback, or collaborate on exciting new ideas. 💡
