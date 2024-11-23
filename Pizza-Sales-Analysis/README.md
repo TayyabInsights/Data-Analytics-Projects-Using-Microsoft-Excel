@@ -114,15 +114,25 @@ This project demonstrates Excel’s versatility in handling real-world business 
 
 The project is organized into the following structure for ease of navigation and clarity:
 
+## Folder Structure
 
+- **About-Me/**:  
+  Contains a README with information about the author’s expertise and professional background.
 
-### **Explanation**:
-- **About-Me/**: Contains a README with information about the author’s expertise and professional background.
-- **Dashboard/**: Includes the interactive Excel dashboard built during the project, which contains KPIs, charts, and slicers.
-- **Dataset/**: Holds the raw dataset used for data analysis.
-- **Images/**: Stores visuals, such as screenshots of the dashboard, to enhance project understanding.
-- **LICENSE**: Specifies the licensing details for the project (e.g., MIT License).
-- **README.md**: The main documentation file detailing the project methodology, technologies, findings, and usage instructions.
+- **Dashboard/**:  
+  Includes the interactive Excel dashboard built during the project, which contains KPIs, charts, and slicers.
+
+- **Dataset/**:  
+  Holds the raw dataset used for data analysis.
+
+- **Images/**:  
+  Stores visuals, such as screenshots of the dashboard, to enhance project understanding.
+
+- **LICENSE**:  
+  Specifies the licensing details for the project (e.g., MIT License).
+
+- **README.md**:  
+  The main documentation file detailing the project methodology, technologies, findings, and usage instructions.
 
 
 ---
