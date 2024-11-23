@@ -226,7 +226,7 @@ This section provides a comprehensive explanation of the steps followed to compl
 
 ---
 
-### 2. 📋 Project Requirements and Data Familiarization <a id="Project-Requirements-and-data-Familiarization"></a>
+2. 📋 Project Requirements and Data Familiarization <a id="project-requirements-and-data-familiarization"></a>
 
 Every successful data analytics project begins with a deep understanding of its **purpose** and **data**. Think of this phase as laying the cornerstone of a strong and lasting structure—without a solid foundation, the entire project risks faltering. This step is where you align your analytical approach with stakeholder goals while ensuring the dataset is ready to deliver accurate, actionable insights. Rushing through or neglecting this stage can lead to missed opportunities and unreliable outcomes.
 
