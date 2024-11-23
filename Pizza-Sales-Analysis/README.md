@@ -307,7 +307,7 @@ Remember, starting with clarity and purpose allows you to tell a compelling, dat
 
 ---
 
-### 4. 🧹 Data Preparation and Cleaning <a id="data-preparation-and-cleaning"></a>
+### 3. 🧹 Data Preparation and Cleaning <a id="data-preparation-and-cleaning"></a>
 - **Removed Duplicates**: Used Excel’s "Remove Duplicates" feature to clean up redundant rows.
 - **Handled Missing Values**: Imputed missing revenue values using averages for respective pizza categories.
 - **Standardized Formats**:
@@ -316,7 +316,7 @@ Remember, starting with clarity and purpose allows you to tell a compelling, dat
 
 ---
 
-### 5. 🔄 Data Transformation <a id="data-transformation"></a>
+### 4. 🔄 Data Transformation <a id="data-transformation"></a>
 - **Created Calculated Fields**:
   - `Order Day`: Extracted day of the week using the `TEXT()` function.
   - `Order Month`: Extracted month names for monthly trend analysis.
@@ -326,7 +326,7 @@ Remember, starting with clarity and purpose allows you to tell a compelling, dat
 
 ---
 
-### 6. 📈 Key Performance Indicator (KPI) Definition <a id="key-performance-indicator-kpi-definition"></a>
+### 5. 📈 Key Performance Indicator (KPI) Definition <a id="key-performance-indicator-kpi-definition"></a>
 Defined and calculated critical KPIs, including:
 - **Total Revenue**: Sum of all `total_price` values.
 - **Total Orders**: Count of unique `order_id` values.
@@ -335,7 +335,7 @@ Defined and calculated critical KPIs, including:
 
 ---
 
-### 7. 🎨 Data Visualization and Analysis <a id="data-visualization-and-analysis"></a>
+### 6. 🎨 Data Visualization and Analysis <a id="data-visualization-and-analysis"></a>
 - **Selected Visuals**:
   - Bar charts for hourly, daily, and size-based sales.
   - Line graphs for monthly trends.
@@ -344,7 +344,7 @@ Defined and calculated critical KPIs, including:
 
 ---
 
-### 8. 🖥️ Dashboard Development <a id="dashboard-development"></a>
+### 7. 🖥️ Dashboard Development <a id="dashboard-development"></a>
 - **User-Friendly Layout**:
   - Positioned KPIs prominently at the top for easy reference.
   - Grouped related visuals logically for intuitive navigation.
