@@ -116,19 +116,15 @@ The project is organized into a clear and logical structure for easy navigation 
 
 Pizza-Sales-Analysis/
 ├── About-Me/
-│   └── README.md               # Personal introduction and expertise
+│   └── README.md           # Personal introduction and expertise
 ├── Dashboard/
-│   └── Pizza_Sales_Dashboard.xlsx  # Final interactive Excel dashboard
+│   └── Pizza_Sales_Dashboard.xlsx  # Final Excel dashboard
 ├── Dataset/
-│   └── Data Model - Pizza Sales.xlsx # Raw dataset for analysis
-├── Documentation/
-│   ├── Project_Methodology.md  # Detailed methodology and steps
-│   ├── KPIs_Definition.md      # Explanation of KPIs used in the project
-│   └── Insights_and_Recommendations.md # Key findings and future strategies
+│   └── pizza_sales.csv     # Raw dataset for analysis
 ├── Images/
-│   └── dashboard_screenshot.png  # Visual representation of the final dashboard
-├── LICENSE                     # Project license (MIT)
-└── README.md                   # Main project documentation
+│   └── dashboard_screenshot.png  # Screenshot of the final dashboard
+├── LICENSE                 # Project license (MIT)
+└── README.md               # Main documentation
 
 ---
 
