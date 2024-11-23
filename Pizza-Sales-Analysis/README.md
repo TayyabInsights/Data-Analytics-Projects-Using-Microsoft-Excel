@@ -112,19 +112,18 @@ This project demonstrates Excel’s versatility in handling real-world business 
 
 ## 📂 Folder Structure <a id="folder-structure"></a>
 
-The project is organized into a clear and logical structure for easy navigation and accessibility:
+The project is organized into the following structure for ease of navigation and clarity:
 
-Pizza-Sales-Analysis/
-├── About-Me/
-│   └── README.md                   # Personal introduction and expertise
-├── Dashboard/
-│   └── Pizza_Sales_Dashboard.xlsx  # Final Excel dashboard
-├── Dataset/
-│   └── pizza_sales.csv             # Raw dataset for analysis
-├── Images/
-│   └── dashboard_screenshot.png    # Screenshot of the final dashboard
-├── LICENSE                         # Project license (MIT)
-└── README.md                       # Main documentation
+
+
+### **Explanation**:
+- **About-Me/**: Contains a README with information about the author’s expertise and professional background.
+- **Dashboard/**: Includes the interactive Excel dashboard built during the project, which contains KPIs, charts, and slicers.
+- **Dataset/**: Holds the raw dataset used for data analysis.
+- **Images/**: Stores visuals, such as screenshots of the dashboard, to enhance project understanding.
+- **LICENSE**: Specifies the licensing details for the project (e.g., MIT License).
+- **README.md**: The main documentation file detailing the project methodology, technologies, findings, and usage instructions.
+
 
 ---
 
