@@ -64,7 +64,7 @@ The goal is to provide actionable insights for improving inventory management an
 ## 🛠 Methodology <a id="methodology"></a>
 1. [📥 Data Import and Extraction](#data-import-and-extraction)
 2. [📋 Project Requirements and Data Familiarization](#project-requirements-and-data-familiarization)
-3. [🧹 Data Preparation and Cleaning](#data-preparation-and-cleaning)
+3. [🧹 Data Cleaning and Formatting](#data-cleaning-and-formatting)
 4. [🔄 Data Transformation](#data-transformation)
 5. [📈 Key Performance Indicator (KPI) Definition](#key-performance-indicator-kpi-definition)
 6. [🎨 Data Visualization and Analysis](#data-visualization-and-analysis)
@@ -307,14 +307,103 @@ Remember, starting with clarity and purpose allows you to tell a compelling, dat
 
 ---
 
-### 3. 🧹 Data Preparation and Cleaning <a id="data-preparation-and-cleaning"></a>
-- **Removed Duplicates**: Used Excel’s "Remove Duplicates" feature to clean up redundant rows.
-- **Handled Missing Values**: Imputed missing revenue values using averages for respective pizza categories.
-- **Standardized Formats**:
-  - Reformatted the `order_date` column using the `DATEVALUE` function.
-  - Cleaned inconsistent `pizza_name` entries using Excel's `TRIM` and `PROPER` functions.
+## 🧹 Data Cleaning and Formatting <a id="data-cleaning-and-formatting"></a>
+
+Every data analytics project relies on clean, well-prepared data as its foundation. Think of this step as sharpening your tools before starting a big project—skipping it can lead to messy analysis and unreliable insights. By dedicating time to data cleaning and formatting, you ensure that your analysis is accurate, reliable, and actionable. Let’s break this process down into practical, expert-backed steps.
 
 ---
+
+### 🌟 Why Is Data Cleaning and Formatting Essential?
+- **🚫 Removes Errors**: Ensures duplicate or irrelevant data doesn’t skew your analysis.  
+- **📊 Enhances Readability**: Clean, consistent data makes it easier to interpret trends.  
+- **🎯 Boosts Accuracy**: Standardized formats reduce errors during calculations and visualizations.  
+- **📈 Sets a Strong Foundation**: Prepares your dataset for seamless transformations and reliable insights.
+
+---
+
+### 🛠️ Steps to Clean Your Data  
+
+#### 1. **Remove Duplicate Records** 🗂️  
+Duplicates can distort your analysis, so let’s clear them out:  
+- **How to Remove Duplicates**:  
+  1. Select your data table.  
+  2. Navigate to **Data > Remove Duplicates** in the Ribbon.  
+  3. Review and confirm the columns to check for duplicates, then click OK.  
+  - **Shortcut**: Use `Alt+A+M` (Windows) for quicker access.  
+
+**💡 Pro Tip**: Always keep a backup of your dataset before removing duplicates to avoid accidental loss of important information.
+
+---
+
+#### 2. **Handle Missing Values** 🔍  
+Missing values can lead to gaps in analysis. Here’s how to identify and manage them effectively:  
+- **Identify Missing Values**:  
+  1. Highlight your entire dataset with `Ctrl+A` (Windows) or `Command+A` (Mac).  
+  2. Apply **Conditional Formatting** to make blanks stand out:  
+     - Go to **Home > Conditional Formatting > Highlight Cells Rules > More Rules**.  
+     - Choose **Format only cells that contain > Blanks**, then select a bright fill color 🌈 for visibility.  
+- **Address Missing Values**:  
+  - **Replace with Averages**: For numerical data, use averages or median values.  
+  - **Mark as N/A**: If applicable, use “N/A” for qualitative data gaps.  
+
+**🔍 Pro Tip**: Use filters to isolate blank cells and evaluate the context before deciding how to fill or remove them.
+
+---
+
+### 🧾 Steps to Format Your Data  
+
+#### 1. **Rename Your Table for Clarity** ✍️  
+- Default names like "Table 1" can get confusing. Let’s make it easier:  
+  1. Select your table and go to **Table Design > Table Name**.  
+  2. Rename it to something intuitive, like `pizza_sales`.  
+  3. Hit Enter to apply the change.  
+
+**💡 Why Rename?** Clear table names make referencing data in formulas or charts simpler and more intuitive.
+
+---
+
+#### 2. **Format Data Columns for Consistency** 🧮  
+Proper formatting ensures your data is uniform and ready for analysis:  
+
+1. **Date Formatting** 📅:  
+   - Select the `order_date` column.  
+   - Press `Ctrl+1` (Windows) or `Command+1` (Mac) to open the **Format Cells** dialog.  
+   - Choose a clear date format and apply it.  
+
+2. **Time Formatting** ⏰:  
+   - Repeat the above steps for the `order_time` column, selecting a time-specific format.
+
+3. **Currency Values** 💵:  
+   - Format `unit_price` and `total_price` columns as **Currency** to ensure clarity.  
+   - Use the currency symbol relevant to your dataset (e.g., `$`).
+
+4. **Quantity as Whole Numbers** 🔢:  
+   - Format the `quantity` column as **Number** with zero decimal places, as it represents units sold.
+
+5. **Text Fields** 📝:  
+   - For columns like `pizza_name`, `pizza_category`, and `pizza_size`, ensure the format is set to **Text**.  
+   - Scan for typos or inconsistencies that could affect analysis.
+
+---
+
+### 🏁 Final Checks: Review and Standardize  
+
+- After formatting, review the dataset to ensure:  
+  - All columns are consistent and follow a logical structure.  
+  - Any inconsistencies or anomalies are addressed before moving forward.  
+
+**💡 Expert Insight**: Consider creating a summary table or small PivotTable to validate your cleaned data. This step can help identify lingering issues early in the process.  
+
+---
+
+### 📣 Why This Step Is Critical  
+
+Taking the time to clean and format your data is an investment in the success of your project. This phase transforms raw, messy datasets into a polished foundation, ensuring that every subsequent step—analysis, visualization, and decision-making—is built on reliable information.
+
+Approach this step with precision and care, and you’ll be rewarded with insights that are accurate, meaningful, and actionable. After all, clean data is the bedrock of every impactful analysis. 🚀✨
+
+---
+
 
 ### 4. 🔄 Data Transformation <a id="data-transformation"></a>
 - **Created Calculated Fields**:
