@@ -114,75 +114,108 @@ This project demonstrates Excel’s versatility in handling real-world business 
 
 The project is organized into the following structure for ease of navigation and clarity:
 
-## Folder Structure
-
-- **About-Me/**:  
+- **📄 About-Me/**:  
   Contains a README with information about the author’s expertise and professional background.
 
-- **Dashboard/**:  
+- **📊 Dashboard/**:  
   Includes the interactive Excel dashboard built during the project, which contains KPIs, charts, and slicers.
 
-- **Dataset/**:  
+- **📁 Dataset/**:  
   Holds the raw dataset used for data analysis.
 
-- **Images/**:  
+- **🖼️ Images/**:  
   Stores visuals, such as screenshots of the dashboard, to enhance project understanding.
 
-- **LICENSE**:  
+- **📜 LICENSE**:  
   Specifies the licensing details for the project (e.g., MIT License).
 
-- **README.md**:  
+- **📝 README.md**:  
   The main documentation file detailing the project methodology, technologies, findings, and usage instructions.
-
 
 ---
 
 ## 📝 How to Use the Project <a id="how-to-use-the-project"></a>
-1. 📂 Open the dataset file located in `data/pizza_sales.csv` to explore the raw data.
-2. 📊 Navigate to `dashboard/Pizza_Sales_Dashboard.xlsx` to interact with the final dashboard.
-3. 🖼 Refer to the `images/` folder for screenshots of key steps in the process.
+
+Follow these steps to explore and interact with the project:
+
+1. **📂 Access the Dataset**:  
+   - Locate the dataset in the `Dataset/` folder.  
+   - Open the `Pizza_Sales_Dataset.xlsx` file to review the raw data, including order details, pizza sizes, categories, and sales figures.
+
+2. **📊 Interact with the Dashboard**:  
+   - Navigate to the `Dashboard/` folder.  
+   - Open the `Pizza_Sales_Dashboard.xlsx` file to explore the interactive dashboard.  
+   - Use slicers and filters to customize your analysis by pizza size, category, and time periods.  
+
+3. **🖼 Refer to Visual Guides**:  
+   - Visit the `Images/` folder for screenshots of key charts, insights, and the final dashboard layout. These visuals provide a quick reference to the project’s outcomes and design elements.
+
+4. **🔗 Access the GitHub Repository**:  
+   - Explore the complete project repository on GitHub for detailed documentation, project files, and additional resources.  
+
+5. **📖 Read the Documentation**:  
+   - Refer to the `README.md` file in the root folder for an in-depth explanation of the project methodology, technologies used, and key findings.
+
+---
+
+### Tips for Best Experience:
+- Ensure you have **Microsoft Excel 365 or a compatible version** installed to interact fully with the dashboard and its features.
+- Check out the **slicers** and **interactive charts** for a dynamic analysis experience tailored to your needs.
 
 ---
 
 ## 📊 Data Collection <a id="data-collection"></a>
-The dataset contains detailed information about pizza orders. Below are the column names and their descriptions:
 
-| **Column Name**         | **Description**                                    |
-|--------------------------|--------------------------------------------------|
-| `order_details_id`       | Unique identifier for each order detail.         |
-| `order_id`               | Identifier for each order.                       |
-| `pizza_id`               | Unique identifier for each pizza type.           |
-| `quantity`               | Number of pizzas sold per order detail.          |
-| `order_date`             | Date when the order was placed.                  |
-| `order_time`             | Time when the order was placed.                  |
-| `unit_price`             | Price per unit of pizza.                         |
-| `total_price`            | Total revenue generated per order detail.        |
-| `pizza_size`             | Size of the pizza (e.g., Small, Medium, Large).  |
-| `pizza_category`         | Pizza category (e.g., Classic, Veggie, Supreme). |
-| `pizza_ingredients`      | Ingredients used in the pizza.                   |
-| `pizza_name`             | Name of the pizza (e.g., "The Hawaiian Pizza").  |
+The dataset provides a comprehensive overview of pizza sales, capturing essential details necessary for effective analysis. Below are the key columns and their descriptions:
+
+| **Column Name**         | **Description**                                                                 |
+|--------------------------|-------------------------------------------------------------------------------|
+| `order_details_id`       | Unique identifier for each order detail, ensuring no duplicate entries.       |
+| `order_id`               | Identifier for each transaction, linking all items within a single order.     |
+| `pizza_id`               | Unique identifier for each type of pizza sold, facilitating categorization.   |
+| `quantity`               | Number of pizzas sold for each order detail, crucial for sales volume analysis. |
+| `order_date`             | The date when the order was placed, useful for analyzing daily, weekly, and seasonal trends. |
+| `order_time`             | The time when the order was placed, enabling analysis of peak sales hours.    |
+| `unit_price`             | Price per unit of pizza, supporting revenue and pricing strategy analysis.    |
+| `total_price`            | Total revenue generated per order detail, essential for calculating KPIs like Total Revenue and Average Order Value. |
+| `pizza_size`             | Size of the pizza (e.g., Small, Medium, Large), providing insights into customer preferences. |
+| `pizza_category`         | Category of the pizza (e.g., Classic, Veggie, Supreme) for performance analysis. |
+| `pizza_ingredients`      | List of ingredients for each pizza, offering insights into popular toppings and customization preferences. |
+| `pizza_name`             | Name of the pizza (e.g., "The Hawaiian Pizza"), used to identify top- and bottom-selling items. |
 
 ---
 
-## Dataset Acknowledgment
+### **Dataset Highlights**:
+- **Scope**: Covers a wide range of sales data across multiple categories, sizes, and time periods, enabling a detailed analysis of trends and customer preferences.  
+- **Time-Based Insights**: Includes fields like `order_date` and `order_time` to allow granular time-series analysis, such as peak sales hours or seasonal demand patterns.  
+- **Performance Metrics**: Fields like `quantity` and `total_price` form the foundation for calculating KPIs, helping measure business performance and operational efficiency.  
 
-This project uses the **Pizza Restaurant Sales** dataset, which was sourced from Kaggle:  
+---
+
+### **Dataset Source**:
+This dataset is sourced from **Kaggle** as part of the **Pizza Restaurant Sales** collection. The data can be accessed and downloaded from the following link:  
 [Pizza Restaurant Sales on Kaggle](https://www.kaggle.com/datasets/shilongzhuang/pizza-sales)
 
-### Dataset Licensing
-The dataset is governed by the following terms:
-- License: **Other (specified in description)**  
-- The dataset was uploaded to Kaggle by **Shi Long Zhuang** and originates from the **Maven Analytics Data Playground**.
-
-### Usage
-- This dataset is used strictly for **educational purposes** as part of this project.
-- Please refer to the original Kaggle dataset page and Maven Analytics for specific license details and usage restrictions:
-  - [Kaggle Dataset](https://www.kaggle.com/datasets/shilongzhuang/pizza-sales)
-  - [Maven Analytics - Pizza Challenge](https://www.mavenanalytics.io/blog/maven-pizza-challenge)
-
-Special thanks to **Shi Long Zhuang** and **Maven Analytics** for providing this valuable resource.
+### **Dataset Licensing**:
+- License: **Other (as specified on Kaggle)**  
+- Contributor: **Shi Long Zhuang**  
+- Context: This dataset is part of the **Maven Analytics Pizza Challenge**, which focuses on using data for actionable business insights.
 
 ---
+
+### **Acknowledgment**:
+This project leverages the **Pizza Restaurant Sales** dataset made available on Kaggle by **Shi Long Zhuang**. It originates from the **Maven Analytics Data Playground** and is used exclusively for educational and analytical purposes in this project.
+
+Special thanks to:
+- **Shi Long Zhuang** for the data contribution.
+- **Maven Analytics** for hosting the Pizza Challenge and inspiring analytics projects.
+
+For detailed license terms and dataset usage guidelines, refer to the following resources:
+- [Kaggle Dataset](https://www.kaggle.com/datasets/shilongzhuang/pizza-sales)  
+- [Maven Analytics - Pizza Challenge](https://www.mavenanalytics.io/blog/maven-pizza-challenge)
+
+---
+
 
 ## 🧹 Data Preparation <a id="data-preparation"></a>
 
