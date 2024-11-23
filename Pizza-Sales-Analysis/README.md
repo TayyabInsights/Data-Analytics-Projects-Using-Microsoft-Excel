@@ -63,13 +63,12 @@ The goal is to provide actionable insights for improving inventory management an
 
 ## 🛠 Methodology <a id="methodology"></a>
 1. [📥 Data Import and Extraction](#data-import-and-extraction)
-2. [📋 Requirements Gathering and Initial Data Assessment](#requirements-gathering-and-initial-data-assessment)
-3. [🔍 Dataset Familiarization](#dataset-familiarization)
-4. [🧹 Data Preparation and Cleaning](#data-preparation-and-cleaning)
-5. [🔄 Data Transformation](#data-transformation)
-6. [📈 Key Performance Indicator (KPI) Definition](#key-performance-indicator-kpi-definition)
-7. [🎨 Data Visualization and Analysis](#data-visualization-and-analysis)
-8. [🖥️ Dashboard Development](#dashboard-development)
+2. [📋 Project Requirements and Data Familiarization](#Project-Requirements-and-data-Familiarization)
+3. [🧹 Data Preparation and Cleaning](#data-preparation-and-cleaning)
+4. [🔄 Data Transformation](#data-transformation)
+5. [📈 Key Performance Indicator (KPI) Definition](#key-performance-indicator-kpi-definition)
+6. [🎨 Data Visualization and Analysis](#data-visualization-and-analysis)
+7. [🖥️ Dashboard Development](#dashboard-development)
 
 ---
 
