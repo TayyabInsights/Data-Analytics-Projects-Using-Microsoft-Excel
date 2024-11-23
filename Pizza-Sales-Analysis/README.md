@@ -74,29 +74,62 @@ The goal is to provide actionable insights for improving inventory management an
 ---
 
 ## 💻 Technologies Used <a id="technologies-used"></a>
-- **Microsoft Excel 365:**
-  - 🧮 Formulas (`SUMIFS`, `AVERAGEIFS`, `COUNTIFS`)
-  - 📊 PivotTables
-  - 🎨 Conditional Formatting
-  - 📈 Charts (Bar, Line, and Pie Charts)
-  - 🎛 Slicers for interactivity
+
+### **Microsoft Excel 365**
+Microsoft Excel serves as the primary tool for this project, showcasing its capabilities in data analysis, visualization, and dashboard creation. Key features and techniques include:
+
+- **Advanced Formulas** 🧮:
+  - `SUMIFS`, `AVERAGEIFS`, and `COUNTIFS` for conditional aggregations.
+  - `TEXT` for formatting dates and extracting specific time components.
+  - `ROUND`, `UNIQUE`, and `COUNTA` for calculating metrics like average order value and total orders.
+  
+- **PivotTables** 📊:
+  - Dynamic summarization of large datasets for trends and pattern analysis.
+  - Grouping features to organize data by time (e.g., hours, days, months).
+
+- **Charts** 📈:
+  - Bar Charts to visualize sales trends by hour, day, and size.
+  - Line Charts for tracking monthly sales trends and seasonal patterns.
+  - Doughnut Charts to showcase top and bottom-selling pizzas.
+
+- **Conditional Formatting** 🎨:
+  - Highlighting key insights such as peak sales periods and missing values.
+  - Using color scales for quick identification of high and low-performing metrics.
+
+- **Slicers** 🎛:
+  - Interactive filtering of data by pizza size, category, and time periods.
+  - Enhancing user interactivity in the dashboard, enabling customized views.
+
+- **Dashboard Design** 🖥️:
+  - A polished, user-friendly interface with a focus on professional branding.
+  - Integration of KPIs, charts, and slicers for a cohesive analytical tool.
+  - Dynamic linking of all dashboard elements to underlying data for real-time updates.
+
+**Why Microsoft Excel?**
+This project demonstrates Excel’s versatility in handling real-world business problems, transforming raw data into actionable insights. The interactive dashboard highlights Excel's strength in bridging data analytics and decision-making.
 
 ---
 
 ## 📂 Folder Structure <a id="folder-structure"></a>
-Here’s how the project is organized:
-Data-Analytics-Projects-Using-Microsoft-Excel/
-│
-├── Pizza-Sales-Analysis/
-│ ├── About-Me/
-│ ├── README.md
-│ ├── Dashboard/
-│ │ └── Pizza_Sales_Dashboard.xlsx
-│ ├── Dataset/
-│ │ └── Data Model - Pizza Sales.xlsx
-│ ├── Images/
-│ │ └── chart_screenshot.png
-│ ├── LICENSE
+
+The project is organized into a clear and logical structure for easy navigation and accessibility:
+
+Pizza-Sales-Analysis/
+├── About-Me/
+│   └── README.md               # Personal introduction and expertise
+├── Dashboard/
+│   └── Pizza_Sales_Dashboard.xlsx  # Final interactive Excel dashboard
+├── Dataset/
+│   └── Data Model - Pizza Sales.xlsx # Raw dataset for analysis
+├── Documentation/
+│   ├── Project_Methodology.md  # Detailed methodology and steps
+│   ├── KPIs_Definition.md      # Explanation of KPIs used in the project
+│   └── Insights_and_Recommendations.md # Key findings and future strategies
+├── Images/
+│   └── dashboard_screenshot.png  # Visual representation of the final dashboard
+├── LICENSE                     # Project license (MIT)
+└── README.md                   # Main project documentation
+
 ---
 
 ## 📝 How to Use the Project <a id="how-to-use-the-project"></a>
