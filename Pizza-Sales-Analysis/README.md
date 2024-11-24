@@ -1,5 +1,5 @@
 # 🍕 Pizza Sales Analysis
-# How to Create an Excel Dashboard for Your Data Analytics Project
+## How to Create an Excel Dashboard for Your Data Analytics Project
 
 ## 📑 Table of Contents
 
@@ -18,7 +18,7 @@
 
 ---
 
-## 📋 Project Overview <a id="project-overview"></a>
+## 1.📋 Project Overview <a id="project-overview"></a>
 This project focuses on developing an interactive Excel dashboard to analyze pizza sales data effectively. By leveraging data visualization techniques, the dashboard aims to reveal critical trends, track key performance indicators (KPIs), and provide actionable insights into sales performance, customer preferences, and operational efficiency.
 
 Through a comprehensive analysis of the dataset, this project will highlight top-selling pizza varieties, seasonal sales patterns, and customer purchasing behaviors. Utilizing Microsoft Excel's powerful data cleaning, analytical, and visualization tools, the project showcases essential skills in transforming raw data into meaningful visual representations that can guide strategic business decisions.
@@ -27,7 +27,7 @@ The goal is to provide actionable insights for improving inventory management an
 
 ---
 
-## ❓ Problem Statement <a id="problem-statement"></a>
+## 2.❓Problem Statement <a id="problem-statement"></a>
 **Operational Challenges**: Difficulty optimizing performance and capitalizing on market opportunities. ⚠️
 
 **Key Areas**:
@@ -61,7 +61,7 @@ The goal is to provide actionable insights for improving inventory management an
 
 ---
 
-## 🛠 Methodology <a id="methodology"></a>
+## 3.🛠 Methodology <a id="methodology"></a>
 1. [📥 Data Import and Extraction](#data-import-and-extraction)
 2. [📋 Project Requirements and Data Familiarization](#project-requirements-and-data-familiarization)
 3. [🧹 Data Cleaning and Formatting](#data-cleaning-and-formatting)
@@ -72,7 +72,7 @@ The goal is to provide actionable insights for improving inventory management an
 
 ---
 
-## 💻 Technologies Used <a id="technologies-used"></a>
+## 4.💻 Technologies Used <a id="technologies-used"></a>
 
 ### **Microsoft Excel 365**
 Microsoft Excel serves as the primary tool for this project, showcasing its capabilities in data analysis, visualization, and dashboard creation. Key features and techniques include:
@@ -109,7 +109,7 @@ This project demonstrates Excel’s versatility in handling real-world business 
 
 ---
 
-## 📂 Folder Structure <a id="folder-structure"></a>
+## 5.📂 Folder Structure <a id="folder-structure"></a>
 
 The project is organized into the following structure for ease of navigation and clarity:
 
@@ -133,7 +133,7 @@ The project is organized into the following structure for ease of navigation and
 
 ---
 
-## 📝 How to Use the Project <a id="how-to-use-the-project"></a>
+## 6.📝 How to Use the Project <a id="how-to-use-the-project"></a>
 
 Follow these steps to explore and interact with the project:
 
@@ -163,7 +163,7 @@ Follow these steps to explore and interact with the project:
 
 ---
 
-## 📊 Data Collection <a id="data-collection"></a>
+## 7.📊 Data Collection <a id="data-collection"></a>
 
 The dataset provides a comprehensive overview of pizza sales, capturing essential details necessary for effective analysis. Below are the key columns and their descriptions:
 
@@ -216,17 +216,17 @@ For detailed license terms and dataset usage guidelines, refer to the following 
 ---
 
 
-## 🧹 Data Preparation <a id="data-preparation"></a>
+## 8.🧹 Data Preparation <a id="data-preparation"></a>
 
 This section provides a comprehensive explanation of the steps followed to complete the project, from data import to insights generation.
 
-### 1. 📥 Data Import and Extraction <a id="data-import-and-extraction"></a>
+### 8.1 📥 Data Import and Extraction <a id="data-import-and-extraction"></a>
 - **Download the Dataset**: Sourced the dataset from Kaggle ([Pizza Sales Dataset](https://www.kaggle.com/datasets/shilongzhuang/pizza-sales)).
 - **Load into Excel**: Imported the dataset into Excel, ensuring all fields were properly mapped and no data was corrupted during import.
 
 ---
 
-2. 📋 Project Requirements and Data Familiarization <a id="project-requirements-and-data-familiarization"></a>
+### 8.2 📋 Project Requirements and Data Familiarization <a id="project-requirements-and-data-familiarization"></a>
 
 Every successful data analytics project begins with a deep understanding of its **purpose** and **data**. Think of this phase as laying the cornerstone of a strong and lasting structure—without a solid foundation, the entire project risks faltering. This step is where you align your analytical approach with stakeholder goals while ensuring the dataset is ready to deliver accurate, actionable insights. Rushing through or neglecting this stage can lead to missed opportunities and unreliable outcomes.
 
@@ -307,13 +307,13 @@ Remember, starting with clarity and purpose allows you to tell a compelling, dat
 
 ---
 
-## 🧹 Data Cleaning and Formatting <a id="data-cleaning-and-formatting"></a>
+### 8.3🧹 Data Cleaning and Formatting <a id="data-cleaning-and-formatting"></a>
 
 Every data analytics project relies on clean, well-prepared data as its foundation. Think of this step as sharpening your tools before starting a big project—skipping it can lead to messy analysis and unreliable insights. By dedicating time to data cleaning and formatting, you ensure that your analysis is accurate, reliable, and actionable. Let’s break this process down into practical, expert-backed steps.
 
 ---
 
-### 🌟 Why Is Data Cleaning and Formatting Essential?
+#### 🌟 Why Is Data Cleaning and Formatting Essential?
 - **🚫 Removes Errors**: Ensures duplicate or irrelevant data doesn’t skew your analysis.  
 - **📊 Enhances Readability**: Clean, consistent data makes it easier to interpret trends.  
 - **🎯 Boosts Accuracy**: Standardized formats reduce errors during calculations and visualizations.  
@@ -321,7 +321,7 @@ Every data analytics project relies on clean, well-prepared data as its foundati
 
 ---
 
-### 🛠️ Steps to Clean Your Data  
+#### 🛠️ Steps to Clean Your Data  
 
 #### 1. **Remove Duplicate Records** 🗂️  
 Duplicates can distort your analysis, so let’s clear them out:  
@@ -350,7 +350,7 @@ Missing values can lead to gaps in analysis. Here’s how to identify and manage
 
 ---
 
-### 🧾 Steps to Format Your Data  
+#### 🧾 Steps to Format Your Data  
 
 #### 1. **Rename Your Table for Clarity** ✍️  
 - Default names like "Table 1" can get confusing. Let’s make it easier:  
@@ -386,7 +386,7 @@ Proper formatting ensures your data is uniform and ready for analysis:
 
 ---
 
-## 🏁 Final Checks: Review and Standardize  
+#### 🏁 Final Checks: Review and Standardize  
 
 - After formatting, review the dataset to ensure:  
   - All columns are consistent and follow a logical structure.  
@@ -396,13 +396,13 @@ Proper formatting ensures your data is uniform and ready for analysis:
 
 ---
 
-## 📣 Why This Step Is Critical  
+#### 📣 Why This Step Is Critical  
 
 Taking the time to clean and format your data is an investment in the success of your project. This phase transforms raw, messy datasets into a polished foundation, ensuring that every subsequent step—analysis, visualization, and decision-making—is built on reliable information.
 
 Approach this step with precision and care, and you’ll be rewarded with insights that are accurate, meaningful, and actionable. After all, clean data is the bedrock of every impactful analysis. 🚀✨
 
-### 🔄 Data Transformation <a id="data-transformation"></a>
+### 8.4 🔄 Data Transformation <a id="data-transformation"></a>
 
 Transforming raw data into actionable insights is the cornerstone of any successful data analytics project. In this phase, we enhance the dataset by adding calculated columns that help reveal patterns, segment data, and provide clarity. This process equips us to answer critical business questions and unlock valuable opportunities hidden within the data.
 
@@ -410,7 +410,7 @@ Think of data transformation as chiseling a rough diamond into a sparkling gem�
 
 This guide outlines the steps to create three new columns in your Excel spreadsheet: `order_day`, `order_month`, and `order_hour`. These columns will deepen our understanding of sales patterns by providing insights into the day of the week, the month, and the hour when orders are placed.
 
-## Creating the `order_day` Column
+#### Creating the `order_day` Column
 
 The `order_day` column helps us identify sales trends based on the day of the week. Follow these steps to add this column:
 
@@ -426,7 +426,7 @@ The `order_day` column helps us identify sales trends based on the day of the we
      ```
    - Press Enter to apply the formula. Excel will automatically fill down the column, displaying the full day names (e.g., "Monday", "Tuesday").
 
-## Creating the `order_month` Column
+#### Creating the `order_month` Column
 
 The `order_month` column provides insights into monthly sales trends. To add this column, follow these steps:
 
@@ -442,7 +442,7 @@ The `order_month` column provides insights into monthly sales trends. To add thi
      ```
    - Press Enter to apply the formula. Excel will auto-fill the column with full month names (e.g., "January", "February").
 
-## Creating the `order_hour` Column
+#### Creating the `order_hour` Column
 
 The `order_hour` column allows us to analyze the distribution of orders by hour. Follow these steps to create this column:
 
@@ -458,7 +458,7 @@ The `order_hour` column allows us to analyze the distribution of orders by hour.
      ```
    - Press Enter to apply the formula. Excel will automatically fill down the column, displaying the hour for each order (e.g., "14" for 2:00 PM).
 
-## 🚀 Why These Columns Matter
+#### 🚀 Why These Columns Matter
 
 By adding calculated fields like `order_day`, `order_month`, and `order_hour`, you create a dataset that’s primed for deeper insights. These columns unlock powerful opportunities to:
 
@@ -466,12 +466,15 @@ By adding calculated fields like `order_day`, `order_month`, and `order_hour`, y
 - 🎯 **Drive Decisions**: Inform strategies for staffing, inventory, and promotions.
 - 🔑 **Uncover Opportunities**: Identify untapped markets, such as lunch-hour specials or seasonal promotions.
 
-## 📝 Final Thoughts
+#### 📝 Final Thoughts
 
 Data transformation is where the magic begins! It’s not merely about adding columns—it’s about enabling your dataset to tell a story that drives actionable results. By taking the time to thoughtfully transform your data, you set the stage for analysis that is insightful, precise, and impactful.
 
 Remember, every calculated field you add is a step closer to uncovering the full potential of your data. Start small, ask questions, and let the insights guide you toward better decisions. 📈✨
-### 5. 📈 Key Performance Indicator (KPI) Definition <a id="key-performance-indicator-kpi-definition"></a>
+
+---
+
+### 8.5 📈 Key Performance Indicator (KPI) Definition <a id="key-performance-indicator-kpi-definition"></a>
 Defined and calculated critical KPIs, including:
 - **Total Revenue**: Sum of all `total_price` values.
 - **Total Orders**: Count of unique `order_id` values.
@@ -480,7 +483,7 @@ Defined and calculated critical KPIs, including:
 
 ---
 
-### 6. 🎨 Data Visualization and Analysis <a id="data-visualization-and-analysis"></a>
+### 8.6 🎨 Data Visualization and Analysis <a id="data-visualization-and-analysis"></a>
 - **Selected Visuals**:
   - Bar charts for hourly, daily, and size-based sales.
   - Line graphs for monthly trends.
@@ -489,7 +492,7 @@ Defined and calculated critical KPIs, including:
 
 ---
 
-### 7. 🖥️ Dashboard Development <a id="dashboard-development"></a>
+### 8.7 🖥️ Dashboard Development <a id="dashboard-development"></a>
 - **User-Friendly Layout**:
   - Positioned KPIs prominently at the top for easy reference.
   - Grouped related visuals logically for intuitive navigation.
