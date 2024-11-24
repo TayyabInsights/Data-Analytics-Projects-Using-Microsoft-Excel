@@ -1,6 +1,7 @@
 # 🍕 Pizza Sales Analysis
-## How to Create an Excel Dashboard for Your Data Analytics Project
 
+## How to Create an Excel Dashboard for Your Data Analytics Project
+---
 ## 📑 Table of Contents
 
 1. [📋 Project Overview](#project-overview)
@@ -19,6 +20,7 @@
 ---
 
 ## 1.📋 Project Overview <a id="project-overview"></a>
+
 This project focuses on developing an interactive Excel dashboard to analyze pizza sales data effectively. By leveraging data visualization techniques, the dashboard aims to reveal critical trends, track key performance indicators (KPIs), and provide actionable insights into sales performance, customer preferences, and operational efficiency.
 
 Through a comprehensive analysis of the dataset, this project will highlight top-selling pizza varieties, seasonal sales patterns, and customer purchasing behaviors. Utilizing Microsoft Excel's powerful data cleaning, analytical, and visualization tools, the project showcases essential skills in transforming raw data into meaningful visual representations that can guide strategic business decisions.
@@ -28,6 +30,7 @@ The goal is to provide actionable insights for improving inventory management an
 ---
 
 ## 2.❓ Problem Statement <a id="problem-statement"></a>
+
 **Operational Challenges**: Difficulty optimizing performance and capitalizing on market opportunities. ⚠️
 
 **Key Areas**:
@@ -62,13 +65,14 @@ The goal is to provide actionable insights for improving inventory management an
 ---
 
 ## 3.🛠 Methodology <a id="methodology"></a>
-1. [📥 Data Import and Extraction](#data-import-and-extraction)
-2. [📋 Project Requirements and Data Familiarization](#project-requirements-and-data-familiarization)
-3. [🧹 Data Cleaning and Formatting](#data-cleaning-and-formatting)
-4. [🔄 Data Transformation](#data-transformation)
-5. [📈 Key Performance Indicator (KPI) Definition](#key-performance-indicator-kpi-definition)
-6. [🎨 Data Visualization and Analysis](#data-visualization-and-analysis)
-7. [🖥️ Dashboard Development](#dashboard-development)
+
+8.1 [📥 Data Import and Extraction](#data-import-and-extraction)
+8.2 [📋 Project Requirements and Data Familiarization](#project-requirements-and-data-familiarization)
+8.3 [🧹 Data Cleaning and Formatting](#data-cleaning-and-formatting)
+8.4 [🔄 Data Transformation](#data-transformation)
+8.5 [📈 Key Performance Indicator (KPI) Definition](#key-performance-indicator-kpi-definition)
+8.6 [🎨 Data Visualization and Analysis](#data-visualization-and-analysis)
+8.7 [🖥️ Dashboard Development](#dashboard-development)
 
 ---
 
@@ -155,8 +159,6 @@ Follow these steps to explore and interact with the project:
 5. **📖 Read the Documentation**:  
    - Refer to the `README.md` file in the root folder for an in-depth explanation of the project methodology, technologies used, and key findings.
 
----
-
 ### Tips for Best Experience:
 - Ensure you have **Microsoft Excel 365 or a compatible version** installed to interact fully with the dashboard and its features.
 - Check out the **slicers** and **interactive charts** for a dynamic analysis experience tailored to your needs.
@@ -182,7 +184,7 @@ The dataset provides a comprehensive overview of pizza sales, capturing essentia
 | `pizza_ingredients`      | List of ingredients for each pizza, offering insights into popular toppings and customization preferences. |
 | `pizza_name`             | Name of the pizza (e.g., "The Hawaiian Pizza"), used to identify top- and bottom-selling items. |
 
----
+
 
 ### **Dataset Highlights**:
 - **Scope**: Covers a wide range of sales data across multiple categories, sizes, and time periods, enabling a detailed analysis of trends and customer preferences.  
@@ -217,8 +219,6 @@ For detailed license terms and dataset usage guidelines, refer to the following 
 
 
 ## 8.🧹 Data Preparation <a id="data-preparation"></a>
-
-This section provides a comprehensive explanation of the steps followed to complete the project, from data import to insights generation.
 
 ### 8.1 📥 Data Import and Extraction <a id="data-import-and-extraction"></a>
 - **Download the Dataset**: Sourced the dataset from Kaggle ([Pizza Sales Dataset](https://www.kaggle.com/datasets/shilongzhuang/pizza-sales)).
