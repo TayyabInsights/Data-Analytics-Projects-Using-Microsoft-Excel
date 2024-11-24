@@ -611,7 +611,6 @@ This metric calculates the average number of pizzas per transaction, offering in
 #### Why It Matters:  
 This KPI provides insights into order size trends, helping to refine menu offerings and bundle deals.
 
----
 
 #### 🚀 Final Thoughts
 
