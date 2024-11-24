@@ -191,7 +191,7 @@ The dataset provides a comprehensive overview of pizza sales, capturing essentia
 - **Time-Based Insights**: Includes fields like `order_date` and `order_time` to allow granular time-series analysis, such as peak sales hours or seasonal demand patterns.  
 - **Performance Metrics**: Fields like `quantity` and `total_price` form the foundation for calculating KPIs, helping measure business performance and operational efficiency.  
 
----
+
 
 ### **Dataset Source**:
 This dataset is sourced from **Kaggle** as part of the **Pizza Restaurant Sales** collection. The data can be accessed and downloaded from the following link:  
@@ -202,7 +202,7 @@ This dataset is sourced from **Kaggle** as part of the **Pizza Restaurant Sales*
 - Contributor: **Shi Long Zhuang**  
 - Context: This dataset is part of the **Maven Analytics Pizza Challenge**, which focuses on using data for actionable business insights.
 
----
+
 
 ### **Acknowledgment**:
 This project leverages the **Pizza Restaurant Sales** dataset made available on Kaggle by **Shi Long Zhuang**. It originates from the **Maven Analytics Data Playground** and is used exclusively for educational and analytical purposes in this project.
