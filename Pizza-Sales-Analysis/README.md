@@ -386,7 +386,7 @@ Proper formatting ensures your data is uniform and ready for analysis:
 
 ---
 
-### 🏁 Final Checks: Review and Standardize  
+## 🏁 Final Checks: Review and Standardize  
 
 - After formatting, review the dataset to ensure:  
   - All columns are consistent and follow a logical structure.  
@@ -396,7 +396,7 @@ Proper formatting ensures your data is uniform and ready for analysis:
 
 ---
 
-### 📣 Why This Step Is Critical  
+## 📣 Why This Step Is Critical  
 
 Taking the time to clean and format your data is an investment in the success of your project. This phase transforms raw, messy datasets into a polished foundation, ensuring that every subsequent step—analysis, visualization, and decision-making—is built on reliable information.
 
@@ -407,8 +407,6 @@ Approach this step with precision and care, and you’ll be rewarded with insigh
 Transforming raw data into actionable insights is the cornerstone of any successful data analytics project. In this phase, we enhance the dataset by adding calculated columns that help reveal patterns, segment data, and provide clarity. This process equips us to answer critical business questions and unlock valuable opportunities hidden within the data.
 
 Think of data transformation as chiseling a rough diamond into a sparkling gem—it's all about refining your dataset to make it shine. Let’s dive into this essential process! 🌟
-
-# Preparation for Data Analysis in Microsoft Excel
 
 This guide outlines the steps to create three new columns in your Excel spreadsheet: `order_day`, `order_month`, and `order_hour`. These columns will deepen our understanding of sales patterns by providing insights into the day of the week, the month, and the hour when orders are placed.
 
