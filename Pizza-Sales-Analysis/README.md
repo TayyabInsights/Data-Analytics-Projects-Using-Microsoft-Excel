@@ -27,7 +27,7 @@ The goal is to provide actionable insights for improving inventory management an
 
 ---
 
-## 2.❓Problem Statement <a id="problem-statement"></a>
+## 2.❓ Problem Statement <a id="problem-statement"></a>
 **Operational Challenges**: Difficulty optimizing performance and capitalizing on market opportunities. ⚠️
 
 **Key Areas**:
@@ -230,7 +230,6 @@ This section provides a comprehensive explanation of the steps followed to compl
 
 Every successful data analytics project begins with a deep understanding of its **purpose** and **data**. Think of this phase as laying the cornerstone of a strong and lasting structure—without a solid foundation, the entire project risks faltering. This step is where you align your analytical approach with stakeholder goals while ensuring the dataset is ready to deliver accurate, actionable insights. Rushing through or neglecting this stage can lead to missed opportunities and unreliable outcomes.
 
----
 
 #### 🌟 Why This Step Matters  
 This foundational phase helps you address key questions that will shape your analysis and its impact:  
@@ -245,7 +244,6 @@ By tackling these questions upfront, you establish a clear roadmap for your anal
 
 Answering these questions ensures your analysis is both aligned with stakeholder priorities and equipped to drive meaningful results.
 
----
 
 #### 🛠️ Steps to Build a Strong Foundation  
 
@@ -289,7 +287,6 @@ Answering these questions ensures your analysis is both aligned with stakeholder
 
    Clear goals make your work purposeful, measurable, and directly impactful to decision-making processes.
 
----
 
 #### 💡 Expert Insight  
 
@@ -297,7 +294,6 @@ Answering these questions ensures your analysis is both aligned with stakeholder
 
 **Another Tip**: Start with a preliminary PivotTable or summary chart. This can quickly highlight trends, validate assumptions, and uncover unexpected patterns before diving into more complex analysis. 📊  
 
----
 
 #### 📝 Final Thoughts  
 
@@ -311,7 +307,6 @@ Remember, starting with clarity and purpose allows you to tell a compelling, dat
 
 Every data analytics project relies on clean, well-prepared data as its foundation. Think of this step as sharpening your tools before starting a big project—skipping it can lead to messy analysis and unreliable insights. By dedicating time to data cleaning and formatting, you ensure that your analysis is accurate, reliable, and actionable. Let’s break this process down into practical, expert-backed steps.
 
----
 
 #### 🌟 Why Is Data Cleaning and Formatting Essential?
 - **🚫 Removes Errors**: Ensures duplicate or irrelevant data doesn’t skew your analysis.  
@@ -319,7 +314,6 @@ Every data analytics project relies on clean, well-prepared data as its foundati
 - **🎯 Boosts Accuracy**: Standardized formats reduce errors during calculations and visualizations.  
 - **📈 Sets a Strong Foundation**: Prepares your dataset for seamless transformations and reliable insights.
 
----
 
 #### 🛠️ Steps to Clean Your Data  
 
@@ -333,7 +327,6 @@ Duplicates can distort your analysis, so let’s clear them out:
 
 **💡 Pro Tip**: Always keep a backup of your dataset before removing duplicates to avoid accidental loss of important information.
 
----
 
 #### 2. **Handle Missing Values** 🔍  
 Missing values can lead to gaps in analysis. Here’s how to identify and manage them effectively:  
@@ -348,7 +341,6 @@ Missing values can lead to gaps in analysis. Here’s how to identify and manage
 
 **🔍 Pro Tip**: Use filters to isolate blank cells and evaluate the context before deciding how to fill or remove them.
 
----
 
 #### 🧾 Steps to Format Your Data  
 
@@ -360,7 +352,6 @@ Missing values can lead to gaps in analysis. Here’s how to identify and manage
 
 **💡 Why Rename?** Clear table names make referencing data in formulas or charts simpler and more intuitive.
 
----
 
 #### 2. **Format Data Columns for Consistency** 🧮  
 Proper formatting ensures your data is uniform and ready for analysis:  
@@ -384,7 +375,6 @@ Proper formatting ensures your data is uniform and ready for analysis:
    - For columns like `pizza_name`, `pizza_category`, and `pizza_size`, ensure the format is set to **Text**.  
    - Scan for typos or inconsistencies that could affect analysis.
 
----
 
 #### 🏁 Final Checks: Review and Standardize  
 
@@ -394,13 +384,16 @@ Proper formatting ensures your data is uniform and ready for analysis:
 
 **💡 Expert Insight**: Consider creating a summary table or small PivotTable to validate your cleaned data. This step can help identify lingering issues early in the process.  
 
----
 
 #### 📣 Why This Step Is Critical  
 
 Taking the time to clean and format your data is an investment in the success of your project. This phase transforms raw, messy datasets into a polished foundation, ensuring that every subsequent step—analysis, visualization, and decision-making—is built on reliable information.
 
 Approach this step with precision and care, and you’ll be rewarded with insights that are accurate, meaningful, and actionable. After all, clean data is the bedrock of every impactful analysis. 🚀✨
+
+
+---
+
 
 ### 8.4 🔄 Data Transformation <a id="data-transformation"></a>
 
@@ -472,7 +465,9 @@ Data transformation is where the magic begins! It’s not merely about adding co
 
 Remember, every calculated field you add is a step closer to uncovering the full potential of your data. Start small, ask questions, and let the insights guide you toward better decisions. 📈✨
 
+
 ---
+
 
 ### 8.5 📈 Key Performance Indicator (KPI) Definition <a id="key-performance-indicator-kpi-definition"></a>
 Defined and calculated critical KPIs, including:
@@ -481,7 +476,9 @@ Defined and calculated critical KPIs, including:
 - **Average Order Value**: `Total Revenue ÷ Total Orders`.
 - **Total Pizzas Sold**: Sum of all `quantity` values.
 
+
 ---
+
 
 ### 8.6 🎨 Data Visualization and Analysis <a id="data-visualization-and-analysis"></a>
 - **Selected Visuals**:
@@ -490,7 +487,9 @@ Defined and calculated critical KPIs, including:
   - Doughnut charts for the top 5 best-selling and bottom 5 worst-selling pizzas.
 - **Enhanced Readability**: Applied consistent color schemes and clear labels.
 
+
 ---
+
 
 ### 8.7 🖥️ Dashboard Development <a id="dashboard-development"></a>
 - **User-Friendly Layout**:
@@ -500,7 +499,9 @@ Defined and calculated critical KPIs, including:
   - Added slicers for filtering by time period, pizza size, and category.
   - Included timelines to explore trends over specific months.
 
+
 ---
+
 
 ## 📈 Dashboard Overview <a id="dashboard-overview"></a>
 The final dashboard includes:
@@ -512,27 +513,35 @@ Here’s a preview of the dashboard:
 
 ![📊 Dashboard Screenshot](images/dashboard_screenshot.png)
 
+
 ---
+
 
 ## 🔑 Key Findings <a id="key-findings"></a>
 1. 🍕 **Pepperoni Pizza** contributes 35% of total revenue, making it the top-selling item.
 2. 📅 Sales peak on **weekends**, especially on Saturdays.
 3. 🎄 **December** is the highest-performing month, indicating strong seasonal demand.
 
+
 ---
+
 
 ## ⚠️ Limitations <a id="limitations"></a>
 - 📆 Dataset only covers one year, limiting long-term trend analysis.
 - 🙍‍♀️ Customer demographic data is unavailable, preventing deeper segmentation.
 
+
 ---
+
 
 ## 🚀 Conclusion and Recommendations <a id="conclusion-and-recommendations"></a>
 Focus on promoting best-selling pizzas, such as Pepperoni, during peak periods.
 Optimize inventory and staffing for weekends and December sales surges.
 Develop targeted marketing campaigns based on seasonal trends.
 
+
 ---
+
 
 ## 🤝 Contributing and Feedback
 - Have suggestions or improvements? Feel free to open an issue or submit a pull request.
