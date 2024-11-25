@@ -1102,17 +1102,7 @@ $$\color{background}{Comprehensive Guide to Analyzing Sales by Pizza Size}$$
 
 ![Comprehensive Guide](https://via.placeholder.com/600x100/ffcc00/000000?text=🌟%20Comprehensive%20Guide%20to%20Analyzing%20Sales%20by%20Pizza%20Size%20🌟)
 
-<img src="https://via.placeholder.com/300x50/ffcc00/000000?text=🌟%20Comprehensive%20Guide%20to%20Analyzing%20Sales%20by%20Pizza%20Size%20🌟" alt="Background Color Example" width="300" height="50">
 
-<h1 style="color: blue;"><strong><ins>Comprehensive Guide</ins></strong></h1>
-![Comprehensive Guide](https://via.placeholder.com/600x100/ffcc00/000000?text=🌟%20Comprehensive%20Guide%20to%20Analyzing%20Sales%20by%20Pizza%20Size%20🌟)
-
-
-![Comprehensive Guide](https://via.placeholder.com/600x100/ffcc00/000000?text=🌟%20Comprehensive%20Guide%20to%20Analyzing%20Sales%20by%20Pizza%20Size%20🌟)
-
-<img src="https://via.placeholder.com/300x50/ffcc00/000000?text=🌟%20Comprehensive%20Guide%20to%20Analyzing%20Sales%20by%20Pizza%20Size%20🌟" alt="Background Color Example" width="300" height="50">
-
-<h1 style="color: blue;"><strong><ins>Comprehensive Guide</ins></strong></h1>
 
 
 
