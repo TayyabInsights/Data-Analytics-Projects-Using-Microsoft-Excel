@@ -1066,13 +1066,13 @@ Slicers are beneficial for:
 
 By combining **PivotTables**, **Line Charts**, and **Slicers**, you unlock a comprehensive view of monthly sales trends, enabling actionable strategies to maximize performance. 📈✨
 
-#### 4. 🌟 **Comprehensive Guide to Analyzing Sales by Pizza Size** 🌟
-#### 4. 🌟 ***Comprehensive Guide to Analyzing Sales by Pizza Size*** 🌟
+#### 4. 🌟 **<ins>Comprehensive Guide to Analyzing Sales by Pizza Size</ins>** 🌟
+#### 4. 🌟 ***<ins>Comprehensive Guide to Analyzing Sales by Pizza Size</ins>*** 🌟
 
 #### 4.🍕 <strong><ins>Comprehensive Guide to Analyzing Sales by Pizza Size</ins></strong>
 
 
-🍕 <h1 style="color: blue;"><strong><ins>Comprehensive Guide to Analyzing Sales by Pizza Size</ins></strong></h1>
+🍕 <h3 style="color: blue;"><strong><ins>Comprehensive Guide to Analyzing Sales by Pizza Size</ins></strong></h3>
 
 
 
