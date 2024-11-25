@@ -627,7 +627,7 @@ By thoughtfully calculating KPI such as **Total Sales**, **AOV**, and **Total Pi
 #### 8.6.1 📊 ***<ins>Analyzing Sales by Hour of the Day</ins>*** 📊
 
 
-First the sales analysis by hour provides valuable insights into customer behavior and peak activity periods. By leveraging **PivotTables**, **PivotCharts**, and **Slicers** in Excel, you can uncover patterns that inform staffing decisions, promotional timing, and inventory planning. Let’s dive into this step-by-step process to enhance your data-driven decision-making.
+***First***the sales analysis by hour provides valuable insights into customer behavior and peak activity periods. By leveraging **PivotTables**, **PivotCharts**, and **Slicers** in Excel, you can uncover patterns that inform staffing decisions, promotional timing, and inventory planning. Let’s dive into this step-by-step process to enhance your data-driven decision-making.
 
 
 #### 🌟 Why Analyze Hourly Sales?
@@ -731,7 +731,7 @@ Harness the power of Excel to make informed decisions and unlock the full potent
 
 #### 8.6.2 📊 ***<ins>Analyzing Sales by Day of the Week</ins>*** 📊
 
-Second analyzing sales by day of the week offers powerful insights into daily revenue patterns, helping businesses align resources, optimize scheduling, and tailor marketing efforts to peak days. By combining **PivotTables**, **Bar Charts**, and **Slicers**, you can transform raw sales data into actionable insights.
+***Second***analyzing sales by day of the week offers powerful insights into daily revenue patterns, helping businesses align resources, optimize scheduling, and tailor marketing efforts to peak days. By combining **PivotTables**, **Bar Charts**, and **Slicers**, you can transform raw sales data into actionable insights.
 
 
 #### 🌟 Why Analyze Sales by Day of the Week?
@@ -900,7 +900,7 @@ By combining **PivotTables**, **Charts**, and **Slicers**, you create a robust a
 
 #### 8.6.3 📊 ***<ins>Analyzing Sales by Month</ins>*** 📊
 
-Third understanding monthly sales trends is critical for uncovering seasonal patterns, planning inventory, and optimizing promotions. This analysis allows businesses to anticipate high-demand periods and allocate resources effectively. By creating a **PivotTable**, a **Line Chart**, and adding **Slicers**, you can transform raw sales data into actionable insights.
+***Third***understanding monthly sales trends is critical for uncovering seasonal patterns, planning inventory, and optimizing promotions. This analysis allows businesses to anticipate high-demand periods and allocate resources effectively. By creating a **PivotTable**, a **Line Chart**, and adding **Slicers**, you can transform raw sales data into actionable insights.
 
 
 #### 🌟 Why Analyze Sales by Month?
@@ -1068,10 +1068,10 @@ By combining **PivotTables**, **Line Charts**, and **Slicers**, you unlock a com
 
 #### 8.6.4 🍕 ***<ins>Analyzing Sales by Pizza Size</ins>*** 🍕
 
-Fourth understanding sales trends by pizza size is fundamental. This step not only reveals customer preferences but also provides actionable insights for inventory management, promotional planning, and product offerings. By leveraging **PivotTables**, **Bar Charts**, and **Slicers**, we can make informed decisions that align with customer demand and enhance overall business strategy. 📊✨
+***Fourth***understanding sales trends by pizza size is fundamental. This step not only reveals customer preferences but also provides actionable insights for inventory management, promotional planning, and product offerings. By leveraging **PivotTables**, **Bar Charts**, and **Slicers**, we can make informed decisions that align with customer demand and enhance overall business strategy. 📊✨
 
 
-##@# 🌟 Why Analyze Sales by Pizza Size?
+#### 🌟 Why Analyze Sales by Pizza Size?
 
 This phase answers several critical questions:
 - **📏 Which pizza sizes are the most popular among customers?**
