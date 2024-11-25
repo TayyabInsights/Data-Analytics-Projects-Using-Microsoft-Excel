@@ -1078,7 +1078,6 @@ By combining **PivotTables**, **Line Charts**, and **Slicers**, you unlock a com
 
 
 
-<img src="https://via.placeholder.com/300x50/ffcc00/000000?text=Comprehensive+Guide+to+Analyzing+Sales+by+Pizza+Size" alt="Background Color Example" width="300" height="50">
 
 
 
@@ -1092,7 +1091,6 @@ By combining **PivotTables**, **Line Charts**, and **Slicers**, you unlock a com
 
 
   
-<font color="background-color:#f0f0f0">Comprehensive Guide to Analyzing Sales by Pizza Size</font>
 
 $$\color{background}{Comprehensive Guide to Analyzing Sales by Pizza Size}$$
 
@@ -1100,7 +1098,6 @@ $$\color{background}{Comprehensive Guide to Analyzing Sales by Pizza Size}$$
 ![#f0f0f0](https://placehold.co/15x15/f0f0f0/f0f0f0.png) Comprehensive Guide to Analyzing Sales by Pizza Size
 
 
-![Comprehensive Guide](https://via.placeholder.com/600x100/ffcc00/000000?text=🌟%20Comprehensive%20Guide%20to%20Analyzing%20Sales%20by%20Pizza%20Size%20🌟)
 
 
 
