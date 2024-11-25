@@ -1103,11 +1103,12 @@ $$\color{background}{Comprehensive Guide to Analyzing Sales by Pizza Size}$$
 ![Comprehensive Guide][]</ins></strong>
 
 
-<h3 style="color: red;">Background Color Example with Image Tag</h3>
-<img src="https://via.placeholder.com/300x50/ffcc00/000000?text=Comprehensive+Guide+to+Analyzing+Sales+by+Pizza+Size" alt="Background Color Example" width="300" height="50">
+<h1 style="color: blue;"><strong><ins>Comprehensive Guide</ins></strong></h1>
+![Comprehensive Guide](https://via.placeholder.com/600x100/ffcc00/000000?text=Comprehensive+Guide+to+Analyzing+Sales+by+Pizza+Size)
 
-<img src="https://via.placeholder.com/300x50/ffcc00/000000?text=<h3 style="color: red;">Comprehensive+Guide+to+Analyzing+Sales+by+Pizza+Size</h3>" alt="Background Color Example" width="300" height="50">
 
+<h1 style="color: blue;"><strong><ins>Comprehensive Guide</ins></strong></h1>
+![Comprehensive Guide](https://via.placeholder.com/600x100/ffcc00/000000?text=Comprehensive+Guide)
 
 
 After analyzing sales trends by month, we now turn to **pizza size** to uncover customer preferences and sales patterns. This analysis provides valuable insights into which sizes are most popular, helping businesses optimize inventory, adjust marketing strategies, and cater to customer demand effectively. 
