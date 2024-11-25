@@ -1099,6 +1099,15 @@ $$\color{background}{Comprehensive Guide to Analyzing Sales by Pizza Size}$$
 ![Comprehensive Guide](https://via.placeholder.com/600x100/ffcc00/000000?text=Comprehensive+Guide+to+Analyzing+Sales+by+Pizza+Size)
 
 
+![Background Color Example](https://via.placeholder.com/400x100/ffcc00/000000?text=Comprehensive+Guide+to+Analyzing+Sales+by+Pizza+Size)
+
+
+![Background Color Example](https://via.placeholder.com/300x50/ffcc00/000000?text=Comprehensive+Guide+to+Analyzing+Sales+by+Pizza+Size)
+
+
+<img src="https://via.placeholder.com/300x50/ffcc00/000000?text=Comprehensive+Guide+to+Analyzing+Sales+by+Pizza+Size" alt="Background Color Example" width="300" height="50">
+
+
 
 
 
