@@ -1792,11 +1792,11 @@ The Pizza Sales Dashboard offers significant value across various business funct
 
 **Final Thought**: A great dashboard doesn’t just display data—it tells a story. Approach dashboard design as an opportunity to guide, inspire, and inform. Happy visualizing! 💡📈
 
----
 
 #### 🖼️ Dashboard Preview
 
 Here’s a sneak peek at the **Pizza Sales Dashboard** in action:  
+
 ![Dashboard Overview](https://github.com/TayyabInsights/Data-Analytics-Projects-Using-Microsoft-Excel/blob/main/Pizza-Sales-Analysis/Images/Dashboard%20Overview.png)
 
 
@@ -1804,10 +1804,145 @@ Here’s a sneak peek at the **Pizza Sales Dashboard** in action:
 ---
 
 
-#### 10. 🔑 Key Findings <a id="key-findings"></a>
-1. 🍕 **Pepperoni Pizza** contributes 35% of total revenue, making it the top-selling item.
-2. 📅 Sales peak on **weekends**, especially on Saturdays.
-3. 🎄 **December** is the highest-performing month, indicating strong seasonal demand.
+#### 10. 🔑 Key Findings and Interpretations <a id="key-findings"></a>
+
+The **Findings or Interpretation section** provides a detailed analysis of the Pizza Sales Dashboard, uncovering critical performance metrics, time-based trends, customer preferences, and product-level insights. This section highlights the actionable insights derived from **Key Performance Indicators (KPIs)**, **PivotCharts**, and **Slicers**, delivering a comprehensive understanding of sales performance and strategic opportunities. Let’s break down the findings step-by-step. 💡📊
+
+---
+
+#### 🔍 **Key Performance Indicators (KPIs)**
+
+ [Preview the KPIs](https://github.com/TayyabInsights/Data-Analytics-Projects-Using-Microsoft-Excel/blob/main/Pizza-Sales-Analysis/Images/Key%20Performance%20Indicators.png)
+
+The **KPI Panel** offers a snapshot of the business's overall performance. Here's a detailed breakdown:
+
+1. **Total Sales**: 💰 **$817,860**  
+   - **Analysis**: Reflects the scale of revenue generated during the analysis period.  
+   - **Insight**: Strong sales performance highlights market demand, but further revenue growth can be achieved by targeting underperforming periods or product categories.  
+
+2. **Average Order Value**: 📦 **$38**  
+   - **Analysis**: Indicates consistent purchasing behavior and pricing strategy effectiveness.  
+   - **Insight**: Suggests potential for upselling or bundling (e.g., pairing pizzas with beverages or desserts) to boost per-order revenue.  
+
+3. **Total Pizzas Sold**: 🍕 **49,574**  
+   - **Analysis**: Demonstrates the popularity of the product line, with demand concentrated on specific sizes and categories.  
+   - **Insight**: Requires efficient inventory planning, especially for high-performing pizza categories like **Classic** and **Supreme**.  
+
+4. **Total Orders**: 🛍️ **21,350**  
+   - **Analysis**: Reflects strong customer engagement and repeat purchases.  
+   - **Insight**: A loyal customer base can be leveraged with targeted offers during peak periods, such as weekends.  
+
+5. **Average Pizzas Per Order**: 📏 **2.32**  
+   - **Analysis**: Indicates family-oriented purchases or group orders.  
+   - **Insight**: Marketing campaigns could promote family meal deals or combo offers to capitalize on this trend.  
+
+---
+
+#### 📊 **PivotCharts and Slicers**
+
+#### 1. **Sales by Hour of the Day**
+
+ [Preview Chart](https://github.com/TayyabInsights/Data-Analytics-Projects-Using-Microsoft-Excel/blob/main/Pizza-Sales-Analysis/Images/Sales%20by%20Hour%20of%20the%20Day.png)
+
+- **Key Findings**:  
+  - **Peak Hours**: 12 PM–2 PM generate the highest sales.  
+  - **Slow Periods**: Sales drop post-8 PM, with minimal activity after 10 PM.  
+
+- **Purpose of Pizza Size Slicer**:  
+  - Filters sales performance by size to identify customer preferences during peak times.
+
+- **Business Implications**:  
+  - Align staffing and operational hours with peak sales periods.  
+  - Introduce **time-based discounts** (e.g., happy hour deals) to drive evening sales.  
+
+
+#### 2. **Monthly Sales Trend**
+
+ [Preview Chart](https://github.com/TayyabInsights/Data-Analytics-Projects-Using-Microsoft-Excel/blob/main/Pizza-Sales-Analysis/Images/Monthly%20Sales%20Trend.png)
+
+- **Key Findings**:  
+  - Sales peaked in **July ($74,000)** but declined to **$60,000 by October**, showing seasonal demand.  
+
+- **Purpose of Pizza Category Slicer**:  
+  - Highlights category performance across different months, uncovering resilient products during slower periods.
+
+- **Business Implications**:  
+  - Launch **seasonal campaigns** (e.g., summer specials) to sustain momentum during high-demand periods.  
+  - Implement customer engagement strategies for slower months.  
+
+
+#### 3. **Sales by Day of the Week**
+
+ [Preview Chart](https://github.com/TayyabInsights/Data-Analytics-Projects-Using-Microsoft-Excel/blob/main/Pizza-Sales-Analysis/Images/Sales%20by%20Day%20of%20the%20Week.png)
+
+- **Key Findings**:  
+  - **Fridays** recorded the highest sales (**$136,074**), followed by Saturdays.  
+  - **Sundays** had the lowest revenue (**$99,203**).  
+
+- **Purpose of Pizza Category Slicer**:  
+  - Identifies top-performing categories on high-revenue days.
+
+- **Business Implications**:  
+  - Boost inventory and staffing for **weekend demand**.  
+  - Introduce targeted campaigns like **“Sunday Savings”** to address low engagement on Sundays.  
+
+
+#### 4. **Sales by Pizza Category**
+
+ [Preview Chart](https://github.com/TayyabInsights/Data-Analytics-Projects-Using-Microsoft-Excel/blob/main/Pizza-Sales-Analysis/Images/Sales%20by%20Pizza%20Category.png)
+
+- **Key Findings**:  
+  - **Classic** pizzas lead with **27%** of sales, followed by **Supreme** (**25%**).  
+
+- **Purpose of Pizza Size Slicer**:  
+  - Reveals size preferences within each category.  
+
+- **Business Implications**:  
+  - Focus marketing efforts on high-demand categories while addressing underperforming ones (e.g., Veggie pizzas).  
+
+
+#### 5. **Sales by Pizza Size**
+
+ [Preview Chart](https://github.com/TayyabInsights/Data-Analytics-Projects-Using-Microsoft-Excel/blob/main/Pizza-Sales-Analysis/Images/Sales%20by%20Pizza%20Size.png)
+
+- **Key Findings**:  
+  - **Large (L)** pizzas dominate with **18,956 units**, followed by **Medium (M)** with **15,635 units**.  
+
+- **Business Implications**:  
+  - Prioritize inventory for **Large** and **Medium** sizes.  
+  - Evaluate the viability of **XL** and **XXL** pizzas as seasonal or limited-time offerings.  
+
+
+### 6. **Top 5 Best-Selling Pizzas**
+
+ [Preview Chart](https://github.com/TayyabInsights/Data-Analytics-Projects-Using-Microsoft-Excel/blob/main/Pizza-Sales-Analysis/Images/Top%205%20Best-Selling%20Pizzas.png)
+
+- **Key Findings**:  
+  - Chicken-based pizzas like **Thai Chicken Pizza** (**$43,434**) dominate sales.  
+
+- **Business Implications**:  
+  - Expand chicken-based offerings to sustain strong sales performance.  
+
+
+
+#### 7. **Bottom 5 Worst-Selling Pizzas**
+
+ [Preview Chart](https://github.com/TayyabInsights/Data-Analytics-Projects-Using-Microsoft-Excel/blob/main/Pizza-Sales-Analysis/Images/Bottom%205%20Worst-Selling%20Pizzas.png)
+
+- **Key Findings**:  
+  - Vegetarian pizzas, such as **Brie Carre Pizza ($11,588)**, underperform.  
+
+- **Business Implications**:  
+  - Reevaluate recipes and marketing strategies for these items.  
+  - Consider discontinuing the least profitable pizzas.  
+
+
+#### 🎯 Key Takeaways
+
+- **Data-Driven Decisions**: Insights from KPIs and visualizations inform inventory, staffing, and marketing strategies.  
+- **Focus on High Performers**: Prioritize popular products and peak periods for maximum impact.  
+- **Address Gaps**: Use data to improve underperforming items or periods with targeted initiatives.
+
 
 
 ---
