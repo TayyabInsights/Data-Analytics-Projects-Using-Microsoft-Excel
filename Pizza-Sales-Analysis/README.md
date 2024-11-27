@@ -1812,7 +1812,7 @@ The **Findings or Interpretation section** provides a detailed analysis of the P
 
 #### 🔍 **Key Performance Indicators (KPIs)**
 
- [Preview the KPIs](https://github.com/TayyabInsights/Data-Analytics-Projects-Using-Microsoft-Excel/blob/main/Pizza-Sales-Analysis/Images/Key%20Performance%20Indicators.png)
+![Preview the KPIs](https://github.com/TayyabInsights/Data-Analytics-Projects-Using-Microsoft-Excel/blob/main/Pizza-Sales-Analysis/Images/Key%20Performance%20Indicators.png)
 
 The **KPI Panel** offers a snapshot of the business's overall performance. Here's a detailed breakdown:
 
@@ -1842,7 +1842,7 @@ The **KPI Panel** offers a snapshot of the business's overall performance. Here'
 
 #### 1. **Sales by Hour of the Day**
 
- [Preview Chart](https://github.com/TayyabInsights/Data-Analytics-Projects-Using-Microsoft-Excel/blob/main/Pizza-Sales-Analysis/Images/Sales%20by%20Hour%20of%20the%20Day.png)
+![Preview Chart](https://github.com/TayyabInsights/Data-Analytics-Projects-Using-Microsoft-Excel/blob/main/Pizza-Sales-Analysis/Images/Sales%20by%20Hour%20of%20the%20Day.png)
 
 - **Key Findings**:  
   - **Peak Hours**: 12 PM–2 PM generate the highest sales.  
@@ -1858,7 +1858,7 @@ The **KPI Panel** offers a snapshot of the business's overall performance. Here'
 
 #### 2. **Monthly Sales Trend**
 
- [Preview Chart](https://github.com/TayyabInsights/Data-Analytics-Projects-Using-Microsoft-Excel/blob/main/Pizza-Sales-Analysis/Images/Monthly%20Sales%20Trend.png)
+ ![Preview Chart](https://github.com/TayyabInsights/Data-Analytics-Projects-Using-Microsoft-Excel/blob/main/Pizza-Sales-Analysis/Images/Monthly%20Sales%20Trend.png)
 
 - **Key Findings**:  
   - Sales peaked in **July ($74,000)** but declined to **$60,000 by October**, showing seasonal demand.  
@@ -1873,7 +1873,7 @@ The **KPI Panel** offers a snapshot of the business's overall performance. Here'
 
 #### 3. **Sales by Day of the Week**
 
- [Preview Chart](https://github.com/TayyabInsights/Data-Analytics-Projects-Using-Microsoft-Excel/blob/main/Pizza-Sales-Analysis/Images/Sales%20by%20Day%20of%20the%20Week.png)
+ ![Preview Chart](https://github.com/TayyabInsights/Data-Analytics-Projects-Using-Microsoft-Excel/blob/main/Pizza-Sales-Analysis/Images/Sales%20by%20Day%20of%20the%20Week.png)
 
 - **Key Findings**:  
   - **Fridays** recorded the highest sales (**$136,074**), followed by Saturdays.  
@@ -1889,7 +1889,7 @@ The **KPI Panel** offers a snapshot of the business's overall performance. Here'
 
 #### 4. **Sales by Pizza Category**
 
- [Preview Chart](https://github.com/TayyabInsights/Data-Analytics-Projects-Using-Microsoft-Excel/blob/main/Pizza-Sales-Analysis/Images/Sales%20by%20Pizza%20Category.png)
+ ![Preview Chart](https://github.com/TayyabInsights/Data-Analytics-Projects-Using-Microsoft-Excel/blob/main/Pizza-Sales-Analysis/Images/Sales%20by%20Pizza%20Category.png)
 
 - **Key Findings**:  
   - **Classic** pizzas lead with **27%** of sales, followed by **Supreme** (**25%**).  
@@ -1903,7 +1903,7 @@ The **KPI Panel** offers a snapshot of the business's overall performance. Here'
 
 #### 5. **Sales by Pizza Size**
 
- [Preview Chart](https://github.com/TayyabInsights/Data-Analytics-Projects-Using-Microsoft-Excel/blob/main/Pizza-Sales-Analysis/Images/Sales%20by%20Pizza%20Size.png)
+ ![Preview Chart](https://github.com/TayyabInsights/Data-Analytics-Projects-Using-Microsoft-Excel/blob/main/Pizza-Sales-Analysis/Images/Sales%20by%20Pizza%20Size.png)
 
 - **Key Findings**:  
   - **Large (L)** pizzas dominate with **18,956 units**, followed by **Medium (M)** with **15,635 units**.  
@@ -1915,7 +1915,7 @@ The **KPI Panel** offers a snapshot of the business's overall performance. Here'
 
 ### 6. **Top 5 Best-Selling Pizzas**
 
- [Preview Chart](https://github.com/TayyabInsights/Data-Analytics-Projects-Using-Microsoft-Excel/blob/main/Pizza-Sales-Analysis/Images/Top%205%20Best-Selling%20Pizzas.png)
+ ![Preview Chart](https://github.com/TayyabInsights/Data-Analytics-Projects-Using-Microsoft-Excel/blob/main/Pizza-Sales-Analysis/Images/Top%205%20Best-Selling%20Pizzas.png)
 
 - **Key Findings**:  
   - Chicken-based pizzas like **Thai Chicken Pizza** (**$43,434**) dominate sales.  
@@ -1927,7 +1927,7 @@ The **KPI Panel** offers a snapshot of the business's overall performance. Here'
 
 #### 7. **Bottom 5 Worst-Selling Pizzas**
 
- [Preview Chart](https://github.com/TayyabInsights/Data-Analytics-Projects-Using-Microsoft-Excel/blob/main/Pizza-Sales-Analysis/Images/Bottom%205%20Worst-Selling%20Pizzas.png)
+ ![Preview Chart](https://github.com/TayyabInsights/Data-Analytics-Projects-Using-Microsoft-Excel/blob/main/Pizza-Sales-Analysis/Images/Bottom%205%20Worst-Selling%20Pizzas.png)
 
 - **Key Findings**:  
   - Vegetarian pizzas, such as **Brie Carre Pizza ($11,588)**, underperform.  
