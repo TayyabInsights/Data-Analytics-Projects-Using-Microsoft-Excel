@@ -132,6 +132,10 @@ The project is organized into the following structure for ease of navigation and
 - **📜 LICENSE**:  
   Specifies the licensing details for the project (e.g., MIT License).
 
+- **📚 project-documentation**:  
+A professionally formatted PDF covering all aspects of your project, from objectives to recommendations. It's like having a comprehensive project report at your disposal! 📊
+• project_documentation.pdf: The ultimate resource for anyone looking to understand or contribute to our project.
+
 - **📝 README.md**:  
   The main documentation file detailing the project methodology, technologies, findings, and usage instructions.
 
