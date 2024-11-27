@@ -113,9 +113,11 @@ This project demonstrates Excel’s versatility in handling real-world business 
 
 ---
 
-## 5.📂 Folder Structure <a id="folder-structure"></a>
+#### 5.📂 Folder Structure <a id="folder-structure"></a>
 
 The project is organized into the following structure for ease of navigation and clarity:
+
+#### Pizza-Sales-Analysis/
 
 - **📄 About-Me/**:  
   Contains a README with information about the author’s expertise and professional background.
