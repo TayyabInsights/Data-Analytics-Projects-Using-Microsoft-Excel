@@ -1481,10 +1481,10 @@ Branding personalizes your dashboard and adds a professional touch.
        
   - Use Excel formulas to pull data dynamically:
     ```excel
-    =KPI!B1
+    =KPI!....
     ```
 
-#### Breaking Down the Formula: `=KPI!B1` 🔍
+#### Breaking Down the Formula: `=KPI!...` 🔍
 
 A crucial aspect of the KPI section is linking metrics dynamically to your data. Let’s dissect the formula `=KPI!...`, which pulls data from another worksheet.
 
@@ -1692,8 +1692,6 @@ Here’s a sneak peek at the **Pizza Sales Dashboard** in action:
 
 #### 10. 🔑 Key Findings and Interpretations <a id="key-findings"></a>
 
-# 🔑 Findings and Interpretations <a id="key-findings"></a>
-
 The **Key Findings section** provides a detailed analysis of the Pizza Sales Dashboard, uncovering essential performance metrics, time-based trends, customer preferences, and product-level insights. By interpreting **Key Performance Indicators (KPIs)**, **PivotCharts**, and **slicers**, this section ensures a thorough understanding of sales data, trends, and their impact on strategic business outcomes. Let’s dive into the details. 💡📊
 
 
@@ -1735,7 +1733,7 @@ The **KPI Panel** delivers a high-level overview of the business's performance, 
 - **Analysis**: The transaction count highlights robust customer engagement and repeat purchases.  
 - **Insight**:  
   - A loyal customer base provides an excellent opportunity for retention strategies.  
-  - Offers during high-performing periods (e.g., weekends) can further increase this metric.  
+  - Offers during high-performing periods (weekends) can further increase this metric.  
 
 **Strategic Tip**: Loyalty programs and personalized discounts can encourage repeat orders and attract new customers.
 
@@ -1755,11 +1753,6 @@ The **KPI Panel** delivers a high-level overview of the business's performance, 
 - **Focus on Optimization**: Enhance high-performing areas and address gaps through targeted campaigns.  
 - **Customer-Centric Strategies**: Leverage insights to boost engagement and retention.
 
-
-## 👨‍💻 **Practical Implementation Tips**
-- Regularly update KPIs to reflect real-time performance, ensuring decisions are based on current data.  
-- Use linked sheets and dynamic formulas in tools like Microsoft Excel to automate KPI calculations.  
-- Pair KPIs with interactive slicers to enable dynamic filtering and deeper insights.
 
 
 #### 📊 **PivotCharts and Slicers: Insights and Applications**
@@ -1790,7 +1783,7 @@ The **Sales by Hour of the Day** visualization, enhanced with a **Pizza Size Sli
 
 ### 🎛️ **Purpose and Benefits of the Pizza Size Slicer**
 
-The **Pizza Size Slicer** enhances this chart by allowing users to dynamically filter data by size (e.g., Large, Medium, Small). This feature reveals deeper insights into how different pizza sizes perform across various time periods.
+The **Pizza Size Slicer** enhances this chart by allowing users to dynamically filter data by size (Large, Medium, Small). This feature reveals deeper insights into how different pizza sizes perform across various time periods.
 
 #### **Purpose**  
 - To segment hourly sales trends by pizza size, enabling granular analysis.  
@@ -1798,14 +1791,14 @@ The **Pizza Size Slicer** enhances this chart by allowing users to dynamically f
 
 #### **Benefits**  
 1. **Enhanced Insights**:  
-   - Identifies which pizza sizes dominate sales during peak hours (e.g., Large pizzas may account for 60% of lunch revenue).  
-   - Highlights sizes that perform better in quieter periods (e.g., Small pizzas driving late-night sales).  
+   - Identifies which pizza sizes dominate sales during peak hours (Large pizzas may account for 60% of lunch revenue).  
+   - Highlights sizes that perform better in quieter periods (Small pizzas driving late-night sales).  
 
 2. **Segmentation**:  
    - Breaks down revenue trends by size, helping pinpoint variability in demand across time slots.  
 
 3. **Targeted Analysis**:  
-   - Provides clarity on customer preferences for group-oriented sizes (e.g., Large pizzas for families) versus individual sizes (e.g., Small pizzas for solo diners).  
+   - Provides clarity on customer preferences for group-oriented sizes (Large pizzas for families) versus individual sizes (Small pizzas for solo diners).  
 
 
 #### 🔍 **New Insights Generated**
@@ -1820,10 +1813,10 @@ The **Pizza Size Slicer** enhances this chart by allowing users to dynamically f
 
 #### **1. Operational Optimization**  
 - **Staffing Adjustments**:  
-   - Increase staffing levels during peak hours to manage demand efficiently (e.g., 12 PM–2 PM).  
+   - Increase staffing levels during peak hours to manage demand efficiently (12 PM–2 PM).  
    - Reduce staffing during late evenings to align with lower sales volumes.  
 - **Production Planning**:  
-   - Prioritize production of high-demand sizes (e.g., Large pizzas) during peak hours.
+   - Prioritize production of high-demand sizes (Large pizzas) during peak hours.
 
 #### **2. Inventory Management**  
 - **Time-Specific Inventory**:  
@@ -1835,13 +1828,13 @@ The **Pizza Size Slicer** enhances this chart by allowing users to dynamically f
    - Launch deals like **"Large Pizza Lunch Combos"** to maximize sales during lunchtime peaks.  
    - Introduce offers such as **"Small Pizza Evening Deals"** to attract customers during slower evening periods.  
 - **Customer Engagement**:  
-   - Use targeted advertising (e.g., social media campaigns) to promote time-specific discounts and draw in additional foot traffic.
+   - Use targeted advertising (social media campaigns) to promote time-specific discounts and draw in additional foot traffic.
 
 
 #### 💡 **Pro Tips for Learners**
 
 - **Understand Segmentation**: Filtering data with slicers helps identify customer preferences across time periods, a critical skill in data analysis.  
-- **Highlight Opportunities**: Look for underperforming segments (e.g., sizes or times) to recommend actionable strategies during presentations or interviews.  
+- **Highlight Opportunities**: Look for underperforming segments (sizes or times) to recommend actionable strategies during presentations or interviews.  
 - **Prepare for Questions**: Common interview queries may include:  
   - *"How would you interpret declining sales in the evening?"*  
   - *"What strategies would you suggest for improving off-peak performance?"*
@@ -1966,7 +1959,7 @@ The **Pizza Category Slicer** enhances the analysis by filtering sales data base
 
 #### **Benefits**  
 1. **Daily Category Performance**:  
-   - Reveals which categories (e.g., "Chicken" or "Classic") dominate sales on peak days.  
+   - Reveals which categories ("Chicken" or "Classic") dominate sales on peak days.  
    - Highlights categories with low engagement on slower days, offering opportunities for improvement.  
 
 2. **Improvement Opportunities**:  
@@ -2049,7 +2042,7 @@ Analyzing sales by pizza category provides a deep understanding of customer pref
 The **Pizza Size Slicer** enables a detailed breakdown of how size preferences impact category performance, offering invaluable insights into customer behavior.
 
 #### **Purpose**
-- To filter the **Sales by Pizza Category** chart by size (e.g., Large, Medium, Small), uncovering size-specific contributions within each category.
+- To filter the **Sales by Pizza Category** chart by size (Large, Medium, Small), uncovering size-specific contributions within each category.
 - To identify patterns in size preferences across different pizza types, aiding strategic decision-making.
 
 #### **Benefits**
@@ -2088,9 +2081,9 @@ The **Pizza Size Slicer** enables a detailed breakdown of how size preferences i
 
 #### **3. Optimize Inventory Management**
 - **Align Inventory with Demand**:  
-   - Use slicer insights to ensure sufficient stock for high-demand sizes (e.g., Large "Classic" pizzas).  
+   - Use slicer insights to ensure sufficient stock for high-demand sizes (Large "Classic" pizzas).  
 - **Reduce Waste**:  
-   - Limit production of low-demand combinations (e.g., Small "Supreme" pizzas) and reallocate resources to better-performing options.  
+   - Limit production of low-demand combinations (Small "Supreme" pizzas) and reallocate resources to better-performing options.  
 
 
 #### 💡 **Pro Tips for Learners**
@@ -2135,7 +2128,7 @@ Understanding pizza size preferences is critical for optimizing inventory, tailo
 The **Pizza Category Slicer** adds depth to the analysis by filtering sales data to uncover size-specific trends within each pizza category.
 
 #### **Purpose**
-- To filter the **Sales by Pizza Size** chart by categories (e.g., Classic, Supreme, Veggie, Chicken).  
+- To filter the **Sales by Pizza Size** chart by categories (Classic, Supreme, Veggie, Chicken).  
 - To identify how size preferences vary across categories, enabling more targeted strategies.
 
 #### **Benefits**
@@ -2150,7 +2143,7 @@ The **Pizza Category Slicer** adds depth to the analysis by filtering sales data
 #### 🌟 **New Insights Generated**
 
 1. **XL and XXL Pizza Demand Drivers**:  
-   - The slicer reveals whether specific categories (e.g., Supreme or Chicken) drive the limited demand for XL or XXL pizzas.  
+   - The slicer reveals whether specific categories (Supreme or Chicken) drive the limited demand for XL or XXL pizzas.  
 
 2. **Underperforming Combinations**:  
    - For example, Small "Supreme" pizzas may underperform, signaling opportunities for recipe adjustments or promotional efforts.  
@@ -2217,7 +2210,7 @@ Understanding the best-selling pizzas is essential for driving revenue, optimizi
 The **Pizza Category Slicer** enhances the analysis by allowing users to filter data by pizza categories, enabling a more nuanced understanding of which categories drive sales.
 
 #### **Purpose**
-- To filter the **Top 5 Best-Selling Pizzas** chart by specific categories (e.g., Chicken, Veggie, Supreme, Classic).  
+- To filter the **Top 5 Best-Selling Pizzas** chart by specific categories (Chicken, Veggie, Supreme, Classic).  
 - To identify how each category contributes to the overall sales performance.
 
 #### **Benefits**
@@ -2301,7 +2294,7 @@ Analyzing the least popular products is just as important as celebrating the top
 The **Pizza Category Slicer** plays a pivotal role in identifying underperforming categories and items within those categories, enabling a more granular analysis of sales trends.
 
 #### **Purpose**
-- To filter the chart by specific categories (e.g., Veggie, Classic, Supreme) and pinpoint which pizzas are underperforming.  
+- To filter the chart by specific categories (Veggie, Classic, Supreme) and pinpoint which pizzas are underperforming.  
 - To distinguish between category-wide underperformance versus individual product issues.
 
 #### **Benefits**
