@@ -115,16 +115,25 @@ The ultimate goal is to harness the power of data to drive business success. By 
 
 ---
 
-## 3.🛠 Methodology <a id="methodology"></a>
+### 3.🛠 Methodology <a id="methodology"></a>
 
-8.1 [📥 Data Import and Extraction](#data-import-and-extraction)
-8.2 [📋 Project Requirements and Data Familiarization](#project-requirements-and-data-familiarization)
-8.3 [🧹 Data Cleaning and Formatting](#data-cleaning-and-formatting)
-8.4 [🔄 Data Transformation](#data-transformation)
-8.5 [📈 Key Performance Indicator (KPI) Definition](#key-performance-indicator-kpi-definition)
-8.6 [🎨 Data Visualization and Analysis](#data-visualization-and-analysis)
-8.7 [🖥️ Dashboard Development](#dashboard-development)
+This section outlines the step-by-step methodology for creating interactive dashboards in Excel, focusing on data analytics.
 
+ 8.1 📥 [Data Import and Extraction](#data-import-and-extraction)
+
+8.2 📋 [Project Requirements and Data Familiarization](#project-requirements-and-data-familiarization)
+
+8.3 🧹 [Data Cleaning and Formatting](#data-cleaning-and-formatting)
+
+8.4 🔄 [Data Transformation](#data-transformation)
+
+8.5 📈 [Key Performance Indicator (KPI) Definition](#key-performance-indicator-kpi-definition)
+
+8.6 🎨 [Data Visualization and Analysis](#data-visualization-and-analysis)
+
+8.7 🖥️ [Dashboard Development](#dashboard-development)
+
+Each step is crucial in the process of creating effective and insightful data analytics dashboards. Click on each section to learn more about the specific techniques and best practices involved.
 ---
 
 ## 4.💻 Technologies Used <a id="technologies-used"></a>
