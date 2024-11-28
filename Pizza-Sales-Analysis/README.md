@@ -18,13 +18,13 @@
 
 ---
 
-## 1.📋 Project Overview <a id="project-overview"></a>
+### 1.📋 Project Overview <a id="project-overview"></a>
 
-This project focuses on developing an interactive Excel dashboard to analyze pizza sales data effectively. By leveraging data visualization techniques, the dashboard aims to reveal critical trends, track key performance indicators (KPIs), and provide actionable insights into sales performance, customer preferences, and operational efficiency.
+This project centers on designing a comprehensive interactive Excel dashboard to analyze pizza sales data and deliver actionable business insights. By employing advanced data visualization techniques, the dashboard uncovers critical trends, evaluates Key Performance Indicators (KPIs), and identifies opportunities for enhancing sales performance, customer satisfaction, and operational efficiency.
 
-Through a comprehensive analysis of the dataset, this project will highlight top-selling pizza varieties, seasonal sales patterns, and customer purchasing behaviors. Utilizing Microsoft Excel's powerful data cleaning, analytical, and visualization tools, the project showcases essential skills in transforming raw data into meaningful visual representations that can guide strategic business decisions.
+Key objectives include highlighting best-selling pizza varieties, understanding seasonal and weekly sales patterns, and examining customer purchasing behaviors. Advanced Excel tools, including data cleaning functions, dynamic PivotTables, slicers, and custom charts, are utilized to transform raw transactional data into accessible, meaningful visuals.
 
-The goal is to provide actionable insights for improving inventory management and marketing strategies.
+The primary goal is to empower stakeholders with data-driven strategies to optimize inventory management, align marketing efforts with customer preferences, and streamline operations to achieve sustainable business growth.
 
 ---
 
