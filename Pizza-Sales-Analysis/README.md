@@ -154,10 +154,6 @@ Microsoft Excel serves as the primary tool for this project, showcasing its capa
   - Line Charts for tracking monthly sales trends and seasonal patterns.
   - Doughnut Charts to showcase top and bottom-selling pizzas.
 
-- **Conditional Formatting** 🎨:
-  - Highlighting key insights such as peak sales periods and missing values.
-  - Using color scales for quick identification of high and low-performing metrics.
-
 - **Slicers** 🎛:
   - Interactive filtering of data by pizza size, category, and time periods.
   - Enhancing user interactivity in the dashboard, enabling customized views.
@@ -195,25 +191,24 @@ The project is organized into the following structure for ease of navigation and
 
 - **📚 project-documentation**:  
 A professionally formatted PDF covering all aspects of your project, from objectives to recommendations. It's like having a comprehensive project report at your disposal! 📊
-• project_documentation.pdf: The ultimate resource for anyone looking to understand or contribute to our project.
 
 - **📝 README.md**:  
   The main documentation file detailing the project methodology, technologies, findings, and usage instructions.
 
 ---
 
-## 6.📝 How to Use the Project <a id="how-to-use-the-project"></a>
+### 6.📝 How to Use the Project <a id="how-to-use-the-project"></a>
 
 Follow these steps to explore and interact with the project:
 
 1. **📂 Access the Dataset**:  
    - Locate the dataset in the `Dataset/` folder.  
-   - Open the `Pizza_Sales_Dataset.xlsx` file to review the raw data, including order details, pizza sizes, categories, and sales figures.
+   - Open the `Data Model - Pizza Sales.xlsx` file to review the raw data, including order details, pizza sizes, categories, and sales figures.
 
 2. **📊 Interact with the Dashboard**:  
    - Navigate to the `Dashboard/` folder.  
    - Open the `Pizza_Sales_Dashboard.xlsx` file to explore the interactive dashboard.  
-   - Use slicers and filters to customize your analysis by pizza size, category, and time periods.  
+   - Use slicers and filters to customize your analysis by pizza size, category.  
 
 3. **🖼 Refer to Visual Guides**:  
    - Visit the `Images/` folder for screenshots of key charts, insights, and the final dashboard layout. These visuals provide a quick reference to the project’s outcomes and design elements.
@@ -230,7 +225,7 @@ Follow these steps to explore and interact with the project:
 
 ---
 
-## 7.📊 Data Collection <a id="data-collection"></a>
+### 7.📊 Data Collection <a id="data-collection"></a>
 
 The dataset provides a comprehensive overview of pizza sales, capturing essential details necessary for effective analysis. Below are the key columns and their descriptions:
 
@@ -251,25 +246,25 @@ The dataset provides a comprehensive overview of pizza sales, capturing essentia
 
 
 
-### **Dataset Highlights**:
+#### **Dataset Highlights**:
 - **Scope**: Covers a wide range of sales data across multiple categories, sizes, and time periods, enabling a detailed analysis of trends and customer preferences.  
 - **Time-Based Insights**: Includes fields like `order_date` and `order_time` to allow granular time-series analysis, such as peak sales hours or seasonal demand patterns.  
 - **Performance Metrics**: Fields like `quantity` and `total_price` form the foundation for calculating KPIs, helping measure business performance and operational efficiency.  
 
 
 
-### **Dataset Source**:
+#### **Dataset Source**:
 This dataset is sourced from **Kaggle** as part of the **Pizza Restaurant Sales** collection. The data can be accessed and downloaded from the following link:  
 [Pizza Restaurant Sales on Kaggle](https://www.kaggle.com/datasets/shilongzhuang/pizza-sales)
 
-### **Dataset Licensing**:
+#### **Dataset Licensing**:
 - License: **Other (as specified on Kaggle)**  
 - Contributor: **Shi Long Zhuang**  
 - Context: This dataset is part of the **Maven Analytics Pizza Challenge**, which focuses on using data for actionable business insights.
 
 
 
-### **Acknowledgment**:
+#### **Acknowledgment**:
 This project leverages the **Pizza Restaurant Sales** dataset made available on Kaggle by **Shi Long Zhuang**. It originates from the **Maven Analytics Data Playground** and is used exclusively for educational and analytical purposes in this project.
 
 Special thanks to:
@@ -283,7 +278,7 @@ For detailed license terms and dataset usage guidelines, refer to the following 
 ---
 
 
-## 8.🧹 Data Preparation <a id="data-preparation"></a>
+### 8.🧹 Data Preparation <a id="data-preparation"></a>
 
 ### 8.1 📥 Data Import and Extraction <a id="data-import-and-extraction"></a>
 - **Download the Dataset**: Sourced the dataset from Kaggle ([Pizza Sales Dataset](https://www.kaggle.com/datasets/shilongzhuang/pizza-sales)).
@@ -293,7 +288,7 @@ For detailed license terms and dataset usage guidelines, refer to the following 
 
 ### 8.2 📋 Project Requirements and Data Familiarization <a id="project-requirements-and-data-familiarization"></a>
 
-Every successful data analytics project begins with a deep understanding of its **purpose** and **data**. Think of this phase as laying the cornerstone of a strong and lasting structure—without a solid foundation, the entire project risks faltering. This step is where you align your analytical approach with stakeholder goals while ensuring the dataset is ready to deliver accurate, actionable insights. Rushing through or neglecting this stage can lead to missed opportunities and unreliable outcomes.
+Every successful data analytics project begins with a deep understanding of its **purpose** and **data** and the **problems** it aims to solve. Think of this phase as laying the cornerstone of a strong and lasting structure—without a solid foundation, the entire project risks faltering. This step is where you align your analytical approach with stakeholder goals while ensuring the dataset is ready to deliver accurate, actionable insights. Rushing through or neglecting this stage can lead to missed opportunities and unreliable outcomes.
 
 
 #### 🌟 Why This Step Matters  
@@ -301,6 +296,8 @@ This foundational phase helps you address key questions that will shape your ana
 - **🎯 What are the main objectives of this analysis?**  
 - **👥 Who will benefit from the insights?**  
 - **📊 Is the dataset robust enough to answer these questions effectively?**
+- **🔍 How can we leverage insights for continuous improvement?**
+
 
 By tackling these questions upfront, you establish a clear roadmap for your analysis. Consider how this applies to pizza sales data:  
 - 📅 Should we focus on daily sales trends to adjust staffing schedules?  
@@ -327,17 +324,12 @@ Answering these questions ensures your analysis is both aligned with stakeholder
 2. **Explore the Dataset** 🔍  
    - Now that you've successfully imported and opened the pizza sales dataset, take a
      moment to delve into its structure and contents. Familiarizing yourself with the dataset
-     is crucial for effective analysis. Focus on the following key columns:
+     is crucial for effective analysis.
   
-     - `pizza_id`: Tracks sales by pizza type. 🍕  
-     - `order_date` and `order_time`: Enable analysis of time-based trends. 📅⏰  
-     - `total_price`: Reveals revenue contributions per order. 💰  
-     - `pizza_size` and `pizza_category`: Highlight customer preferences by size and category. 📏  
-
    - Identify potential data gaps or inconsistencies early, ensuring you’re prepared to address them during cleaning and transformation.
 
 3. **Ask Guiding Questions** ❓  
-   Thoughtful questions can help prioritize areas of focus for your analysis. Examples include:  
+   Thoughtful questions can help prioritize areas of focus for your analysis. 
    - "Which pizzas contribute the most to overall revenue?" 💸  
    - "At what times of the day do sales peak?" ⏰  
    - "Are smaller pizzas more popular on weekends compared to weekdays?" 🍕📏  
@@ -355,9 +347,8 @@ Answering these questions ensures your analysis is both aligned with stakeholder
 
 #### 💡 Expert Insight  
 
-**Pro Tip**: Engage with stakeholders early and often. Their insights might reveal hidden opportunities, such as targeting lunch-hour sales with promotions or introducing a new pizza size to meet untapped demand. 🍽️✨  
+** Pro Tip: Engage with stakeholders early and frequently, as their insights can uncover hidden opportunities, such as promoting lunch-hour sales or introducing a new pizza size to satisfy untapped demand. 🍽️✨ Begin your analysis with a preliminary PivotTable or summary chart; this approach allows you to swiftly identify trends, validate assumptions, and reveal unexpected patterns, setting a solid foundation for more in-depth analysis. 📊
 
-**Another Tip**: Start with a preliminary PivotTable or summary chart. This can quickly highlight trends, validate assumptions, and uncover unexpected patterns before diving into more complex analysis. 📊  
 
 
 #### 📝 Final Thoughts  
