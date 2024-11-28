@@ -142,7 +142,6 @@ This section outlines the step-by-step methodology for creating interactive dash
 Microsoft Excel serves as the primary tool for this project, showcasing its capabilities in data analysis, visualization, and dashboard creation. Key features and techniques include:
 
 - **Advanced Formulas** 🧮:
-  - `SUMIFS`, `AVERAGEIFS`, and `COUNTIFS` for conditional aggregations.
   - `TEXT` for formatting dates and extracting specific time components.
   - `ROUND`, `UNIQUE`, and `COUNTA` for calculating metrics like average order value and total orders.
   
