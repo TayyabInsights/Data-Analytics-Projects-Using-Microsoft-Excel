@@ -1,6 +1,6 @@
 # 🍕 Pizza Sales Analysis
 
-## Mastering Data Visualization: A Hands-On Approach to Creating Interactive Excel Dashboards
+#### Mastering Data Visualization: A Hands-On Approach to Creating Interactive Excel Dashboards
 ---
 ## 📑 Table of Contents
 
