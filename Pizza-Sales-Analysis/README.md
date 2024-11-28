@@ -1,6 +1,6 @@
 # 🍕 Pizza Sales Analysis
 
-## How to Create an Excel Dashboard for Your Data Analytics Project
+## Mastering Data Visualization: A Hands-On Approach to Creating Interactive Excel Dashboards
 ---
 ## 📑 Table of Contents
 
