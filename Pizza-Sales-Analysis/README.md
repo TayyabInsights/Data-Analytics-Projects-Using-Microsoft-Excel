@@ -450,39 +450,7 @@ Transforming raw data into actionable insights is the cornerstone of any success
 
 Think of data transformation as chiseling a rough diamond into a sparkling gem—it's all about refining your dataset to make it shine. Let’s dive into this essential process! 🌟
 
-This guide outlines the steps to create three new columns in your Excel spreadsheet: `order_day`, `order_month`, and `order_hour`. These columns will deepen our understanding of sales patterns by providing insights into the day of the week, the month, and the hour when orders are placed.
-
-#### Creating the `order_day` Column
-
-The `order_day` column helps us identify sales trends based on the day of the week. Follow these steps to add this column:
-
-1. **Locate an Empty Column**: 
-   - Find an empty column to the right of your existing data table.
-   - In the header cell of this column, type `order_day` and press Enter.
-
-2. **Insert the Formula**:
-   - Click on the first cell directly beneath the `order_day` header.
-   - Type the following formula:
-     ```excel
-     =TEXT([@[Order Date]], "dddd")
-     ```
-   - Press Enter to apply the formula. Excel will automatically fill down the column, displaying the full day names (e.g., "Monday", "Tuesday").
-
-#### Creating the `order_month` Column
-
-The `order_month` column provides insights into monthly sales trends. To add this column, follow these steps:
-
-1. **Find an Empty Column**: 
-   - Locate the next empty column to the right of your table.
-   - In the header cell, type `order_month` and hit Enter.
-
-2. **Insert the Formula**:
-   - Click on the first cell under the `order_month` header.
-   - Enter the following formula:
-     ```excel
-     =TEXT([@[Order Date]], "mmmm")
-     ```
-   - Press Enter to apply the formula. Excel will auto-fill the column with full month names (e.g., "January", "February").
+This guide outlines the steps to create three new columns in your Excel spreadsheet: `order_hour`,`order_day`, and `order_month`. These columns will deepen our understanding of sales patterns by providing insights into the day of the week, the month, and the hour when orders are placed.
 
 #### Creating the `order_hour` Column
 
@@ -500,19 +468,44 @@ The `order_hour` column allows us to analyze the distribution of orders by hour.
      ```
    - Press Enter to apply the formula. Excel will automatically fill down the column, displaying the hour for each order (e.g., "14" for 2:00 PM).
 
-#### 🚀 Why These Columns Matter
 
-By adding calculated fields like `order_day`, `order_month`, and `order_hour`, you create a dataset that’s primed for deeper insights. These columns unlock powerful opportunities to:
+#### Creating the `order_day` Column
 
-- 📊 **Visualize Data**: Create PivotTables and charts for trend analysis.
-- 🎯 **Drive Decisions**: Inform strategies for staffing, inventory, and promotions.
-- 🔑 **Uncover Opportunities**: Identify untapped markets, such as lunch-hour specials or seasonal promotions.
+The `order_day` column helps us identify sales trends based on the day of the week. Follow these steps to add this column:
 
+1. **Locate an Empty Column**: 
+   - Find an empty column to the right of your existing data table.
+   - In the header cell of this column, type `order_day` and press Enter.
+
+2. **Insert the Formula**:
+   - Click on the first cell directly beneath the `order_day` header.
+   - Type the following formula:
+     ```excel
+     =TEXT([@[Order Date]], "dddd")
+     ```
+   - Press Enter to apply the formula. Excel will automatically fill down the column, displaying the full day names (e.g., "Monday", "Tuesday").
+
+
+#### Creating the `order_month` Column
+
+The `order_month` column provides insights into monthly sales trends. To add this column, follow these steps:
+
+1. **Find an Empty Column**: 
+   - Locate the next empty column to the right of your table.
+   - In the header cell, type `order_month` and hit Enter.
+
+2. **Insert the Formula**:
+   - Click on the first cell under the `order_month` header.
+   - Enter the following formula:
+     ```excel
+     =TEXT([@[Order Date]], "mmmm")
+     ```
+   - Press Enter to apply the formula. Excel will auto-fill the column with full month names (e.g., "January", "February").
+  
+     
 #### 📝 Final Thoughts
 
-Data transformation is where the magic begins! It’s not merely about adding columns—it’s about enabling your dataset to tell a story that drives actionable results. By taking the time to thoughtfully transform your data, you set the stage for analysis that is insightful, precise, and impactful.
-
-Remember, every calculated field you add is a step closer to uncovering the full potential of your data. Start small, ask questions, and let the insights guide you toward better decisions. 📈✨
+Data transformation is where the magic begins! ✨ It goes beyond just adding columns; it's about empowering your dataset to tell a compelling story that drives actionable results. By thoughtfully transforming your data, you create a foundation for insightful and impactful analysis. Each calculated field you introduce brings you closer to unlocking your data's full potential. Start small, ask questions, and let the insights lead you to better decisions. 📈💡
 
 
 ---
