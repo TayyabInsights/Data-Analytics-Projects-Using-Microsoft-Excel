@@ -133,7 +133,7 @@ This section outlines the step-by-step methodology for creating interactive dash
 
 8.7 🖥️ [Dashboard Development](#dashboard-development)
 
-### Each step is crucial in the process of creating effective and insightful data analytics dashboards. Click on each section to learn more about the specific techniques and best practices involved.
+#### Each step is crucial in the process of creating effective and insightful data analytics dashboards. Click on each section to learn more about the specific techniques and best practices involved.
 ---
 
 ## 4.💻 Technologies Used <a id="technologies-used"></a>
