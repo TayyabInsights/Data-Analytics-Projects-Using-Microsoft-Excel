@@ -1760,90 +1760,86 @@ The **KPI Panel** delivers a high-level overview of the business's performance, 
 
 #### 📊 **PivotCharts and Slicers: Insights and Applications**
 
-#### 1. 🍕 **Sales by Hour of the Day**
+#### ***1. <ins>Analysis and Key Findings of "Sales by Hour of the Day"</ins>*** 🕒
 
 ![Preview Chart](https://github.com/TayyabInsights/Data-Analytics-Projects-Using-Microsoft-Excel/blob/main/Pizza-Sales-Analysis/Images/Sales%20by%20Hour%20of%20the%20Day.png)
 
-The **Sales by Hour of the Day** visualization, enhanced with a **Pizza Size Slicer**, is a crucial component of the dashboard. It provides an hour-by-hour breakdown of revenue trends, empowering businesses to optimize their operations and align strategies with customer behavior patterns.
+
+The **"Sales by Hour of the Day" chart** reveals hourly sales trends, highlighting periods that significantly contribute to revenue. Below are the findings:
+
+#### **Peak Sales Hours (12 PM–2 PM) 🍽️**
+- **Findings**:
+  - Lunchtime emerges as the most profitable period.
+  - **Revenue Details**: 12 PM generates the highest sales at **$111,878**, followed by 1 PM with **$106,066**.
+- **Interpretation**:
+  - Lunchtime represents a critical revenue period, likely driven by group and family orders.
+
+#### **Secondary Peak (6 PM–8 PM) 🌆**
+- **Findings**:
+  - Dinner hours contribute steady revenue.
+  - **Revenue Range**: Between **$59,201** and **$70,055**, with 7 PM being the highest.
+- **Interpretation**:
+  - Evening traffic sustains sales, emphasizing its importance for consistent performance.
+
+#### **Declining Sales Post-8 PM 🌙**
+- **Findings**:
+  - Sales drop significantly after 8 PM, reaching only **$42,030** by 9 PM and **$1,121** by 10 PM.
+- **Interpretation**:
+  - Late-night operations have limited profitability, indicating potential inefficiencies.
+
+#### **Minimal Morning Activity 🌅**
+- **Findings**:
+  - Hours before 12 PM show negligible revenue, indicating limited demand for early orders.
+
+#### **📚 Guidance for Learners**
+1. Identify peaks and troughs to understand revenue distribution.
+2. Focus on patterns like peak sales periods and link them to operational or marketing strategies.
+3. Pinpoint areas of decline to uncover inefficiencies or untapped opportunities.
 
 
-### 🕒 **Key Findings**
+#### **2. Analysis and Key Findings Using the Pizza Size Slicer** 🍕🔍
 
-#### **Peak Sales Hours (12 PM–2 PM)**  
-- **Analysis**:  
-  - Sales spike during lunch hours, with 12 PM generating the highest revenue.  
-  - These hours account for a significant portion of daily sales, underscoring their importance in driving overall performance.  
-- **Insight**:  
-  - Lunchtime represents a high-demand period where operational efficiency and staffing are critical to meeting customer expectations.  
+The **Pizza Size Slicer** enables dynamic filtering for size-specific sales analysis. Below are the insights revealed when applied to the hourly sales chart:
 
-#### **Revenue Decline Post-8 PM**  
-- **Analysis**:  
-  - Sales drop steadily after 8 PM, with minimal activity observed post-10 PM.  
-  - This low-demand period indicates an opportunity for strategic interventions.  
-- **Insight**:  
-  - Late evenings require innovative approaches, such as targeted promotions or streamlined operations, to maintain profitability.
+#### **Large Pizzas (L) 🍕**
+- **Findings**:
+  - Dominate peak hours, generating **$52,104** at 12 PM and **$49,407** at 1 PM.
+  - Minimal sales post-8 PM, with only **$465** at 10 PM.
+- **Interpretation**:
+  - Ideal for families and groups during lunch and dinner. Production should focus on these periods.
 
+#### **Medium Pizzas (M) 🍕**
+- **Findings**:
+  - Generate steady sales throughout the day, peaking at **$77,964** at 12 PM and maintaining consistent revenue until 8 PM.
+  - Declines sharply at night, with only **$750** at 10 PM.
+- **Interpretation**:
+  - Medium pizzas cater to both individuals and groups, requiring balanced inventory throughout the day.
 
-### 🎛️ **Purpose and Benefits of the Pizza Size Slicer**
+#### **Small Pizzas (S) 🍕**
+- **Findings**:
+  - Late-night favorite, generating **$4,995** at 10 PM.
+  - Modest performance during lunch hours, with **$24,449** at 12 PM.
+- **Interpretation**:
+  - Suitable for solo diners or snackers at night. Promotions like "Late-Night Combos" could enhance sales.
 
-The **Pizza Size Slicer** enhances this chart by allowing users to dynamically filter data by size (Large, Medium, Small). This feature reveals deeper insights into how different pizza sizes perform across various time periods.
+#### **Extra Large Pizzas (XL) 🍕**
+- **Findings**:
+  - Limited demand, peaking at **$1,785** at 5 PM.
+- **Interpretation**:
+  - XL pizzas require strategic bundling to boost sales or reevaluation of their menu position.
 
-#### **Purpose**  
-- To segment hourly sales trends by pizza size, enabling granular analysis.  
-- To uncover size-specific patterns that align with customer preferences during peak and off-peak times.
+#### **Double Extra Large Pizzas (XXL) 🍕**
+- **Findings**:
+  - Negligible revenue, peaking at **$216** at 4 PM.
+- **Interpretation**:
+  - Underutilized. Consider phasing them out or offering as a novelty item.
 
-#### **Benefits**  
-1. **Enhanced Insights**:  
-   - Identifies which pizza sizes dominate sales during peak hours (Large pizzas may account for 60% of lunch revenue).  
-   - Highlights sizes that perform better in quieter periods (Small pizzas driving late-night sales).  
+#### **📚 Guidance for Learners**
+1. Use slicers to drill down into specific categories and uncover trends masked in aggregate data.
+2. Compare size-specific trends to identify strengths and weaknesses in product offerings.
+3. Evaluate underperforming segments for potential rebranding, promotional strategies, or removal.
 
-2. **Segmentation**:  
-   - Breaks down revenue trends by size, helping pinpoint variability in demand across time slots.  
-
-3. **Targeted Analysis**:  
-   - Provides clarity on customer preferences for group-oriented sizes (Large pizzas for families) versus individual sizes (Small pizzas for solo diners).  
-
-
-#### 🔍 **New Insights Generated**
-
-- **Size-Specific Patterns**:  
-   - Example: Large pizzas dominate lunchtime sales, while Small pizzas account for 40% of revenue during late-night hours.  
-- **Underperforming Sizes**:  
-   - Highlights size-specific underperformance during certain hours, enabling data-driven strategies to boost sales.
-
-
-#### 🎯 **Business Implications**
-
-#### **1. Operational Optimization**  
-- **Staffing Adjustments**:  
-   - Increase staffing levels during peak hours to manage demand efficiently (12 PM–2 PM).  
-   - Reduce staffing during late evenings to align with lower sales volumes.  
-- **Production Planning**:  
-   - Prioritize production of high-demand sizes (Large pizzas) during peak hours.
-
-#### **2. Inventory Management**  
-- **Time-Specific Inventory**:  
-   - Align inventory levels with hourly demand trends to minimize waste and ensure availability.  
-   - Stock up on Small pizzas for late-night customers if they perform better during these hours.
-
-#### **3. Marketing Strategies**  
-- **Time-Sensitive Promotions**:  
-   - Launch deals like **"Large Pizza Lunch Combos"** to maximize sales during lunchtime peaks.  
-   - Introduce offers such as **"Small Pizza Evening Deals"** to attract customers during slower evening periods.  
-- **Customer Engagement**:  
-   - Use targeted advertising (social media campaigns) to promote time-specific discounts and draw in additional foot traffic.
-
-
-#### 💡 **Pro Tips for Learners**
-
-- **Understand Segmentation**: Filtering data with slicers helps identify customer preferences across time periods, a critical skill in data analysis.  
-- **Highlight Opportunities**: Look for underperforming segments (sizes or times) to recommend actionable strategies during presentations or interviews.  
-- **Prepare for Questions**: Common interview queries may include:  
-  - *"How would you interpret declining sales in the evening?"*  
-  - *"What strategies would you suggest for improving off-peak performance?"*
-
-
-#### 2. 📊 **Monthly Sales Trend Analysis**
+#### ***2. <ins>Analysis and Key Findings of "Monthly Sales Trend Analysis"</ins>*** 🕒
 
  ![Preview Chart](https://github.com/TayyabInsights/Data-Analytics-Projects-Using-Microsoft-Excel/blob/main/Pizza-Sales-Analysis/Images/Monthly%20Sales%20Trend.png)
 
