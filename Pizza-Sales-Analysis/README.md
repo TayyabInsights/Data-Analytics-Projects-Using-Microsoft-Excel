@@ -1418,7 +1418,7 @@ A **Slicer** allows users to filter data dynamically, offering deeper insights i
 
 ![Dashboard Overview](https://github.com/TayyabInsights/Data-Analytics-Projects-Using-Microsoft-Excel/blob/main/Pizza-Sales-Analysis/Images/Dashboard%20Overview.png)
 
-In today’s data-driven landscape, **dashboard development** stands as a cornerstone of modern data visualization. A well-designed dashboard doesn’t just present data—it transforms complex datasets into actionable insights that drive strategic decisions. Let’s explore the fundamentals of creating impactful dashboards that blend aesthetics, functionality, and usability. 📈💡
+**Dashboard Development** stands as a cornerstone of modern data visualization. A well-designed dashboard doesn’t just present data—it transforms complex datasets into actionable insights that drive strategic decisions. Let’s explore the fundamentals of creating impactful dashboards that blend aesthetics, functionality, and usability. 📈💡
 
 
 #### Step 1: Create a Dedicated Dashboard Sheet
@@ -1693,7 +1693,8 @@ Here’s a sneak peek at the **Pizza Sales Dashboard** in action:
 
 ### 10. 🔑 Key Findings and Interpretations <a id="key-findings"></a>
 
-The **Key Findings section** provides a detailed analysis of the Pizza Sales Dashboard, uncovering essential performance metrics, time-based trends, customer preferences, and product-level insights. By interpreting **Key Performance Indicators (KPIs)**, **PivotCharts**, and **slicers**, this section ensures a thorough understanding of sales data, trends, and their impact on strategic business outcomes. 
+The **Key Findings section** provides a detailed analysis of the Pizza Sales Dashboard, uncovering essential performance metrics, time-based trends, customer preferences, and product-level insights. 
+By interpreting **Key Performance Indicators (KPIs)**, **PivotCharts**, and **slicers**, this section ensures a thorough understanding of sales data, trends, and their impact on strategic business outcomes. 
 Let’s dive into the details. 💡📊
 
 
