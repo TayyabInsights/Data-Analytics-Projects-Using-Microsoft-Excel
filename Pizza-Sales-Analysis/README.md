@@ -186,10 +186,10 @@ The project is organized into the following structure for ease of navigation and
 - **🖼️ Images/**:  
   Stores visuals, such as screenshots of the dashboard, to enhance project understanding.
 
-- **📜 LICENSE**:  
+- **📜 LICENSE/**:  
   Specifies the licensing details for the project (e.g., MIT License).
 
-- **📚 project-documentation**:  
+- **📚 project-documentation/**:  
 A professionally formatted PDF covering all aspects of your project, from objectives to recommendations. It's like having a comprehensive project report at your disposal! 📊
 
 - **📝 README.md**:  
