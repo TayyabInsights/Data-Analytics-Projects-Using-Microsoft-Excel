@@ -1695,7 +1695,7 @@ Here’s a sneak peek at the **Pizza Sales Dashboard** in action:
 
 The **Key Findings section** provides a detailed analysis of the Pizza Sales Dashboard, uncovering essential performance metrics, time-based trends, customer preferences, and product-level insights. 
 By interpreting **Key Performance Indicators (KPIs)**, **PivotCharts**, and **slicers**, this section ensures a thorough understanding of sales data, trends, and their impact on strategic business outcomes. 
-Let’s dive into the details.💡📊
+Let’s dive into the details.📊
 
 
 #### 📊 **Key Performance Indicators (KPIs)**
