@@ -1416,6 +1416,7 @@ A **Slicer** allows users to filter data dynamically, offering deeper insights i
 
 #### 8.7 🖥️ Dashboard Development <a id="dashboard-development"></a>
 
+![Dashboard Overview](https://github.com/TayyabInsights/Data-Analytics-Projects-Using-Microsoft-Excel/blob/main/Pizza-Sales-Analysis/Images/Dashboard%20Overview.png)
 
 In today’s data-driven landscape, **dashboard development** stands as a cornerstone of modern data visualization. A well-designed dashboard doesn’t just present data—it transforms complex datasets into actionable insights that drive strategic decisions. Let’s explore the fundamentals of creating impactful dashboards that blend aesthetics, functionality, and usability. 📈💡
 
@@ -1560,7 +1561,7 @@ Thoughtful arrangement ensures your dashboard is both functional and visually ap
 ---
 
 
-#### 9. 📈 Dashboard Overview <a id="dashboard-overview"></a>
+### 9. 📈 Dashboard Overview <a id="dashboard-overview"></a>
 
 The **Pizza Sales Dashboard** is an advanced analytical tool crafted in **Microsoft Excel**, designed to deliver actionable insights into **sales performance**, **customer preferences**, and **business trends**. This dashboard serves as a central hub for stakeholders, enabling them to make informed, data-driven decisions with confidence. 🎯
 
@@ -1690,9 +1691,10 @@ Here’s a sneak peek at the **Pizza Sales Dashboard** in action:
 ---
 
 
-#### 10. 🔑 Key Findings and Interpretations <a id="key-findings"></a>
+### 10. 🔑 Key Findings and Interpretations <a id="key-findings"></a>
 
-The **Key Findings section** provides a detailed analysis of the Pizza Sales Dashboard, uncovering essential performance metrics, time-based trends, customer preferences, and product-level insights. By interpreting **Key Performance Indicators (KPIs)**, **PivotCharts**, and **slicers**, this section ensures a thorough understanding of sales data, trends, and their impact on strategic business outcomes. Let’s dive into the details. 💡📊
+The **Key Findings section** provides a detailed analysis of the Pizza Sales Dashboard, uncovering essential performance metrics, time-based trends, customer preferences, and product-level insights. By interpreting **Key Performance Indicators (KPIs)**, **PivotCharts**, and **slicers**, this section ensures a thorough understanding of sales data, trends, and their impact on strategic business outcomes. 
+Let’s dive into the details. 💡📊
 
 
 #### 📊 **Key Performance Indicators (KPIs)**
