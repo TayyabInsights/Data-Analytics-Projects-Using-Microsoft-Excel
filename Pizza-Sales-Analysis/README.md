@@ -1797,7 +1797,7 @@ The **"Sales by Hour of the Day" chart** reveals hourly sales trends, highlighti
 3. Pinpoint areas of decline to uncover inefficiencies or untapped opportunities.
 
 
-#### **2. Analysis and Key Findings Using the Pizza Size Slicer** 🍕🔍
+#### *** <ins>Analysis and Key Findings Using the Pizza Size Slicer</ins>*** 🍕🔍
 
 The **Pizza Size Slicer** enables dynamic filtering for size-specific sales analysis. Below are the insights revealed when applied to the hourly sales chart:
 
@@ -1843,174 +1843,153 @@ The **Pizza Size Slicer** enables dynamic filtering for size-specific sales anal
 
  ![Preview Chart](https://github.com/TayyabInsights/Data-Analytics-Projects-Using-Microsoft-Excel/blob/main/Pizza-Sales-Analysis/Images/Monthly%20Sales%20Trend.png)
 
-The **Monthly Sales Trend** chart provides a powerful visualization of revenue patterns over time, enabling businesses to uncover seasonal trends, anticipate demand, and plan effective inventory and marketing strategies. Enhanced with a **Pizza Size Slicer**, this chart offers granular insights into how different pizza sizes contribute to overall revenue across the year.
+The **"Monthly Sales Trend" chart** highlights revenue patterns over the year, showcasing seasonal peaks and declines.
+
+#### **Key Findings**
+
+#### **1.1 General Decline in Monthly Revenue** 📉
+- **Observation**:
+  - Sales exhibit a gradual decline, starting from the highest revenue in **July ($74,000)** to the lowest in **October ($58,000)**.
+- **Interpretation**:
+  - The decreasing trend suggests seasonal factors influencing customer demand, with **summer months outperforming fall and winter**.
+
+#### **1.2 Seasonal Peaks** 🌞
+- **Observation**:
+  - **July**, **May**, and **March** are the top-performing months, maintaining revenues above **$70,000**.
+- **Interpretation**:
+  - These months likely coincide with **holidays**, **school vacations**, or **warm-weather events**, driving higher customer engagement.
+
+#### **1.3 Notable Declines in Winter and Fall** 🍂❄️
+- **Observation**:
+  - Sales begin to dip significantly starting in **June** and reach the lowest levels in **September** and **October**.
+- **Interpretation**:
+  - These months reflect slower customer activity, requiring targeted promotions or new strategies to boost engagement.
+
+#### **📚 Guidance for Learners**
+1. Identify general trends (e.g., upward or downward) and correlate them with external factors like **seasons**, **holidays**, or **market events**.
+2. Use the chart to anticipate **revenue dips** and plan proactive campaigns during low-performing periods.
+3. Leverage seasonal peaks to design **targeted promotions** and optimize resource allocation.
 
 
-#### 📈 **Key Findings**
+#### ***<ins>Analysis and Key Findings Using the Pizza Category Slicer</ins>*** 🍕🔍
 
-#### **1. Sales Performance Over Time**  
-- **Peak Revenue in July ($74,000)**:  
-   - **Analysis**: July stands out as the highest revenue month, marking a period of peak demand.  
-   - **Insight**: Likely tied to summer holidays or increased customer activity, July represents an opportunity to capitalize on heightened consumer interest.  
+The **Pizza Category Slicer** allows dynamic filtering of the monthly trend data, providing category-specific insights. Here’s what the slicer reveals:
 
-- **Steady Decline Post-July**:  
-   - **Analysis**: Revenue declines gradually from July to October, reaching approximately $60,000.  
-   - **Insight**: This decline suggests seasonal shifts in customer behavior, such as reduced engagement after summer festivities.  
+#### **Category Insights**
 
-#### **2. Stabilization Phase**  
-- **Revenue Stabilizes Around $60,000**:  
-   - **Analysis**: From February through October, revenue plateaus at a steady level, indicating consistent but lower engagement during these months.  
-   - **Insight**: A stable revenue baseline offers predictability but highlights the need for strategies to reignite customer interest.  
+#### **2.1 Chicken Pizzas** 🍗
+- **Key Findings**:
+  - Consistent revenue across most months, peaking at **$18,000 in March**.
+  - Gradual decline from **June to October**, reaching a low of **$14,500**.
+- **Interpretation**:
+  - Chicken pizzas maintain steady demand year-round, making them a reliable revenue stream.
+- **Actionable Insight**:
+  - Focus on **promotions during fall months** to sustain performance.
 
+#### **2.2 Classic Pizzas** 🍕
+- **Key Findings**:
+  - Highest revenue among all categories, peaking at **$19,500 in July**.
+  - Declines steadily throughout the year, reaching **$17,000 in October**.
+- **Interpretation**:
+  - Classic pizzas are the most popular choice, particularly in **summer months**.
+- **Actionable Insight**:
+  - Launch **strategic campaigns in fall and winter** to mitigate revenue dips.
 
-#### 🎛️ **Purpose and Benefits of the Pizza Size Slicer**
+#### **2.3 Supreme Pizzas** 🧀
+- **Key Findings**:
+  - Peak revenue at **$19,000 in May**, with consistent performance across **summer months**.
+  - Notable decline in **September and October**, dropping to **$13,500**.
+- **Interpretation**:
+  - Supreme pizzas are highly **seasonal**, performing best in **spring and summer**.
+- **Actionable Insight**:
+  - Introduce **new toppings** or **limited-time offers** during slower months.
 
-The **Pizza Size Slicer** enhances the **Monthly Sales Trend** chart by allowing users to filter data by size (e.g., Large, Medium, Small). This feature deepens the analysis by revealing how each size performs across different months.
+#### **2.4 Veggie Pizzas** 🥗
+- **Key Findings**:
+  - Consistently the lowest revenue generator among categories, peaking at **$16,000 in July** and dropping to **$14,000 in October**.
+- **Interpretation**:
+  - Veggie pizzas have a **niche audience**, appealing primarily to health-conscious customers.
+- **Actionable Insight**:
+  - Target **health-conscious customers** with **seasonal veggie-based innovations** to boost sales.
 
-#### **Purpose**  
-- To uncover size-specific seasonal trends and patterns.  
-- To identify opportunities for targeted marketing or inventory adjustments.
+#### **📚 Guidance for Learners**
+1. Use slicers to isolate and analyze **category-specific trends** for a clearer understanding of performance.
+2. Compare performance across categories to identify **top-performing products** and **areas needing improvement**.
+3. Focus on **categories with consistent demand** (e.g., Chicken) while devising strategies to uplift underperforming ones (e.g., Veggie).
+4. Consider the impact of **seasonality** and align product offerings with customer preferences during peak and off-peak periods.
 
-#### **Benefits**  
-1. **Size-Specific Seasonality**:  
-   - Determines which pizza sizes drive revenue during peak months (e.g., Large pizzas dominating July).  
-   - Highlights sizes that sustain sales during slower months (e.g., Small pizzas in October).  
-
-2. **Trend Segmentation**:  
-   - Breaks down the overall trend by size, detecting shifts in customer preferences or demand.  
-
-3. **Performance Insights**:  
-   - Pinpoints which sizes maintain consistent sales throughout the year, aiding in long-term planning.  
-
-
-#### 🔍 **New Insights Generated**
-
-- **Revenue Breakdown by Size**:  
-   - Example: Large pizzas contribute 50% of July's revenue but only 30% in October, indicating a seasonal shift in size preference.  
-
-- **Identification of Underperforming Sizes**:  
-   - XL or XXL pizzas may show minimal demand during low-revenue months, suggesting the need for reevaluation or targeted promotions.  
-
-
-#### 🎯 **Business Implications**
-
-#### **1. Seasonal Campaigns**  
-- **Leverage Peak Months**:  
-   - Develop summer promotions like **"Summer Specials"** featuring Large pizzas to maximize July's high demand.  
-- **Reignite Engagement in Slow Months**:  
-   - Launch post-summer campaigns, such as discounted bundles or new product offerings, to counteract declines in September–October.  
-
-#### **2. Targeted Inventory Management**  
-- **Seasonal Stock Adjustments**:  
-   - Increase inventory for Large pizzas during peak months like July.  
-   - Focus on maintaining sufficient stock for Small pizzas during slower months to sustain engagement.  
-
-#### **3. Optimized Marketing Strategies**  
-- **Size-Specific Promotions**:  
-   - Run targeted campaigns aligned with seasonal trends, such as **"Medium Pizza Mondays"** during low-demand months to attract interest.  
-- **Dynamic Offers**:  
-   - Offer combo deals emphasizing underperforming sizes like XL or XXL to test market response and boost sales.  
-
-
-#### 💡 **Pro Tips for Learners**
-
-1. **Understand Seasonal Trends**:  
-   - Analyzing sales trends over time helps predict future demand and align strategies accordingly.  
-
-2. **Highlight Size-Specific Performance**:  
-   - Use slicers to uncover insights into how each size contributes to revenue throughout the year.  
-
-3. **Prepare for Questions**:  
-   - Common interview queries might include:  
-      - *"How would you interpret seasonal declines in sales?"*  
-      - *"What strategies would you suggest to improve performance during low-demand months?"*
-
-
-#### 3. 📊 **Sales by Day of the Week Analysis**
+#### ***3. <ins>Analysis and Key Findings of "Sales by Day of the Week"</ins>*** 🗓️📈
 
  ![Preview Chart](https://github.com/TayyabInsights/Data-Analytics-Projects-Using-Microsoft-Excel/blob/main/Pizza-Sales-Analysis/Images/Sales%20by%20Day%20of%20the%20Week.png)
 
-The **Sales by Day of the Week** analysis offers critical insights into daily revenue patterns, uncovering which days drive the highest sales and which ones need strategic improvement. Combined with a **Pizza Category Slicer**, this analysis allows for deeper exploration of category-specific performance across the week, enabling data-driven decisions to optimize operations and marketing strategies. 📆🍕
 
+The **"Sales by Day of the Week" chart** highlights revenue distribution across different days, uncovering patterns in customer activity and spending.
 
-#### 📈 **Key Findings**
+#### **Key Findings**
 
-#### **1. Fridays Lead in Revenue ($136,074)**  
-- **Analysis**: Fridays are the standout performers, generating the highest revenue of the week.  
-- **Insight**: This reflects strong customer activity as the weekend begins, likely due to social gatherings, family meals, and end-of-week celebrations.  
+#### **1.1 Peak Sales Day: Friday** 🎉
+- **Revenue**: Fridays generate the highest revenue at **$136,074**.
+- **Interpretation**: Fridays see increased customer activity, likely driven by **end-of-week gatherings**, **celebrations**, and **social events**.
 
-#### **2. Strong Weekend Performance**  
-- **Analysis**: Saturdays ($123,182) and Thursdays ($123,528) closely follow Friday, indicating sustained revenue throughout the late weekdays and weekends.  
-- **Insight**: These days present opportunities to amplify sales through targeted campaigns or special weekend promotions.  
+#### **1.2 Consistent Performance: Thursday and Saturday** 📆
+- **Revenue**: Thursdays and Saturdays also perform well, with **$123,528** and **$123,182**, respectively.
+- **Interpretation**: These days capture **weekend-driven demand**, making them essential for sustaining revenue.
 
-#### **3. Sundays Underperform ($99,203)**  
-- **Analysis**: Sundays record the lowest revenue, falling below $100,000.  
-- **Insight**: This suggests a drop in customer engagement, potentially due to fewer social activities or budget-conscious behavior at the end of the week.  
+#### **1.3 Lower Sales on Sunday and Monday** 🌥️
+- **Revenue**: Sundays and Mondays record the lowest revenue at **$99,203** and **$107,330**, respectively.
+- **Interpretation**: These days reflect reduced customer activity, with Mondays impacted by the **start of the workweek**.
 
+#### **1.4 Midweek Growth: Tuesday and Wednesday** 📊
+- **Revenue**: Revenue grows steadily on Tuesday (**$114,134**) and Wednesday (**$114,408**).
+- **Interpretation**: These days represent a **midweek recovery**, possibly influenced by **targeted promotions** or regular customer routines.
 
-#### 🎛️ **Purpose and Benefits of the Pizza Category Slicer**
+#### **📚 Guidance for Learners**
+1. Identify the **highest and lowest-performing days** and correlate revenue trends with external factors like **workweeks**, **events**, or **promotions**.
+2. Use these insights to **align resources** (e.g., staffing and inventory) with customer demand.
+3. Create **day-specific strategies** to boost performance on low-revenue days like Sundays and Mondays.
 
-The **Pizza Category Slicer** enhances the analysis by filtering sales data based on pizza categories (e.g., Classic, Supreme, Veggie, Chicken). This feature enables granular insights into how different categories perform on specific days.
+#### ***<ins>Analysis and Key Findings Using the Pizza Category Slicer</ins>*** 🍕🔍
 
-#### **Purpose**  
-- To identify which pizza categories contribute most to daily revenue, especially on high-performing days like Fridays.  
-- To pinpoint underperforming categories on slower days like Sundays.
+The **Pizza Category Slicer** allows dynamic filtering to reveal category-specific insights into weekly sales trends. Here’s what the slicer uncovers:
 
-#### **Benefits**  
-1. **Daily Category Performance**:  
-   - Reveals which categories ("Chicken" or "Classic") dominate sales on peak days.  
-   - Highlights categories with low engagement on slower days, offering opportunities for improvement.  
+#### **Category Insights**
 
-2. **Improvement Opportunities**:  
-   - Identifies underperforming categories on low-revenue days, guiding menu adjustments or promotional efforts.  
+#### **2.1 Chicken Pizzas** 🍗
+- **Key Findings**:
+  - Peak sales occur on **Friday ($32,516)** and **Saturday ($29,695)**.
+  - Lowest sales are recorded on **Sunday ($23,805)**.
+- **Interpretation**:
+  - Chicken pizzas perform well during the **weekend**, aligning with **social gatherings** and **family meals**.
+  - **Actionable Insight**: Boost Sunday sales with targeted promotions like **"Sunday Chicken Specials."**
 
-3. **Seasonal and Trend-Based Adjustments**:  
-   - Tracks whether category performance fluctuates by day, providing insights for seasonal campaigns or menu updates.  
+#### **2.2 Classic Pizzas** 🍕
+- **Key Findings**:
+  - Friday generates the highest revenue (**$37,134**), followed by Saturday (**$33,503**).
+  - Sunday shows the lowest revenue at **$26,673**.
+- **Interpretation**:
+  - Classic pizzas dominate **weekend sales**, confirming their popularity for **group dining**.
+  - **Actionable Insight**: Weekdays (Monday–Wednesday) also perform steadily, suggesting **consistent demand**.
 
+#### **2.3 Supreme Pizzas** 🧀
+- **Key Findings**:
+  - Peak revenue occurs on **Friday ($33,900)** and **Thursday ($31,806)**.
+  - Sunday has the lowest sales at **$25,760**.
+- **Interpretation**:
+  - Supreme pizzas are ideal for **weekend and end-of-week promotions**.
+  - **Actionable Insight**: Improve Sunday performance with **discounts** or **combo offers**.
 
-#### 🔍 **New Insights Generated**
+#### **2.4 Veggie Pizzas** 🥗
+- **Key Findings**:
+  - Friday drives the most revenue (**$32,524**), while Sunday contributes the least (**$22,965**).
+- **Interpretation**:
+  - Veggie pizzas cater to a **niche audience**, performing better towards the **weekend**.
+  - **Actionable Insight**: Target health-conscious customers with **weekday campaigns** to boost slower days.
 
-- **Category Dominance**:  
-   - For example, the slicer may reveal that "Chicken" pizzas drive Friday's high revenue, while "Veggie" pizzas struggle across the week.  
+### **📚 Guidance for Learners**
+1. Use slicers to uncover **category-specific trends**, focusing on how products perform on specific days.
+2. Compare categories to determine **overall contributions** and identify **areas for improvement**.
+3. Combine slicer insights with external factors (e.g., **holidays**, **events**, **promotions**) to craft effective strategies for optimizing sales.
 
-- **Targeted Interventions**:  
-   - Insights from the slicer help refine marketing and inventory strategies to address category-specific challenges.  
-
-
-
-#### 🎯 **Business Implications**
-
-#### **1. Operational Adjustments**  
-- **Increase Staffing and Inventory for Peak Days**:  
-   - Ensure sufficient resources on Fridays, Saturdays, and Thursdays to handle higher demand efficiently.  
-- **Optimize Resources for Sundays**:  
-   - Reduce staffing on Sundays but implement strategies to attract customers, such as limited-time discounts or meal bundles.  
-
-#### **2. Marketing Strategies**  
-- **Maximize Peak Days**:  
-   - Launch campaigns like **"Friday Feast Deals"** or **"Weekend Combos"** to sustain high engagement.  
-- **Boost Sunday Sales**:  
-   - Introduce offers such as **"Sunday Savings"** or discounts on underperforming categories to drive revenue on this slower day.  
-
-#### **3. Category-Based Promotions**  
-- **Promote Popular Categories on High-Performing Days**:  
-   - Leverage data to focus promotions on top categories like "Classic" or "Chicken" pizzas during peak days.  
-- **Revitalize Underperforming Categories on Slow Days**:  
-   - Target struggling categories, such as "Veggie," with health-focused campaigns or bundled deals to attract budget-conscious or health-conscious customers.  
-
-
-#### 💡 **Pro Tips for Learners**
-
-1. **Mastering Daily Trends**:  
-   - Understanding revenue fluctuations by day is crucial for aligning resources and maximizing efficiency.  
-
-2. **Leveraging Slicers for Analysis**:  
-   - Use slicers to uncover category-specific trends and design tailored strategies.  
-
-3. **Preparing for Interviews**:  
-   - Potential questions might include:  
-      - *"How would you address underperformance on Sundays?"*  
-      - *"What strategies can improve category engagement on slower days?"*
 
 
 #### 4. 🍕 **Sales by Pizza Category Analysis**
