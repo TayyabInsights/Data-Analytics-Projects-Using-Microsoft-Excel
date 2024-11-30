@@ -1847,19 +1847,19 @@ The **"Monthly Sales Trend" chart** highlights revenue patterns over the year, s
 
 #### **Key Findings**
 
-#### **1.1 General Decline in Monthly Revenue** 📉
+#### **1. General Decline in Monthly Revenue** 📉
 - **Observation**:
   - Sales exhibit a gradual decline, starting from the highest revenue in **July ($74,000)** to the lowest in **October ($58,000)**.
 - **Interpretation**:
   - The decreasing trend suggests seasonal factors influencing customer demand, with **summer months outperforming fall and winter**.
 
-#### **1.2 Seasonal Peaks** 🌞
+#### **2. Seasonal Peaks** 🌞
 - **Observation**:
   - **July**, **May**, and **March** are the top-performing months, maintaining revenues above **$70,000**.
 - **Interpretation**:
   - These months likely coincide with **holidays**, **school vacations**, or **warm-weather events**, driving higher customer engagement.
 
-#### **1.3 Notable Declines in Winter and Fall** 🍂❄️
+#### **3. Notable Declines in Winter and Fall** 🍂❄️
 - **Observation**:
   - Sales begin to dip significantly starting in **June** and reach the lowest levels in **September** and **October**.
 - **Interpretation**:
@@ -1877,7 +1877,7 @@ The **Pizza Category Slicer** allows dynamic filtering of the monthly trend data
 
 #### **Category Insights**
 
-#### **2.1 Chicken Pizzas** 🍗
+#### **1. Chicken Pizzas** 🍗
 - **Key Findings**:
   - Consistent revenue across most months, peaking at **$18,000 in March**.
   - Gradual decline from **June to October**, reaching a low of **$14,500**.
@@ -1886,7 +1886,7 @@ The **Pizza Category Slicer** allows dynamic filtering of the monthly trend data
 - **Actionable Insight**:
   - Focus on **promotions during fall months** to sustain performance.
 
-#### **2.2 Classic Pizzas** 🍕
+#### **2. Classic Pizzas** 🍕
 - **Key Findings**:
   - Highest revenue among all categories, peaking at **$19,500 in July**.
   - Declines steadily throughout the year, reaching **$17,000 in October**.
@@ -1895,7 +1895,7 @@ The **Pizza Category Slicer** allows dynamic filtering of the monthly trend data
 - **Actionable Insight**:
   - Launch **strategic campaigns in fall and winter** to mitigate revenue dips.
 
-#### **2.3 Supreme Pizzas** 🧀
+#### **3. Supreme Pizzas** 🧀
 - **Key Findings**:
   - Peak revenue at **$19,000 in May**, with consistent performance across **summer months**.
   - Notable decline in **September and October**, dropping to **$13,500**.
@@ -1904,7 +1904,7 @@ The **Pizza Category Slicer** allows dynamic filtering of the monthly trend data
 - **Actionable Insight**:
   - Introduce **new toppings** or **limited-time offers** during slower months.
 
-#### **2.4 Veggie Pizzas** 🥗
+#### **4. Veggie Pizzas** 🥗
 - **Key Findings**:
   - Consistently the lowest revenue generator among categories, peaking at **$16,000 in July** and dropping to **$14,000 in October**.
 - **Interpretation**:
@@ -1927,19 +1927,19 @@ The **"Sales by Day of the Week" chart** highlights revenue distribution across 
 
 #### **Key Findings**
 
-#### **1.1 Peak Sales Day: Friday** 🎉
+#### **1. Peak Sales Day: Friday** 🎉
 - **Revenue**: Fridays generate the highest revenue at **$136,074**.
 - **Interpretation**: Fridays see increased customer activity, likely driven by **end-of-week gatherings**, **celebrations**, and **social events**.
 
-#### **1.2 Consistent Performance: Thursday and Saturday** 📆
+#### **2. Consistent Performance: Thursday and Saturday** 📆
 - **Revenue**: Thursdays and Saturdays also perform well, with **$123,528** and **$123,182**, respectively.
 - **Interpretation**: These days capture **weekend-driven demand**, making them essential for sustaining revenue.
 
-#### **1.3 Lower Sales on Sunday and Monday** 🌥️
+#### **3. Lower Sales on Sunday and Monday** 🌥️
 - **Revenue**: Sundays and Mondays record the lowest revenue at **$99,203** and **$107,330**, respectively.
 - **Interpretation**: These days reflect reduced customer activity, with Mondays impacted by the **start of the workweek**.
 
-#### **1.4 Midweek Growth: Tuesday and Wednesday** 📊
+#### **4. Midweek Growth: Tuesday and Wednesday** 📊
 - **Revenue**: Revenue grows steadily on Tuesday (**$114,134**) and Wednesday (**$114,408**).
 - **Interpretation**: These days represent a **midweek recovery**, possibly influenced by **targeted promotions** or regular customer routines.
 
@@ -1954,7 +1954,7 @@ The **Pizza Category Slicer** allows dynamic filtering to reveal category-specif
 
 #### **Category Insights**
 
-#### **2.1 Chicken Pizzas** 🍗
+#### **1. Chicken Pizzas** 🍗
 - **Key Findings**:
   - Peak sales occur on **Friday ($32,516)** and **Saturday ($29,695)**.
   - Lowest sales are recorded on **Sunday ($23,805)**.
@@ -1962,7 +1962,7 @@ The **Pizza Category Slicer** allows dynamic filtering to reveal category-specif
   - Chicken pizzas perform well during the **weekend**, aligning with **social gatherings** and **family meals**.
   - **Actionable Insight**: Boost Sunday sales with targeted promotions like **"Sunday Chicken Specials."**
 
-#### **2.2 Classic Pizzas** 🍕
+#### **2. Classic Pizzas** 🍕
 - **Key Findings**:
   - Friday generates the highest revenue (**$37,134**), followed by Saturday (**$33,503**).
   - Sunday shows the lowest revenue at **$26,673**.
@@ -1970,7 +1970,7 @@ The **Pizza Category Slicer** allows dynamic filtering to reveal category-specif
   - Classic pizzas dominate **weekend sales**, confirming their popularity for **group dining**.
   - **Actionable Insight**: Weekdays (Monday–Wednesday) also perform steadily, suggesting **consistent demand**.
 
-#### **2.3 Supreme Pizzas** 🧀
+#### **3. Supreme Pizzas** 🧀
 - **Key Findings**:
   - Peak revenue occurs on **Friday ($33,900)** and **Thursday ($31,806)**.
   - Sunday has the lowest sales at **$25,760**.
@@ -1978,7 +1978,7 @@ The **Pizza Category Slicer** allows dynamic filtering to reveal category-specif
   - Supreme pizzas are ideal for **weekend and end-of-week promotions**.
   - **Actionable Insight**: Improve Sunday performance with **discounts** or **combo offers**.
 
-#### **2.4 Veggie Pizzas** 🥗
+#### **4. Veggie Pizzas** 🥗
 - **Key Findings**:
   - Friday drives the most revenue (**$32,524**), while Sunday contributes the least (**$22,965**).
 - **Interpretation**:
@@ -1990,177 +1990,164 @@ The **Pizza Category Slicer** allows dynamic filtering to reveal category-specif
 2. Compare categories to determine **overall contributions** and identify **areas for improvement**.
 3. Combine slicer insights with external factors (e.g., **holidays**, **events**, **promotions**) to craft effective strategies for optimizing sales.
 
-
-
-#### 4. 🍕 **Sales by Pizza Category Analysis**
+#### ***4. <ins>Analysis and Key Findings of "Sales by Pizza Category"</ins>*** 🍕📈
 
  ![Preview Chart](https://github.com/TayyabInsights/Data-Analytics-Projects-Using-Microsoft-Excel/blob/main/Pizza-Sales-Analysis/Images/Sales%20by%20Pizza%20Category.png)
 
-Analyzing sales by pizza category provides a deep understanding of customer preferences and highlights key revenue drivers. This section examines category-specific performance and explores how size preferences influence customer choices. By combining **category insights** with the power of the **Pizza Size Slicer**, businesses can make informed decisions to optimize operations, enhance marketing strategies, and improve inventory management. 📊✨
+
+The **"Sales by Pizza Category" chart** highlights the proportionate contributions of each pizza category to total sales. Here’s what the data reveals:
+
+#### **Key Findings**
+
+#### **1. Dominance of Classic Pizzas** 🏆
+- **Contribution**: Classic pizzas lead with **27% of total sales**, indicating their consistent popularity.
+- **Interpretation**:
+  - This category appeals to a **broad customer base** due to its **universal flavor profile**, making it a staple on the menu.
+
+#### **2. Strong Sales of Veggie and Chicken Pizzas** 🥗🍗
+- **Contribution**: Veggie and Chicken pizzas each contribute **24% to overall sales**.
+- **Interpretation**:
+  - **Veggie pizzas** attract **health-conscious customers**, while **Chicken pizzas** cater to those seeking **protein-rich meals**.
+
+#### **3. Moderate Performance of Supreme Pizzas** 🧀
+- **Contribution**: Supreme pizzas account for **25% of total sales**.
+- **Interpretation**:
+  - Their **diverse toppings** attract customers seeking **premium options**, making them a valuable mid-tier performer.
+
+#### **📚 Guidance for Learners**
+1. Identify the **leading and lagging categories** to understand customer preferences.
+2. Evaluate the proportion of each category in the context of **customer demographics**, **occasions**, or **market trends**.
+3. Use these insights to recommend menu adjustments or promotions that cater to specific customer needs.
 
 
+#### *** <ins>Analysis and Key Findings Using the Pizza Size Slicer</ins>*** 🍕🔍
 
-#### 🔍 **Key Findings**
+The **Pizza Size Slicer** provides a detailed breakdown of category-specific performance across different pizza sizes, uncovering unique customer preferences.
 
-#### **1. "Classic" Pizzas Lead Sales (27%)**
-- **Analysis**: The "Classic" category emerges as the top performer, contributing 27% of total revenue. This dominance reflects strong customer loyalty to traditional pizza options.
-- **Insight**: Classic pizzas represent a reliable revenue stream, showcasing their broad appeal across diverse customer demographics.
+#### **Insights by Pizza Size**
 
-#### **2. "Supreme" Pizzas Follow Closely (25%)**
-- **Analysis**: Supreme pizzas are nearly as popular as Classic, contributing 25% to total sales. Their premium toppings and flavors likely attract customers seeking indulgent options.
-- **Insight**: The Supreme category offers an opportunity to expand revenue through targeted campaigns that highlight its premium appeal.
+#### **1. Large Pizzas (L)** 🍕
+- **Key Findings**:
+  - **Veggie pizzas** lead with **28% of sales**, followed closely by **Chicken pizzas** at **27%**.
+  - **Classic pizzas** contribute the least at **20%**.
+- **Interpretation**:
+  - Large **Veggie** and **Chicken pizzas** cater to **family or group dining** preferences.
+  - **Actionable Insight**: Promote large **Classic pizzas** to balance sales distribution.
 
-#### **3. "Chicken" and "Veggie" Pizzas Perform Equally (24%)**
-- **Analysis**: Both Chicken and Veggie categories contribute 24% each to total sales, indicating a balance between protein-rich and plant-based options.
-- **Insight**: This parity reflects the growing demand for diverse menu options, appealing to health-conscious and protein-seeking customers alike.
+#### **2. Medium Pizzas (M)** 🍕
+- **Key Findings**:
+  - **Supreme pizzas** dominate with **27%**, followed by **Chicken (26%)** and **Classic (24%)**.
+  - **Veggie pizzas** hold the smallest share at **23%**.
+- **Interpretation**:
+  - Medium-sized **Supreme pizzas** attract customers seeking **value with diverse toppings**.
+  - **Actionable Insight**: Target promotions for medium-sized **Veggie pizzas** to boost their appeal.
 
+#### **3. Small Pizzas (S)** 🍕
+- **Key Findings**:
+  - **Classic pizzas** excel with **39%**, while **Chicken pizzas** contribute only **16%**.
+  - **Veggie pizzas** show moderate performance at **18%**.
+- **Interpretation**:
+  - Small **Classic pizzas** cater to **solo diners** or those seeking **quick meals**, making them highly popular.
+  - **Actionable Insight**: Introduce **meal combos** for small **Chicken pizzas** to improve sales.
 
-#### 🎛️ **Purpose and Benefits of the Pizza Size Slicer**
+#### **4. Double Extra Large Pizzas (XXL)** 🍕
+- **Key Findings**:
+  - **Classic pizzas** account for **100% of sales** in this size.
+- **Interpretation**:
+  - Customers prefer XXL pizzas for **Classic flavors**, likely for **large gatherings** or **parties**.
+  - **Actionable Insight**: Expand XXL options with **Supreme** or **Chicken pizzas** to diversify demand.
 
-The **Pizza Size Slicer** enables a detailed breakdown of how size preferences impact category performance, offering invaluable insights into customer behavior.
+#### **📚 Guidance for Learners**
+1. Use slicers to analyze **category-specific contributions** across pizza sizes to uncover hidden trends.
+2. Focus on the relationship between **pizza size** and **category** to understand customer preferences for various occasions.
+3. Highlight **underperforming combinations** to recommend targeted marketing campaigns or **menu refinements**.
 
-#### **Purpose**
-- To filter the **Sales by Pizza Category** chart by size (Large, Medium, Small), uncovering size-specific contributions within each category.
-- To identify patterns in size preferences across different pizza types, aiding strategic decision-making.
+#### **5. <ins>Analysis and Key Findings of "Sales by Pizza Size"</ins>** 🍕📏
 
-#### **Benefits**
-1. **Category-Specific Size Trends**:  
-   - Highlights which sizes perform best within a category (e.g., Large "Classic" pizzas outperforming Medium or Small sizes).  
-2. **Customer Demographics**:  
-   - Reveals size preferences based on customer groups, such as family-sized orders for Chicken pizzas or individual purchases for Veggie pizzas.  
-3. **Targeted Promotions**:  
-   - Enables focused campaigns to improve sales of underperforming sizes within high-demand categories.  
-
-
-#### 🌟 **New Insights Generated**
-
-- **Dominant Sizes in Categories**:  
-   - For instance, Large pizzas might contribute 60% of "Classic" sales, emphasizing their popularity in this category.  
-
-- **Underperforming Combinations**:  
-   - Identifies low-performing combinations like Small "Supreme" pizzas, highlighting opportunities for promotional efforts or menu adjustments.
-
-
-#### 🎯 **Business Implications**
-
-#### **1. Prioritize High-Demand Categories**
-- **Marketing Focus**:  
-   - Invest in campaigns that promote top-performing categories like Classic and Supreme pizzas.  
-   - Example: Offer discounts on Large "Classic" pizzas to attract family-sized orders.  
-
-- **Promotional Bundles**:  
-   - Create combo offers featuring Supreme pizzas to maximize their premium appeal.  
-
-#### **2. Boost Underperforming Categories**
-- **Veggie Pizzas**:  
-   - Design health-focused campaigns to improve Veggie pizza sales. For instance, highlight their fresh ingredients and align them with wellness trends.  
-- **Chicken Pizzas**:  
-   - Market Chicken pizzas as a protein-rich, premium option to attract customers seeking high-quality ingredients.  
-
-#### **3. Optimize Inventory Management**
-- **Align Inventory with Demand**:  
-   - Use slicer insights to ensure sufficient stock for high-demand sizes (Large "Classic" pizzas).  
-- **Reduce Waste**:  
-   - Limit production of low-demand combinations (Small "Supreme" pizzas) and reallocate resources to better-performing options.  
-
-
-#### 💡 **Pro Tips for Learners**
-
-1. **Mastering Slicer Usage**:  
-   - Use slicers to reveal hidden patterns in size and category performance, ensuring data-driven decisions.  
-
-2. **Connecting Insights to Actions**:  
-   - Relate size preferences to marketing and inventory strategies for practical applications.  
-
-3. **Preparing for Interviews**:  
-   - Be ready to answer questions like:  
-      - *"How would you increase sales for underperforming sizes in popular categories?"*  
-      - *"What inventory adjustments would you recommend for balancing demand across categories?"*
-
-#### 5. 🍕 **Sales by Pizza Size Analysis**
 
  ![Preview Chart](https://github.com/TayyabInsights/Data-Analytics-Projects-Using-Microsoft-Excel/blob/main/Pizza-Sales-Analysis/Images/Sales%20by%20Pizza%20Size.png)
 
-Understanding pizza size preferences is critical for optimizing inventory, tailoring marketing strategies, and aligning production with customer demand. This analysis highlights the significance of size-specific trends in driving overall sales and revenue. By leveraging insights from the **Pizza Category Slicer**, businesses can delve deeper into customer behavior and make informed, strategic decisions. 📊✨
 
 
-#### 🔍 **Key Findings**
+The **"Sales by Pizza Size" chart** breaks down total sales across different pizza sizes, highlighting customer preferences and sales trends.
 
-#### **1. Large (L) Pizzas Dominate Sales (18,956 Units)**  
-- **Analysis**: Large pizzas account for the highest sales volume, reflecting their popularity among families and group orders.  
-- **Insight**: Their significant share of demand underscores the importance of prioritizing inventory and promotions for Large pizzas.  
+#### **Key Findings**
 
-#### **2. Medium (M) and Small (S) Pizzas Follow Closely**  
-- **Medium Pizzas**: Contribute 15,635 units, indicating a balanced demand across customer demographics.  
-- **Small Pizzas**: Sold 14,403 units, suggesting strong appeal for individual or smaller group purchases.  
-- **Insight**: The steady demand for Medium and Small sizes highlights their role as complementary options in the product mix.  
+#### **1. Dominance of Large (L) Pizzas** 🏆
+- **Sales Contribution**: **18,956 units sold**, representing the highest share among all sizes.
+- **Interpretation**:
+  - Large pizzas are the **preferred choice**, likely due to their suitability for **group dining** and **family meals**.
 
-#### **3. Minimal Contribution from XL and XXL Pizzas**  
-- **XL Pizzas**: Recorded 552 units, indicating niche demand.  
-- **XXL Pizzas**: The least popular, with only 28 units sold, suggesting limited customer interest.  
-- **Insight**: These sizes may require reevaluation to determine their viability in the product lineup.  
+#### **2. Consistent Performance of Medium (M) Pizzas** 📈
+- **Sales Contribution**: **15,635 units sold**.
+- **Interpretation**:
+  - Medium pizzas offer a **versatile option**, appealing to both **individuals** and **small groups**.
 
+#### **3. Moderate Sales of Small (S) Pizzas** 🍽️
+- **Sales Contribution**: **14,403 units sold**.
+- **Interpretation**:
+  - Small pizzas cater to **solo diners** or **snack seekers**, making them ideal for **light meals** or **personal consumption**.
 
-#### 🎛️ **Purpose and Benefits of the Pizza Category Slicer**
+#### **4. Limited Sales of Extra Large (XL) and Double Extra Large (XXL) Pizzas** 📉
+- **Sales Contribution**:
+  - XL: **552 units sold**.
+  - XXL: **28 units sold**.
+- **Interpretation**:
+  - These sizes are suited for **specific occasions**, like **parties**, but have **limited general demand**.
 
-The **Pizza Category Slicer** adds depth to the analysis by filtering sales data to uncover size-specific trends within each pizza category.
-
-#### **Purpose**
-- To filter the **Sales by Pizza Size** chart by categories (Classic, Supreme, Veggie, Chicken).  
-- To identify how size preferences vary across categories, enabling more targeted strategies.
-
-#### **Benefits**
-1. **Category-Specific Size Trends**:  
-   - Highlights size preferences within categories, such as whether "Classic" pizzas perform better in Large or Medium sizes.  
-2. **Customer Insights**:  
-   - Identifies behavioral patterns, such as a preference for Large "Chicken" pizzas among protein-seeking customers or Small "Veggie" pizzas among health-conscious individuals.  
-3. **Targeted Promotions**:  
-   - Facilitates focused campaigns, such as discounts on Small "Veggie" pizzas to boost their sales in slower periods.  
+#### **📚 Guidance for Learners**
+1. Focus on identifying the **best-performing sizes** (Large and Medium) to understand **core customer preferences**.
+2. Use this data to **optimize inventory and production**, prioritizing **high-demand sizes** while reevaluating underperforming options.
+3. Consider marketing strategies that target **niche segments** for Small, XL, and XXL pizzas.
 
 
-#### 🌟 **New Insights Generated**
+#### *** <ins>Analysis and Key Findings Using the Pizza Category Slicer</ins>*** 🍕🔍
 
-1. **XL and XXL Pizza Demand Drivers**:  
-   - The slicer reveals whether specific categories (Supreme or Chicken) drive the limited demand for XL or XXL pizzas.  
+The **Pizza Category Slicer** provides a category-specific breakdown of sales by pizza size, offering deeper insights into customer preferences within each category.
 
-2. **Underperforming Combinations**:  
-   - For example, Small "Supreme" pizzas may underperform, signaling opportunities for recipe adjustments or promotional efforts.  
+#### **Insights by Category**
 
+#### **1. Chicken Pizzas** 🍗
+- **Key Findings**:
+  - Large pizzas dominate with **4,932 units sold**, followed by Medium pizzas with **3,894 units**.
+  - Small pizzas contribute **2,224 units**, showing lower demand in this category.
+- **Interpretation**:
+  - Chicken pizzas in Large and Medium sizes appeal to **group diners**.
+  - **Actionable Insight**: Promote **Small Chicken pizzas** to balance demand across sizes.
 
+#### **2. Classic Pizzas** 🍕
+- **Key Findings**:
+  - Medium pizzas lead with **4,112 units**, slightly ahead of Large pizzas with **4,057 units**.
+  - Small pizzas contribute **6,139 units**, the highest among all categories.
+  - XL and XXL sizes account for minimal sales (**552 units** and **28 units**, respectively).
+- **Interpretation**:
+  - Classic pizzas are popular across **all sizes**, particularly Small, reflecting their **broad appeal**.
+  - **Actionable Insight**: Rebrand or discontinue XL and XXL Classic pizzas to better align with demand.
 
-#### 🎯 **Business Implications**
+#### **3. Supreme Pizzas** 🧀
+- **Key Findings**:
+  - Large pizzas lead with **4,564 units**, followed by Medium pizzas with **4,046 units**.
+  - Small pizzas contribute **3,377 units**, indicating steady demand across sizes.
+- **Interpretation**:
+  - Supreme pizzas cater to a **premium segment**, performing consistently in Large and Medium sizes.
+  - **Actionable Insight**: Introduce promotions targeting **Small Supreme pizzas** to appeal to budget-conscious customers.
 
-#### **1. Inventory Optimization**
-- **Focus on High-Demand Sizes**:  
-   - Prioritize stock for Large and Medium pizzas, ensuring sufficient inventory to meet consistent demand.  
-- **Reduce Production for Low-Demand Sizes**:  
-   - Limit production of XL and XXL pizzas, reallocating resources to better-performing sizes.  
-   - Test XL and XXL pizzas as limited-time offerings to gauge market interest.  
+#### **4. Veggie Pizzas** 🥗
+- **Key Findings**:
+  - Large pizzas dominate with **5,403 units**, followed by Medium pizzas (**3,583 units**) and Small pizzas (**2,663 units**).
+- **Interpretation**:
+  - Large Veggie pizzas cater to **health-conscious group diners**.
+  - **Actionable Insight**: Target Medium and Small Veggie pizzas with **marketing campaigns** to boost sales.
 
-#### **2. Marketing Strategies**
-- **Promote Large Pizzas**:  
-   - Leverage their popularity by offering family bundles or group deals, especially during peak times.  
-- **Attract Individual Buyers**:  
-   - Design campaigns for Small pizzas, such as discounted evening deals, to target solo customers during non-peak hours.  
+#### **📚 Guidance for Learners**
+1. Use slicers to analyze **category-specific trends** within each pizza size, identifying **strengths** and **areas for improvement**.
+2. Compare size performance across categories to:
+   - Prioritize **high-demand combinations**.
+   - Develop strategies for **underperforming ones**.
+3. Leverage insights to:
+   - Adjust **inventory and menu offerings**.
+   - Craft **size-specific promotions** for targeted customer segments.
 
-#### **3. Product Line Reevaluation**
-- **Revisit XL and XXL Options**:  
-   - Consider revamping recipes, adjusting pricing, or introducing unique toppings to make these sizes more appealing.  
-   - If demand remains low, phase out XL and XXL sizes to streamline the product line and reduce costs.  
-
-
-#### 💡 **Pro Tips for Learners**
-
-1. **Master Slicer Analysis**:  
-   - Use slicers to uncover hidden trends in size-category combinations, a valuable skill for data-driven decision-making.  
-
-2. **Connect Insights to Actions**:  
-   - Relate findings to practical business applications, such as inventory adjustments or targeted promotions.  
-
-3. **Prepare for Interviews**:  
-   - Anticipate questions like:  
-     - *"How would you handle inventory for underperforming sizes?"*  
-     - *"What strategies would you recommend to improve sales of XL pizzas?"*  
 
 
 
