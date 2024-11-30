@@ -2318,7 +2318,7 @@ The **Pizza Category Slicer** provides category-specific insights, revealing whi
 ---
 
 
-#### 11. ⚠️ Limitations <a id="limitations"></a>
+### 11. ⚠️ Limitations <a id="limitations"></a>
 
 When evaluating the **Pizza Sales Dashboard** and its associated data, it is vital to address several limitations that may influence the depth and scope of the insights derived. Recognizing these constraints ensures transparency, highlights areas for improvement, and sets the foundation for more robust analyses in the future. Let’s delve into these limitations in detail and explore actionable solutions for overcoming them. 🚀📊
 
@@ -2403,10 +2403,10 @@ When evaluating the **Pizza Sales Dashboard** and its associated data, it is vit
 ---
 
 
-#### 9. 🚀 Conclusion and Recommendations <a id="conclusion-and-recommendations"></a>
+### 9. 🚀 Conclusion and Recommendations <a id="conclusion-and-recommendations"></a>
 
 
-#### **Conclusion** 🎯
+#### ***<ins>Conclusion</ins>*** 🎯
 
 The Pizza Sales Dashboard provides actionable insights into key aspects of business performance, enabling stakeholders to make data-driven decisions. By analyzing sales data, operational patterns, and customer preferences, the following conclusions can be drawn:
 
@@ -2435,7 +2435,7 @@ The Pizza Sales Dashboard provides actionable insights into key aspects of busin
 - The absence of multi-year, demographic, and geographic data limits the depth of strategic planning.
 - Missing cost and campaign attribution data restrict profitability evaluation and marketing effectiveness assessments.
 
-#### Recommendations with Guidance for Learners and Decision Makers 🚀
+#### ***<ins>Recommendations with Guidance for Learners and Decision Makers</ins>*** 🚀
 
 #### 1. Optimize Inventory and Operations 📦
 
@@ -2515,7 +2515,7 @@ By leveraging data-driven insights and implementing the above recommendations, b
 ---
 
 
-#### 🤝 Contributing and Feedback <a id="contributing-feedback"></a>
+### 🤝 Contributing and Feedback <a id="contributing-feedback"></a>
 
 Collaboration drives innovation, and your contributions can elevate the **Pizza Sales Dashboard** into an even more impactful and resourceful tool. Whether you're an experienced data analyst, a budding enthusiast, or simply a curious learner, your insights, suggestions, and feedback are invaluable. This section outlines how you can engage with the project, share your expertise, and become an integral part of its growth. 🌟📊
 
