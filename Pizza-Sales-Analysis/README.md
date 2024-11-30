@@ -147,7 +147,7 @@ Microsoft Excel serves as the primary tool for this project, showcasing its capa
   
 - **PivotTables** 📊:
   - Dynamic summarization of large datasets for trends and pattern analysis.
-  - Grouping features to organize data by time (e.g., hours, days, months).
+  - Grouping features to organize data by time ( hours, days, months).
 
 - **Charts** 📈:
   - Bar Charts to visualize sales trends by hour, day, and size.
@@ -187,7 +187,7 @@ The project is organized into the following structure for ease of navigation and
   Stores visuals, such as screenshots of the dashboard, to enhance project understanding.
 
 - **📜 LICENSE/**:  
-  Specifies the licensing details for the project (e.g., MIT License).
+  Specifies the licensing details for the project (MIT License).
 
 - **📚 project-documentation/**:  
 A professionally formatted PDF covering all aspects of your project, from objectives to recommendations. It's like having a comprehensive project report at your disposal! 📊
@@ -239,10 +239,10 @@ The dataset provides a comprehensive overview of pizza sales, capturing essentia
 | `order_time`             | The time when the order was placed, enabling analysis of peak sales hours.    |
 | `unit_price`             | Price per unit of pizza, supporting revenue and pricing strategy analysis.    |
 | `total_price`            | Total revenue generated per order detail, essential for calculating KPIs like Total Revenue and Average Order Value. |
-| `pizza_size`             | Size of the pizza (e.g., Small, Medium, Large), providing insights into customer preferences. |
-| `pizza_category`         | Category of the pizza (e.g., Classic, Veggie, Supreme) for performance analysis. |
+| `pizza_size`             | Size of the pizza (Small, Medium, Large), providing insights into customer preferences. |
+| `pizza_category`         | Category of the pizza (Classic, Veggie, Supreme) for performance analysis. |
 | `pizza_ingredients`      | List of ingredients for each pizza, offering insights into popular toppings and customization preferences. |
-| `pizza_name`             | Name of the pizza (e.g., "The Hawaiian Pizza"), used to identify top- and bottom-selling items. |
+| `pizza_name`             | Name of the pizza ("The Hawaiian Pizza"), used to identify top- and bottom-selling items. |
 
 
 
@@ -415,7 +415,7 @@ Proper formatting ensures your data is uniform and ready for analysis:
 
 3. **Currency Values** 💵:  
    - Format `unit_price` and `total_price` columns as **Currency** to ensure clarity.  
-   - Use the currency symbol relevant to your dataset (e.g., `$`).
+   - Use the currency symbol relevant to your dataset (`$`).
 
 4. **Quantity as Whole Numbers** 🔢:  
    - Format the `quantity` column as **Number** with zero decimal places, as it represents units sold.
@@ -466,7 +466,7 @@ The `order_hour` column allows us to analyze the distribution of orders by hour.
      ```excel
      =HOUR([@[Order Time]])
      ```
-   - Press Enter to apply the formula. Excel will automatically fill down the column, displaying the hour for each order (e.g., "14" for 2:00 PM).
+   - Press Enter to apply the formula. Excel will automatically fill down the column, displaying the hour for each order ("14" for 2:00 PM).
 
 
 #### Creating the `order_day` Column
@@ -483,7 +483,7 @@ The `order_day` column helps us identify sales trends based on the day of the we
      ```excel
      =TEXT([@[Order Date]], "dddd")
      ```
-   - Press Enter to apply the formula. Excel will automatically fill down the column, displaying the full day names (e.g., "Monday", "Tuesday").
+   - Press Enter to apply the formula. Excel will automatically fill down the column, displaying the full day names ("Monday", "Tuesday").
 
 
 #### Creating the `order_month` Column
@@ -500,7 +500,7 @@ The `order_month` column provides insights into monthly sales trends. To add thi
      ```excel
      =TEXT([@[Order Date]], "mmmm")
      ```
-   - Press Enter to apply the formula. Excel will auto-fill the column with full month names (e.g., "January", "February").
+   - Press Enter to apply the formula. Excel will auto-fill the column with full month names ("January", "February").
   
      
 #### 📝 Final Thoughts
@@ -871,7 +871,7 @@ Adding a **Slicer** introduces interactivity, allowing users to filter data by a
 
 #### Using the Slicer Effectively
 1. **Filter by Category**:  
-   - Click a category (e.g., "Classic," "Veggie") to dynamically update the chart and PivotTable.
+   - Click a category ("Classic," "Veggie") to dynamically update the chart and PivotTable.
 
 2. **Compare Categories**:  
    - Hold **Ctrl** (Windows) or **Command** (Mac) to view multiple categories simultaneously.
@@ -930,7 +930,7 @@ A **PivotTable** is an essential tool for summarizing data, helping to identify 
 
 #### Set Up the PivotTable Fields
 1. **Drag `order_month` to Rows**:  
-   - Lists months (e.g., January, February) in the Rows area.  
+   - Lists months (January, February) in the Rows area.  
 
 2. **Drag `total_price` to Values**:  
    - Calculates total revenue for each month.
@@ -1002,7 +1002,7 @@ Slicers are indispensable for:
 
 #### Using the Slicer Effectively
 1. **Filter by Category**:  
-   - Click on a category (e.g., Classic, Veggie) to dynamically update the chart and PivotTable.
+   - Click on a category (Classic, Veggie) to dynamically update the chart and PivotTable.
 
 2. **Select Multiple Categories**:  
    - Hold **Ctrl** (Windows) or **Command** (Mac) to compare multiple categories simultaneously.
@@ -1407,7 +1407,7 @@ A **Slicer** allows users to filter data dynamically, offering deeper insights i
    - **Style the Slicer**: Use **Slicer Tools > Options** to adjust its appearance.
 
 3. **Using the Slicer**:
-   - **Filter by Category**: Click a category (e.g., "Classic") to dynamically update the chart and PivotTable.
+   - **Filter by Category**: Click a category ("Classic") to dynamically update the chart and PivotTable.
    - **Select Multiple Categories**: Hold **Ctrl** (Windows) or **Command** (Mac) to compare data across categories.
 
 
@@ -1550,7 +1550,7 @@ Thoughtful arrangement ensures your dashboard is both functional and visually ap
    - Use formulas and links to ensure real-time data updates.
 
 3. **Adhere to Visualization Principles**:
-   - Use appropriate chart types to effectively communicate insights (e.g., line charts for trends, bar charts for comparisons).
+   - Use appropriate chart types to effectively communicate insights (line charts for trends, bar charts for comparisons).
 
 4. **Test for Usability**:
    - Ensure your dashboard works seamlessly across devices and meets the needs of its audience.
@@ -1625,7 +1625,7 @@ Slicers for **pizza size** and **category** offer dynamic filtering, allowing st
 - **Sales by Pizza Size** (Donut Chart):
   - Identifies the most popular pizza sizes among customers.  
 - **Sales by Pizza Category** (Donut Chart):
-  - Reveals category-level demand (e.g., Classic, Supreme).
+  - Reveals category-level demand (Classic, Supreme).
 
 #### c) **Product-Level Performance**
 - **Top 5 Best-Selling Pizzas** (Bar Chart):
@@ -1866,7 +1866,7 @@ The **"Monthly Sales Trend" chart** highlights revenue patterns over the year, s
   - These months reflect slower customer activity, requiring targeted promotions or new strategies to boost engagement.
 
 #### **📚 Guidance for Learners**
-1. Identify general trends (e.g., upward or downward) and correlate them with external factors like **seasons**, **holidays**, or **market events**.
+1. Identify general trends (upward or downward) and correlate them with external factors like **seasons**, **holidays**, or **market events**.
 2. Use the chart to anticipate **revenue dips** and plan proactive campaigns during low-performing periods.
 3. Leverage seasonal peaks to design **targeted promotions** and optimize resource allocation.
 
@@ -1915,7 +1915,7 @@ The **Pizza Category Slicer** allows dynamic filtering of the monthly trend data
 #### **📚 Guidance for Learners**
 1. Use slicers to isolate and analyze **category-specific trends** for a clearer understanding of performance.
 2. Compare performance across categories to identify **top-performing products** and **areas needing improvement**.
-3. Focus on **categories with consistent demand** (e.g., Chicken) while devising strategies to uplift underperforming ones (e.g., Veggie).
+3. Focus on **categories with consistent demand** ( Chicken) while devising strategies to uplift underperforming ones ( Veggie).
 4. Consider the impact of **seasonality** and align product offerings with customer preferences during peak and off-peak periods.
 
 #### ***3. <ins>Analysis and Key Findings of "Sales by Day of the Week"</ins>*** 🗓️📈
@@ -1945,7 +1945,7 @@ The **"Sales by Day of the Week" chart** highlights revenue distribution across 
 
 #### **📚 Guidance for Learners**
 1. Identify the **highest and lowest-performing days** and correlate revenue trends with external factors like **workweeks**, **events**, or **promotions**.
-2. Use these insights to **align resources** (e.g., staffing and inventory) with customer demand.
+2. Use these insights to **align resources** (staffing and inventory) with customer demand.
 3. Create **day-specific strategies** to boost performance on low-revenue days like Sundays and Mondays.
 
 #### ***<ins>Analysis and Key Findings Using the Pizza Category Slicer</ins>*** 🍕🔍
@@ -1988,7 +1988,7 @@ The **Pizza Category Slicer** allows dynamic filtering to reveal category-specif
 ### **📚 Guidance for Learners**
 1. Use slicers to uncover **category-specific trends**, focusing on how products perform on specific days.
 2. Compare categories to determine **overall contributions** and identify **areas for improvement**.
-3. Combine slicer insights with external factors (e.g., **holidays**, **events**, **promotions**) to craft effective strategies for optimizing sales.
+3. Combine slicer insights with external factors (**holidays**, **events**, **promotions**) to craft effective strategies for optimizing sales.
 
 #### ***4. <ins>Analysis and Key Findings of "Sales by Pizza Category"</ins>*** 🍕📈
 
@@ -2020,7 +2020,7 @@ The **"Sales by Pizza Category" chart** highlights the proportionate contributio
 3. Use these insights to recommend menu adjustments or promotions that cater to specific customer needs.
 
 
-#### *** <ins>Analysis and Key Findings Using the Pizza Size Slicer</ins>*** 🍕🔍
+#### ***<ins>Analysis and Key Findings Using the Pizza Size Slicer</ins>*** 🍕🔍
 
 The **Pizza Size Slicer** provides a detailed breakdown of category-specific performance across different pizza sizes, uncovering unique customer preferences.
 
@@ -2101,7 +2101,7 @@ The **"Sales by Pizza Size" chart** breaks down total sales across different piz
 3. Consider marketing strategies that target **niche segments** for Small, XL, and XXL pizzas.
 
 
-#### *** <ins>Analysis and Key Findings Using the Pizza Category Slicer</ins>*** 🍕🔍
+#### ***<ins>Analysis and Key Findings Using the Pizza Category Slicer</ins>*** 🍕🔍
 
 The **Pizza Category Slicer** provides a category-specific breakdown of sales by pizza size, offering deeper insights into customer preferences within each category.
 
@@ -2150,172 +2150,168 @@ The **Pizza Category Slicer** provides a category-specific breakdown of sales by
 
 
 
-
-#### 6. 🍕 **Top 5 Best-Selling Pizzas Analysis**
+#### ***6. <ins>Analysis and Key Findings of "Top 5 Best-Selling Pizzas"</ins>*** 📈🏆
 
  ![Preview Chart](https://github.com/TayyabInsights/Data-Analytics-Projects-Using-Microsoft-Excel/blob/main/Pizza-Sales-Analysis/Images/Top%205%20Best-Selling%20Pizzas.png)
 
-Understanding the best-selling pizzas is essential for driving revenue, optimizing menu offerings, and aligning marketing strategies with customer preferences. This analysis highlights the dominance of chicken-based pizzas while also exploring opportunities to enhance the appeal of non-chicken options. By leveraging tools like the **Pizza Category Slicer**, businesses can refine their strategies for sustained success. 📊✨
 
 
-#### 🔍 **Key Findings**
+The **"Top 5 Best-Selling Pizzas" chart** highlights the highest-revenue-generating pizzas across all categories.
 
-#### **1. Chicken-Based Pizzas Dominate Sales**
-- **Thai Chicken Pizza**: Leads the sales with a revenue of **$43,434**, showcasing its widespread popularity.
-- **Barbecue Chicken Pizza**: Follows closely with **$42,768**, reinforcing the strong preference for chicken-based options.
-- **California Chicken Pizza**: Achieved **$41,410**, emphasizing the customer inclination toward protein-rich and flavorful options.  
+### **Key Findings**
 
-#### **2. Non-Chicken Top Sellers**
-- **Classic Deluxe Pizza**: Generated **$38,181**, reflecting the enduring appeal of premium traditional options.  
-- **Spicy Italian Pizza**: Secured a position with **$34,831**, highlighting customer interest in bold and flavorful offerings outside the chicken category.  
+#### **1. Barbecue Chicken Pizza Leads Overall** 🍗🔥
+- **Revenue**: The Barbecue Chicken Pizza generates the highest revenue at **$42,768**.
+- **Interpretation**:
+  - Reflects its **broad appeal**, driven by a **unique flavor profile** and popularity among **group diners**.
 
+#### **2. Strong Performance of Thai Chicken Pizza** 🌏🍗
+- **Revenue**: Ranked second, contributing **$43,434**, closely rivaling the Barbecue Chicken Pizza.
+- **Interpretation**:
+  - Indicates a growing interest in **international** or **fusion flavors**, catering to diverse customer preferences.
 
-#### 🎛️ **Purpose and Benefits of the Pizza Category Slicer**
+#### **3. Classic Deluxe Pizza** 🍕
+- **Revenue**: Generates **$38,181**, ranking third overall.
+- **Interpretation**:
+  - Its consistent popularity is due to its **universal appeal** and **classic ingredients**, making it a menu staple.
 
-The **Pizza Category Slicer** enhances the analysis by allowing users to filter data by pizza categories, enabling a more nuanced understanding of which categories drive sales.
+#### **4. Spicy Italian Pizza and California Chicken Pizza** 🌶️🌴
+- **Revenue**:
+  - Spicy Italian Pizza: **$34,831**.
+  - California Chicken Pizza: **$41,410**.
+- **Interpretation**:
+  - These pizzas cater to customers who prefer **bold, distinctive flavors**, making them valuable offerings for premium pricing.
 
-#### **Purpose**
-- To filter the **Top 5 Best-Selling Pizzas** chart by specific categories (Chicken, Veggie, Supreme, Classic).  
-- To identify how each category contributes to the overall sales performance.
+### **📚 Guidance for Learners**
+1. Identify the **top-performing pizzas** to understand customer preferences and market trends.
+2. Recognize patterns in **flavor profiles** ( BBQ, spicy, international) that resonate with customers.
+3. Use these insights to recommend **menu adjustments** or **targeted promotions**.
 
-#### **Benefits**
-1. **Category-Specific Insights**:  
-   - Reveals whether top-performing pizzas consistently originate from a dominant category like **Chicken** or exhibit diversity across categories.  
-
-2. **Trend Identification**:  
-   - Highlights whether seasonal trends or customer preferences favor certain categories during specific periods.  
-
-3. **Promotion Opportunities**:  
-   - Pinpoints underperforming categories with potential for improvement or identifies opportunities to expand high-performing ones.
-
-
-#### 🌟 **New Insights Generated**
-
-1. **Category Representation in Top Performers**:  
-   - For instance, **Chicken** pizzas dominate, while categories like **Veggie** might lack representation, signaling potential gaps in product offerings.  
-
-2. **Opportunities for Innovation**:  
-   - Identifies which categories could benefit from new recipes or enhanced flavors to make the top-seller list.  
-
-3. **Promotion Potential**:  
-   - Highlights specific pizzas within a category that could benefit from targeted campaigns to increase visibility and demand.
+#### ***<ins>Analysis and Key Findings Using the Pizza Category Slicer</ins>*** 🍕🔍
 
 
-#### 🎯 **Business Implications**
+The **Pizza Category Slicer** offers category-specific insights into the top-performing pizzas, revealing strengths and opportunities for each category.
 
-#### **1. Expand Chicken-Based Offerings**
-- **Introduce New Flavors**:  
-   - Capitalize on the popularity of chicken pizzas by launching innovative flavors or regional specialties.  
-- **Promote Combo Deals**:  
-   - Offer family packs or group deals featuring top-selling chicken pizzas to further boost their sales.  
+### **Insights by Category**
 
-#### **2. Enhance Non-Chicken Categories**
-- **Invest in Premium Options**:  
-   - Sustain the appeal of pizzas like the Classic Deluxe by promoting their premium ingredients and traditional recipes.  
-- **Innovate Veggie Options**:  
-   - Develop creative recipes or highlight health benefits to improve the representation of vegetarian pizzas in the top-seller list.  
+#### **1. Chicken Pizzas** 🍗
+- **Key Findings**:
+  - The **Thai Chicken Pizza** and **Barbecue Chicken Pizza** are the top performers, contributing **$43,434** and **$42,768**, respectively.
+  - The **Chicken Alfredo Pizza** ranks lowest among the top 5 with **$16,900**.
+- **Interpretation**:
+  - Chicken pizzas dominate the top-seller list, reflecting strong customer demand for **protein-rich options**.
+  - **Actionable Insight**: Promote **mid-tier options** like the Chicken Alfredo Pizza to boost visibility and sales.
 
-#### **3. Targeted Marketing Strategies**
-- **Highlight Best Sellers**:  
-   - Use top-performing pizzas as the centerpiece of marketing campaigns to attract new and repeat customers.  
-- **Leverage Customer Insights**:  
-   - Tailor promotions based on slicer analysis, focusing on specific demographics or customer preferences for high-demand categories.  
+#### **2. Classic Pizzas** 🍕
+- **Key Findings**:
+  - The **Classic Deluxe Pizza** leads with **$38,181**, followed by the **Hawaiian Pizza ($32,273)** and **Pepperoni Pizza ($30,161)**.
+  - The **Italian Capocollo Pizza** contributes the least, at **$25,094**.
+- **Interpretation**:
+  - Classic pizzas appeal to a **broad audience**, with Deluxe and Hawaiian variants showing **consistent demand**.
+  - **Actionable Insight**: Focus marketing efforts on less popular options like the Italian Capocollo Pizza to improve category performance.
+
+#### **3. Supreme Pizzas** 🧀
+- **Key Findings**:
+  - The **Spicy Italian Pizza** leads with **$34,831**, closely followed by the **Italian Supreme Pizza ($33,476)**.
+  - The **Prosciutto and Arugula Pizza** ranks lowest, at **$24,193**.
+- **Interpretation**:
+  - Supreme pizzas cater to **premium customers**, making them ideal for **high-margin offerings**.
+  - **Actionable Insight**: Introduce **innovative toppings** or **bundles** for lower-performing options to enhance appeal.
+
+#### **4. Veggie Pizzas** 🥗
+- **Key Findings**:
+  - The **Four Cheese Pizza** is the top performer with **$32,265**, followed by the **Mexicana Pizza ($26,780)**.
+  - The **Spinach and Feta Pizza** ranks lowest among the top 5, at **$23,271**.
+- **Interpretation**:
+  - Veggie pizzas show strong demand for **cheese-rich** and **flavorful options**.
+  - **Actionable Insight**: Highlight **health benefits** and launch campaigns for underperforming pizzas like Spinach and Feta.
+
+#### **📚 Guidance for Learners**
+1. Use slicers to segment data by **categories**, identifying **strengths** and **weaknesses** within each.
+2. Compare performance across categories to prioritize **top sellers** and develop **promotional strategies**.
+3. Focus on **mid-tier or lower-performing options** for improvement through:
+   - **Discounts**
+   - **Bundles**
+   - **New marketing campaigns**
 
 
-#### 💡 **Pro Tips for Learners**
+#### ***7. <ins>Analysis and Key Findings of "Bottom 5 Worst-Selling Pizzas"</ins>*** 📉🥗
 
-1. **Understand Slicer Analysis**:  
-   - Mastering slicer tools helps uncover category-specific trends, a valuable skill for data-driven marketing and inventory planning.  
-
-2. **Connect Findings to Business Goals**:  
-   - Relate insights to actionable strategies like menu adjustments, promotional planning, or resource allocation.  
-
-3. **Prepare for Interviews**:  
-   - Be ready to answer questions such as:  
-     - *"How would you expand on the success of chicken-based pizzas?"*  
-     - *"What strategies would you recommend to boost sales of underperforming categories?"*
-
-
-#### 7. 🍕 **Bottom 5 Worst-Selling Pizzas Analysis**
 
  ![Preview Chart](https://github.com/TayyabInsights/Data-Analytics-Projects-Using-Microsoft-Excel/blob/main/Pizza-Sales-Analysis/Images/Bottom%205%20Worst-Selling%20Pizzas.png)
 
-Analyzing the least popular products is just as important as celebrating the top performers. Understanding why certain pizzas underperform provides a unique opportunity to refine recipes, reposition offerings, or streamline the menu to maximize overall profitability. This analysis highlights vegetarian pizzas' struggles and explores actionable insights to address the challenges. 📉✨
 
 
-#### 🔍 **Key Findings**
+The **"Bottom 5 Worst-Selling Pizzas" chart** identifies pizzas with the lowest revenue, revealing opportunities for optimization.
 
-#### **1. Vegetarian Pizzas Dominate the Bottom Performers**
-- **Brie Carre Pizza**: Generated the lowest revenue at **$11,588**, indicating limited customer interest.  
-- **Green Garden Pizza**: Followed closely with **$13,956**, highlighting challenges in promoting plant-based options.  
-- **Spinach Supreme Pizza** and **Spinach Pesto Pizza**: Recorded revenues of **$15,278** and **$15,596**, respectively, further emphasizing the struggle of vegetarian offerings to resonate with customers.  
+#### **Key Findings**
 
-#### **2. Mediterranean Pizza**
-- Despite its premium ingredients, the Mediterranean Pizza achieved only **$15,361**, remaining among the least popular options. This suggests that even upscale recipes may fail to connect with the target audience without effective positioning or marketing.
+#### **1. The Brie Carre Pizza Ranks Lowest** 🧀
+- **Revenue**: Generates only **$11,588**, making it the least popular pizza overall.
+- **Interpretation**:
+  - Limited demand may stem from its **niche appeal**, **higher price point**, or **lack of effective promotion**.
 
+#### **2. Underperformance of Spinach-Based Pizzas** 🌱
+- **Revenue**:
+  - **Spinach Supreme Pizza**: **$15,278**
+  - **Spinach Pesto Pizza**: **$15,596**
+- **Interpretation**:
+  - These pizzas cater to a **narrow audience**, possibly health-conscious individuals, but fail to gain **broader traction**.
 
-#### 🎛️ **Purpose and Benefits of the Pizza Category Slicer**
+#### **3. Veggie and Mediterranean Pizzas** 🥗🌍
+- **Revenue**:
+  - **Mediterranean Pizza**: **$15,360**
+  - **Green Garden Pizza**: **$13,956**
+- **Interpretation**:
+  - Low revenue reflects **insufficient demand**, potentially due to **flavor preferences** or **lack of awareness**.
 
-The **Pizza Category Slicer** plays a pivotal role in identifying underperforming categories and items within those categories, enabling a more granular analysis of sales trends.
+#### **📚 Guidance for Learners**
+1. Analyze the **flavor profiles** and **pricing** of these pizzas to identify potential deterrents.
+2. Consider **targeted promotions**, **rebranding**, or **repositioning** strategies to improve their performance.
+3. Leverage data to identify **specific customer segments** and tailor marketing efforts to their preferences.
 
-#### **Purpose**
-- To filter the chart by specific categories (Veggie, Classic, Supreme) and pinpoint which pizzas are underperforming.  
-- To distinguish between category-wide underperformance versus individual product issues.
+#### ***<ins>Analysis and Key Findings Using the Pizza Category Slicer</ins>*** 🍕🔍
 
-#### **Benefits**
-1. **Category-Specific Insights**:  
-   - Identifies whether the Veggie category struggles across all offerings or only specific items like the Brie Carre Pizza.  
+The **Pizza Category Slicer** provides category-specific insights, revealing which pizzas underperform and why.
 
-2. **Customer Behavior Analysis**:  
-   - Highlights whether customer segments or demographics are disengaged with certain categories, such as vegetarian or premium-style options.  
+#### **Insights by Category**
 
-3. **Product Refinement Opportunities**:  
-   - Uncovers opportunities to enhance underperforming items through recipe innovation, adjusted pricing, or improved marketing.
+#### **1. Chicken Pizzas** 🍗
+- **Key Findings**:
+  - **Chicken Pesto Pizza**: **$16,701**
+  - **Chicken Alfredo Pizza**: **$16,900**
+- **Interpretation**:
+  - Despite the **strong overall performance** of chicken pizzas, these variants fail to resonate with customers, suggesting a **mismatch in flavor** or **presentation**.
+  - **Actionable Insight**: Test new recipes or refine presentation to appeal to customer preferences.
 
+#### **2. Classic Pizzas** 🍕
+- **Key Findings**:
+  - **Pepperoni, Mushroom, and Peppers Pizza**: **$18,834**
+  - **Big Meat Pizza**: **$22,968**
+- **Interpretation**:
+  - The low demand may indicate a preference for **simpler** or more **universally appealing options** within this category.
+  - **Actionable Insight**: Focus on promoting well-loved classics or bundling underperforming options with popular items.
 
-#### 🌟 **New Insights Generated**
+#### **3. Supreme Pizzas** 🧀
+- **Key Findings**:
+  - **Brie Carre Pizza**: **$11,588** (lowest overall).
+  - **Calabrese Pizza**: **$15,934**.
+- **Interpretation**:
+  - Supreme pizzas with **unique or specialized toppings** may alienate customers seeking more **familiar options**.
+  - **Actionable Insight**: Highlight the unique flavors of these pizzas through marketing or reintroduce them as **limited-time specials**.
 
-1. **Demographic Preferences**:  
-   - Analyzing data by slicer can reveal that certain customer demographics (e.g., younger or health-conscious individuals) may be more inclined to purchase vegetarian options, highlighting the need for targeted promotions.  
+#### **4. Veggie Pizzas** 🥗
+- **Key Findings**:
+  - **Green Garden Pizza**: **$13,956** (lowest among veggie pizzas).
+  - **Mediterranean Pizza**: **$15,360**.
+- **Interpretation**:
+  - Veggie pizzas struggle to compete, likely due to a **limited customer base** and lower perceived value.
+  - **Actionable Insight**: Highlight **health benefits** or pair with discounts to boost sales.
 
-2. **Marketing Gaps**:  
-   - The lack of visibility or inadequate positioning of vegetarian pizzas could contribute to their underperformance.  
-
-3. **Potential for Revival**:  
-   - Products like the Mediterranean Pizza, with its premium ingredients, might benefit from focused marketing to showcase its unique qualities.
-
-
-#### 🎯 **Business Implications**
-
-#### **1. Product Development and Improvement**
-- **Reevaluate Recipes**:  
-   - Enhance the appeal of low-performing vegetarian pizzas by refining their flavors, incorporating trendy ingredients, or emphasizing freshness.  
-- **Test Variations**:  
-   - Introduce alternative versions of these pizzas, such as adding protein toppings to cater to a broader audience.
-
-#### **2. Targeted Marketing Strategies**
-- **Health-Focused Campaigns**:  
-   - Highlight the nutritional benefits and unique ingredients of vegetarian pizzas to attract health-conscious customers.  
-- **Incentivize Trials**:  
-   - Offer discounts, bundle deals, or limited-time promotions to encourage customers to try underperforming items.
-
-#### **3. Portfolio Optimization**
-- **Phasing Out Low Performers**:  
-   - If pizzas like the Brie Carre Pizza continue to struggle despite interventions, consider discontinuing them to reduce inventory waste and free up resources for more profitable options.  
-- **Invest in High-Performers**:  
-   - Focus efforts on expanding and promoting successful categories while keeping the Veggie category innovative and appealing.
-
-
-#### 💡 **Pro Tips for Learners**
-
-1. **Master the Slicer Tool**:  
-   - Use slicers to filter by category and analyze patterns in underperforming pizzas, a key skill for dynamic data exploration.  
-
-2. **Relate Insights to Business Strategies**:  
-   - Be prepared to explain how these findings could guide decisions on product innovation, marketing, or inventory management during interviews.  
-
-3. **Understand the Bigger Picture**:  
-   - Recognize that even underperforming products offer learning opportunities for menu refinement and market alignment.
+#### **📚 Guidance for Learners**
+1. Use slicers to isolate **underperforming items** within each category and uncover opportunities for improvement.
+2. Evaluate external factors like **seasonality**, **customer preferences**, and **market trends** to refine strategies.
+3. Experiment with **bundles**, **promotions**, or **menu adjustments** to increase the appeal of low-performing items.
 
 
 
@@ -2347,7 +2343,7 @@ When evaluating the **Pizza Sales Dashboard** and its associated data, it is vit
 
 #### Explanation:
 - The dataset does not include demographic details such as **age, gender, income levels, or location**, which are essential for understanding customer preferences.
-- For example, knowing if "Veggie" pizzas underperform due to unpopularity among specific demographics (e.g., younger customers) could guide more targeted strategies.
+- For example, knowing if "Veggie" pizzas underperform due to unpopularity among specific demographics ( younger customers) could guide more targeted strategies.
 
 #### Impact:
 - **Marketing Limitations**: Campaigns and product development initiatives may not resonate with the preferences of key customer segments.
@@ -2377,7 +2373,7 @@ When evaluating the **Pizza Sales Dashboard** and its associated data, it is vit
 #### 4. **Limited Customer Behavioral Insights** 💡
 
 #### Explanation:
-- The dataset primarily focuses on **transactional data** (e.g., sales volume, revenue) and lacks insights into **customer behavior** such as purchase frequency, retention, or satisfaction levels.
+- The dataset primarily focuses on **transactional data** (sales volume, revenue) and lacks insights into **customer behavior** such as purchase frequency, retention, or satisfaction levels.
 - Behavioral data is crucial for understanding customer loyalty and designing strategies to foster long-term relationships.
 
 #### Impact:
@@ -2460,7 +2456,7 @@ Despite these constraints, the dashboard serves as a valuable foundation for str
    - Bundle vegetarian pizzas with popular items and promote them as part of a "Healthy Choices" campaign.  
 
 - **Seasonal Campaigns**:  
-   - Launch offers during slower months (e.g., "Fall Feast Discounts") to maintain momentum.  
+   - Launch offers during slower months ("Fall Feast Discounts") to maintain momentum.  
    - Reward frequent purchases through loyalty programs to boost customer retention.  
 
 
@@ -2479,7 +2475,7 @@ Despite these constraints, the dashboard serves as a valuable foundation for str
 
 - **Expand Dataset Scope**:  
    - Include multi-year data to identify long-term trends and seasonal patterns.  
-   - Segment order types (e.g., dine-in, takeout, delivery) for channel-specific analysis.  
+   - Segment order types ( dine-in, takeout, delivery) for channel-specific analysis.  
 
 
 #### 5. **Evaluate Profitability and Campaign ROI**  
